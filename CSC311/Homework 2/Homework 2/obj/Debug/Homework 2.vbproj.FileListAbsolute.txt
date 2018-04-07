@@ -1,0 +1,10 @@
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\bin\Debug\Homework 2.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\bin\Debug\Homework 2.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\bin\Debug\Homework 2.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\Homework 2.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\Homework 2.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\Homework 2.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\Homework 2.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 2\Homework 2\obj\Debug\WindowsApplication1.BookSalesForm.resources

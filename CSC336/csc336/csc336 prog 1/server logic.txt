@@ -1,0 +1,7 @@
+
+
+
+
+//checking for 
+for loop 3> to check if its a match
+if not a match find an empty unname spot and 

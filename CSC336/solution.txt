@@ -1,0 +1,12 @@
+Install the Axon PBX software with the defaults
+Downgrade to the free version in the Axon uninstaller (run->appwiz.cpl)
+Register at least 3 phones (HW/SW) using the SIP information given by the PBX web interface
+	->Whatever IP phones you use will have instructions on registering to a SIP server
+Test calling from phone to phone
+
+The idea with the real world problem is that each PBX object has its own properties, so the solution is to make the executive phone divert to a group which rings both phones after no response, the the group must divert to the executive VM.  The secretary's line diverts to her own VM.  Diverting from the executive directly to the secretary gives you no option to send missed calls on the executive's line to his VM.  This is not exactly straightforward with the Axon software, so we have to accomplish by forcing the executive line to divert to the group, which rings the secretary and then a line which is always forced to voicemail.  
+
+Divert 101 to 701 (Axon->Extensions & Groups->Edit->Allow call to ring for 8 seconds, then transfer call to 701).
+Setup voicemail on lines 102 with delay 10 seconds and 103 with delay 1 seconds (Axon->Extensions & Groups->Edit->Use internal Axon voicemail).
+Place 101 and 102 into 701 with delay 0, and place 103 into 701 with delay 6.
+

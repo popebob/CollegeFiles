@@ -1,0 +1,5 @@
+Jones Bob I 00000666 4.0
+Chamberlain Trixie B 98765432 3.95
+Bush George W 00000000 1.2
+Clinton Bill X 00000001 3.8
+Vader Darth M 54321234 2.5

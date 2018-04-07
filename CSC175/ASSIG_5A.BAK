@@ -1,0 +1,33 @@
+//Cody Adams Assign #5A
+
+#include <iostream.h>;		//include files
+#include <conio.h>;
+#include <iomanip.h>;
+#include <fstream.h>;
+
+int perfect(int);
+
+int main()	//main function
+	{
+	clrscr();
+	int number, factors[1000], pointer =0;
+	for (number = 3; number != 1000; number++)
+		factors[pointer] = perfect(number);
+		pointer++;
+	for (int x = 0; x != pointer; x++)
+		cout << factors[x] << endl;
+	return 0;
+	};
+
+int perfect(int number)
+	{
+	int sum = 0, factor = 0;
+	for (int x = 2; x != number -1; x++)
+	{	if (number % x == 0)
+			factor = x;
+			return factor;
+	}
+      /*		for (x = 0; x != pointer; x++)
+			sum += factors[x];
+		return factors[pointer];
+       */	}

@@ -1,0 +1,161 @@
+Notes on Kant's ProlegomenaNotes on Kant's
+  Prolegomena to Any Future Metaphysics
+  in 44 Points
+  Contact: Dr. Jan Garrett
+  Last modified March 28, 2004
+  These notes refer to the translation of Kant's Prolegomena found in the Modern 
+  Philosophy anthology edited by Watkins and Ariew and published by Hackett 
+  Publishing Company in 1998. 
+  1. Kant is interested in whether metaphysics, as a science consisting of 
+  synthetic a priori propositions, is at all possible. (Marginal page number 
+  255) 
+  2. Metaphysics would concern topics such as causality, substance, the universe 
+  as a whole, free will, the immortal soul, and God. 
+  3. It is not expressed in analytic a priori judgments, or judgments whose 
+  predicate is contained in their subject and which can be discovered without 
+  the use of concrete experience. (266) 
+  4. It is not expressed in synthetic a posteriori judgments, or judgments whose 
+  predicate adds something to the subject and which are only discovered through 
+  concrete experience. (266) 
+  5. In Kant's view, Hume decisively showed that we have neither synthetic a 
+  posteriori (empirical) nor analytic a priori knowledge of causation. (257) 
+  6. Kant asserts that pure mathematics is an example of synthetic a priori 
+  knowledge. Mathematical knowledge can proceed only by construction of 
+  concepts, in a mentally purified field of space and/or time. With the 
+  geometrical proposition "the whole is greater than its part," the predicate is 
+  necessarily joined to the subject and the mind brings in a purified intuition 
+  of space. (283-286) 
+  7. Kant's transcendental philosophy (at one point called 'critical idealism') 
+  is nothing but the complete solution to the problem regarding the possibility 
+  of synthetic a priori propositions. 
+  8. A human being's "intuition" can anticipate the actuality of a [sensible] 
+  object, because it supplies "the form of sensibility, which in me as subject 
+  precedes all the actual impressions through which I am affected by objects." 
+  (282) 
+  9. The forms of sensuous intuition do not enable us to know things [as they 
+  are] in themselves; we know things only as they appear to us, as phenomena 
+  (283) 
+  10. Geometry is based upon the form of intuition we call space and arithmetic 
+  is based upon the form of intuition we call time. (283) 
+  11. The faculty of a priori intuition contain only the form of phenomena, not 
+  their matter or sensuous content. (284) 
+  12. Some judgments rest directly on the a priori forms of intuition: that 
+  (complete) space has three dimensions; that a straight line can be drawn to 
+  infinity (284-85) 
+  13. Kant notes that righthand and lefthand gloves, each the mirror of the 
+  other, are incongruent but indistinguishable except in terms of right and 
+  left, which are spatially relative to perceivers. He takes this as proof that 
+  space and time are not aspects of things in themselves. (285-86) 
+  14. Propositions of geometry are not descriptions of things in themselves; nor 
+  is space "out there." It is in us and discovered there a priori; we all 
+  constitute it in the same way; for this reason we all are able to arrive at 
+  the same geometrical truths. (287-88) 
+  15. Kant understands "nature" as the existence of things, so far as it is 
+  determined according to universal laws. Nature is knowable a posteriori, so 
+  Kant cannot mean by nature "what things are in themselves." (294) 
+  16. He says "we possess a pure natural science . . . a priori . . . " ; it 
+  consists of propositions regarding nature independent of any experience of 
+  nature whatsoever and therefore independent of particular sensory observation. 
+  Its laws include: "substance is permanent" and "every event is determined by a 
+  cause according to constant laws." (295) 
+  17. Kant distinguishes judgments of perception (JP), judgments that are valid 
+  to me because they correspond to how things are connected in my perception, 
+  from judgments of experience (JE), which result when JP's are transformed: 
+  This happens when JP's are be subsumed under the law that, whenever an event 
+  is observed, it is always related to some antecedent, which it follows 
+  according to a universal rule. In other words, JE's are formed when to the JP 
+  certain special concepts are added, e.g., that of the universal cause-effect 
+  connection. (298ff.) 
+  Example: JP: when [what seems to be] the sun [apparently] shines on [what 
+  seems to be] the stone, it [apparently] grows warm. JE: The sun's shining on 
+  the stone causes it to grow warm. 
+  18. The objectively valid character of the JE signifies its necessary 
+  universal validity, i.e., its objective validity for all subjects constituted 
+  as we are. (300-301) 
+  19. Without the imposition of concepts of the understanding all our 
+  objectively valid synthetic judgments would be impossible. (301) 
+  20. Kant claims he has derived a complete list of the pure a priori concepts 
+  of the understanding, without which experience would not be possible. (302) 
+  21. He works from a list of the general attributes of judgments and applies 
+  them to the forms of intuition that create space and time. Causality is the 
+  reflection of the hypothetical judgment (the conditional, or if-then 
+  proposition) as applied to space and time. 
+  22. Experience consists of intuitions, which belong to sensibility, and 
+  judgments, which are entirely the work of the understanding. (304) 
+  23. "The pure concepts of the understanding" are those under which all 
+  perceptions must first be subsumed before they can serve for judgments of 
+  experience, in which the synthetic unity of the perceptions is represented as 
+  necessarily and universally valid. (305-306) 
+  24. The question "How is a pure natural science possible?" is solved: The 
+  categories, which reflect the table of judgments, give a complete and 
+  necessary system for our a priori understanding of nature. (306) 
+  25. We can now speak objectively of substance and cause-effect. We must think 
+  of objects within experience as subsumed under categories of substance and 
+  cause-effect, because without them we do not have coherent experience. These 
+  features of objects of experience are universally valid because all human 
+  subjects are so constituted as to impose them upon our intuitions. (Sections 
+  25, 27) 
+  26. We must not expect that these categories pertain to things in themselves; 
+  rather they pertain only to objects of experience constituted by the union of 
+  our intuitions and the categories. 
+  27. We have discovered the definite bounds within which the concepts of 
+  substance, cause-effect, etc. legitimately apply. Application beyond these 
+  bounds (i.e., beyond experience) leads to what he calls transcendent illusion 
+  (313-14) 
+  28. Phenomena are "things of sense, or appearances." Phenomena can be known, 
+  i.e., subsumed under the a priori concepts of understanding. Noumena are 
+  "things of the understanding, which make up an intelligible world." (314) 
+  29. About noumena, we neither know nor can know anything determinate whatever. 
+  (314) 
+  30. The understanding "transgress[es] with its otherwise legitimate concepts 
+  the bounds of their use" when the mind goes beyond experience to explore a 
+  much more extensive realm filled with pure noumena. 
+  31. Transcendental philosophy can answer its highest question: How is nature 
+  possible? It does so by answering two related questions: 
+  32. The first "How is nature possible in general in the material sense?" is 
+  answered thus: by means of the constitution of our sensibility (318) 
+  33. The second "How is nature possible in the formal sense, as the totality of 
+  rules under which all appearances must come in order to be thought as 
+  connected in an experience?" is answered thus: by means of the constitution of 
+  our understanding, according to which all the representations of sensibility 
+  (percepts) are necessarily referred to a consciousness, and by the peculiar 
+  way in which we think (the a priori concepts). (318) 
+  34. Other than concepts of nature, metaphysics has to do with pure concepts of 
+  reason, which can never be given in any possible experience whatsoever. 
+  (328ff.) 
+  35. This activity of reason arises when reason broods over the concepts of 
+  understanding, without applying them to empirical appearances. 
+  36. These pure concepts pertain to "transcendent" things: K. mean by 
+  "transcendent" what goes beyond every possible experience. "Ideas [of pure 
+  reason]" are necessary concepts whose objects cannot be given in any 
+  experience. (328) 
+  37. The ideas are distinct from the categories because the latter can be 
+  discovered in experience (because we contribute them to it) and so confirmed 
+  in experience. 
+  38. Psychological idea refers to the absolute subject of particular 
+  experiences projected beyond the presupposition of experience, i.e., life; 
+  that is, the psychological idea is that of the immortal soul. (333ff.) 
+  39. Kant denies that the immortality of the soul can be proved. Permanence is 
+  a feature of substance, and this is something we know. But we know this only 
+  within experience because we contribute this notion a priori to appearances in 
+  order to constitute experience. The doctrine of the immortality of the soul 
+  applies the category beyond experience to the subject as a noumenon. We have 
+  no knowledge of this. (334-35) 
+  40. The cosmological ideas are (1) whether or not the universe is infinite 
+  with respect to space and time; (2) whether or not material things are 
+  infinitely divisible; (3) whether or not there are "causes through freedom"; 
+  and (4) whether or not there is a necessary being in the series of causes. 
+  (338-39) 
+  41. A theological idea is the idea of "a most perfect first being," i.e., God. 
+  (348) 
+  42. According to Kant, there is a position more absurd than claiming to know 
+  something about noumena: that is to deny the existence of things in themselves 
+  and declaring our [human] experience to be the only possible way of knowing 
+  things. (350-51) 
+  43. We are not at liberty to abstain from inquiring into what things in 
+  themselves may be, even though we cannot obtain a definite notion of what 
+  things in themselves are. (351) 
+  44. We "think an immaterial being, a world of understanding and a Supreme 
+  Being" even though we can never know them as they are in themselves because in 
+  them only, as things in themselves, does reason find completion and 
+  satisfaction. (354-55) 

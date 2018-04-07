@@ -1,0 +1,39 @@
+HW4 [10 pts]
+CIS/CSC 384: Database Design
+
+Use the schema and sample data given.
+For each problem, you must give the SQL statement, and the result that you got.
+Put all the answers in ONE word document and submit this document.
+
+The schema has five tables:
+Customer table, that lists customers.
+Employee table, that lists employees.
+Product table, that lists products.
+OrderTbl, that lists orders, the customer who placed the order and the employee who took the order. Some orders may not have an employee associated with it (these are internet orders).
+OrdLine, this lists the products (and the product's quanitity) in each order.
+
+Problems 1, 2 -- 0.5 pts each.
+Problems 3 - 11 -- 1 pt each.
+
+1. List the customer number, the name (first and last), and the balance of customers who reside in Colorado (CustState is CO).
+
+2. List the customer number, the name (first and last), and the balance of customers who reside in Denver with a balance greater than $150, or who reside in Seattle with a balance greater than $300.
+
+3. List all columns of the OrderTbl for Internet orders placed in January 2007. Remember that an internet order has no associated employee.
+
+4. List the order number, order date, customer number, and customer name (first and last) of orders placed in January 2007 by Colorado customers (CustState), but sent to Washington recipients (OrdState).
+
+5. List the product number, name, and price of products ordered by customer number C0954327 in January 2007. Remove duplicate products in the result.
+
+
+6. List the average balance of customers by city. Include only customers residing in Washington (WA) state. Eliminate cities in the result with less than 2 customers.
+
+7. List the product number, product name, sum of the quantity of products ordered, and total order amount (sum of the product price times the quantity) for orders placed in January 2007. Only include products that have more than five products ordered in January 2007. Sort the result in descending order of the total amount.
+
+8. List the employee number, the employee name (first and last), the commission rate, the supervising employee name (first and last), and the commission rate of the supervisor.
+
+9. List the employee number and the name (first and last) of first and second-level subordinates (second-level subordinates are subordinates of subordinates) of the employee named Thomas Johnson. To distinguish the level of subordinates, include a computed column with the subordinate level (1 or 2).
+
+10. For each employee with a commission rate greater than 0.03, compute the total commission earned from orders taken in Jan 2007. The total commission earner is the total order amount times the commission rate. The result should include the employee number, employee last name, and total commission earned.
+
+11. List the total commission earner by each employee in each month of 2007. The result should include the month, employee number, employee last name, and the total commission amount earned in that month. The amount of a commission for an individual employee is the sum of the dollar amount of products ordered times the commission rate of the employee. Sort the result by the month in ascending month number, and the total commission amount in descending order.

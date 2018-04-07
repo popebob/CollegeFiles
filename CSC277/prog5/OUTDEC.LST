@@ -1,0 +1,91 @@
+Turbo Assembler	 Version 2.01	     04/24/08 21:00:22	    Page 1
+outdec.ASM
+
+
+
+      1				     ;FILE NAMED:    outdec.asm
+      2
+      3	0000			     .MODEL SMALL
+      4	0000			     .STACK 100h
+      5	0000			     .CODE
+      6
+      7	0000				 OUTDEC	 PROC
+      8					 ;prints AX as a signed	decimal	integer
+      9					 ;input: AX
+     10					 ;output: none
+     11					     PUBLIC OUTDEC
+     12	0000  50				 PUSH	 AX		 ;save registers
+     13	0001  53				 PUSH	 BX
+     14	0002  51				 PUSH	 CX
+     15	0003  52				 PUSH	 DX
+     16					 ;if AX	< 0
+     17	0004  0B C0				 OR	 AX,AX		 ;AX < 0?
+     18	0006  7D 0A				 JGE	 @END_IF1	 ;no, >	0
+     19					 ;then
+     20	0008  50				 PUSH	 AX		 ;save number
+     21	0009  B2 2D				 MOV	 DL,'-'		 ;get '-'
+     22	000B  B4 02				 MOV	 AH,2		 ;print	char fcn
+     23	000D  CD 21				 INT	 21H		 ;print	'-'
+     24	000F  58				 POP	 AX		 ;get AX back
+     25	0010  F7 D8				 NEG	 AX		 ;AX = -AX
+     26	0012				 @END_IF1:
+     27					 ;get decimal digits
+     28	0012  33 C9				 XOR	 CX,CX		 ;CX counts digits
+     29	0014  BB 000A				 MOV	 BX,10D		 ;BX has divisor
+     30	0017				 @REPEAT1:
+     31	0017  33 D2				 XOR	 DX,DX		 ;prepare high part of dividend
+     32	0019  F7 F3				 DIV	 BX		 ;AX = quotient, DX = remainder
+     33	001B  52				 PUSH	 DX		 ;save remainder on stack
+     34	001C  41				 INC	 CX		 ;count	= count	+ 1
+     35					 ;until
+     36	001D  0B C0				 OR	 AX,AX		 ;quotient = 0?
+     37	001F  75 F6				 JNE	 @REPEAT1	 ;no, keep going
+     38					 ;convert digits to characters and print
+     39	0021  B4 02				 MOV	 AH,2		 ;print	char fcn
+     40					 ;for count times do
+     41	0023				 @PRINT_LOOP:
+     42	0023  5A				 POP	 DX		 ;digit	in DL
+     43	0024  80 CA 30				 OR	 DL,30H		 ;convert to character
+     44	0027  CD 21				 INT	 21H		 ;print	digit
+     45	0029  E2 F8				 LOOP	 @PRINT_LOOP	 ;loop until done
+     46					 ;end_for
+     47	002B  5A				 POP	 DX		 ;restore registers
+     48	002C  59				 POP	 CX
+     49	002D  5B				 POP	 BX
+     50	002E  58				 POP	 AX
+     51	002F  C3				 RET
+     52	0030				 OUTDEC	 ENDp
+     53					 end	 OUTDEC
+Turbo Assembler	 Version 2.01	     04/24/08 21:00:22	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/24/08"
+??FILENAME			  Text	 "outdec  "
+??TIME				  Text	 "21:00:22"
+??VERSION			  Number 0201
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@END_IF1			  Near	 _TEXT:0012
+@FILENAME			  Text	 OUTDEC
+@MODEL				  Text	 2
+@PRINT_LOOP			  Near	 _TEXT:0023
+@REPEAT1			  Near	 _TEXT:0017
+@WORDSIZE			  Text	 2
+OUTDEC				  Near	 _TEXT:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0000 Word	  Public  DATA
+_TEXT				  16  0030 Word	  Public  CODE
+

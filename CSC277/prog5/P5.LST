@@ -1,0 +1,374 @@
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 1
+p5.ASM
+
+
+
+      1				     ;Cody Adams
+      2				     ;CSC277-01
+      3				     ;W08
+      4				     ;Program 5
+      5
+      6
+      7	0000			     .MODEL SMALL
+      8	0000			     .STACK 100H
+      9
+     10				     EXTRN indec: PROC
+     11				     EXTRN outdec: PROC
+     12
+     13	0000			     .DATA
+     14	0000  0000			     Quarters dw 0h
+     15	0002  0000			     Dimes dw 0h
+     16	0004  0000			     Nickels dw	0h
+     17	0006  0000			     Pennies dw	0h
+     18	0008  0000			     NumberOfCoins dw 0h
+     19	000A  0000			     CoinTotal dw 0h
+     20
+     21	000C  54 68 65 20 49 6E	70+	     Input1 db 'The Input Change Amounts to $'
+     22	      75 74 20 43 68 61	6E+
+     23	      67 65 20 41 6D 6F	75+
+     24	      6E 74 73 20 74 6F	20+
+     25	      24
+     26	0029  20 63 65 6E 74 73	20+	     Input2 db ' cents using $'
+     27	      75 73 69 6E 67 20	24
+     28	0037  20 63 6F 69 6E 73	2E+	     Input3 db ' coins.$'
+     29	      24
+     30	003F  54 68 65 20 73 61	6D+	     Input4 db 'The same change	could be made with:$'
+     31	      65 20 63 68 61 6E	67+
+     32	      65 20 63 6F 75 6C	64+
+     33	      20 62 65 20 6D 61	64+
+     34	      65 20 77 69 74 68	3A+
+     35	      24
+     36
+     37	0063  51 75 61 72 74 65	72+	     NumberQ db	'Quarters = $'
+     38	      73 20 3D 20 24
+     39	006F  44 69 6D 65 73 20	3D+	     NumberD db	'Dimes = $'
+     40	      20 24
+     41	0078  4E 69 63 6B 65 6C	73+	     NumberN db	'Nickels = $'
+     42	      20 3D 20 24
+     43	0083  50 65 6E 6E 69 65	73+	     NumberP db	'Pennies = $'
+     44	      20 3D 20 24
+     45
+     46	008E  54 6F 74 61 6C 20	43+	     NumberT db	'Total Coins = $'
+     47	      6F 69 6E 73 20 3D	20+
+     48	      24
+     49	009D			     .CODE
+     50	0000			     MAIN PROC
+     51
+     52	0000  B8 0000s			     MOV AX,@DATA
+     53	0003  8E D8			     MOV DS,AX
+     54
+     55	0005  E8 0000e			     CALL INDEC
+     56	0008  A3 0000r			     MOV Quarters,AX
+     57
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 2
+p5.ASM
+
+
+
+     58	000B  B4 02			     MOV AH,2
+     59	000D  B2 0D			     MOV DL,0DH
+     60	000F  CD 21			     int 21H
+     61	0011  B2 0A			     MOV DL,0AH
+     62	0013  CD 21			     int 21H
+     63
+     64	0015  E8 0000e			     CALL INDEC
+     65	0018  A3 0002r			     MOV Dimes,AX
+     66
+     67	001B  B4 02			     MOV AH,2
+     68	001D  B2 0D			     MOV DL,0DH
+     69	001F  CD 21			     int 21H
+     70	0021  B2 0A			     MOV DL,0AH
+     71	0023  CD 21			     int 21H
+     72
+     73	0025  E8 0000e			     CALL INDEC
+     74	0028  A3 0004r			     MOV Nickels,AX
+     75
+     76	002B  B4 02			     MOV AH,2
+     77	002D  B2 0D			     MOV DL,0DH
+     78	002F  CD 21			     int 21H
+     79	0031  B2 0A			     MOV DL,0AH
+     80	0033  CD 21			     int 21H
+     81
+     82	0035  E8 0000e			     CALL INDEC
+     83	0038  A3 0006r			     MOV Pennies,AX
+     84
+     85	003B  B4 02			     MOV AH,2
+     86	003D  B2 0D			     MOV DL,0DH
+     87	003F  CD 21			     int 21H
+     88	0041  B2 0A			     MOV DL,0AH
+     89	0043  CD 21			     int 21H
+     90
+     91	0045  BA 000Cr			     LEA dx,Input1
+     92	0048  B4 09			     MOV AH,9
+     93	004A  CD 21			     int 21H
+     94
+     95	004C  BB 0000r			     LEA BX,Quarters
+     96	004F  8B 07			     MOV AX,[BX]
+     97	0051  BB 000Ar			     LEA BX,CoinTotal
+     98	0054  B9 0019			     MOV cx,19h
+     99	0057  F7 E1			     mul cx
+    100	0059  01 07			     add [BX],AX
+    101
+    102	005B  BB 0002r			     LEA BX,Dimes
+    103	005E  8B 07			     MOV AX,[BX]
+    104	0060  BB 000Ar			     LEA BX,CoinTotal
+    105	0063  B9 0009			     MOV cx,9h
+    106	0066  41			     inc cx
+    107	0067  F7 E1			     mul cx
+    108	0069  01 07			     add [BX],AX
+    109
+    110	006B  BB 0004r			     LEA BX,Nickels
+    111	006E  8B 07			     MOV AX,[BX]
+    112	0070  BB 000Ar			     LEA BX,CoinTotal
+    113	0073  B9 0005			     MOV cx,5h
+    114	0076  F7 E1			     mul cx
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 3
+p5.ASM
+
+
+
+    115	0078  01 07			     add [BX],AX
+    116
+    117	007A  BB 0006r			     LEA BX,Pennies
+    118	007D  8B 07			     MOV AX,[BX]
+    119	007F  BB 000Ar			     LEA BX,CoinTotal
+    120	0082  B9 0001			     MOV cx,1h
+    121	0085  F7 E1			     mul cx
+    122	0087  01 07			     add [BX],AX
+    123
+    124	0089  BB 000Ar			     LEA BX,CoinTotal
+    125	008C  8B 07			     MOV AX,[BX]
+    126	008E  E8 0000e			     CALL OUTDEC
+    127
+    128	0091  BA 0029r			     LEA dx,Input2
+    129	0094  B4 09			     MOV AH,9
+    130	0096  CD 21			     int 21H
+    131
+    132	0098  BB 0000r			     LEA BX,Quarters	     ;total input coins
+    133	009B  8B 07			     MOV AX,[BX]
+    134	009D  BB 0008r			     LEA BX,NumberOfCoins
+    135	00A0  01 07			     add [BX],AX
+    136
+    137	00A2  BB 0002r			     LEA BX,Dimes
+    138	00A5  8B 07			     MOV AX,[BX]
+    139	00A7  BB 0008r			     LEA BX,NumberOfCoins
+    140	00AA  01 07			     add [BX],AX
+    141
+    142	00AC  BB 0004r			     LEA BX,Nickels
+    143	00AF  8B 07			     MOV AX,[BX]
+    144	00B1  BB 0008r			     LEA BX,NumberOfCoins
+    145	00B4  01 07			     add [BX],AX
+    146
+    147	00B6  BB 0006r			     LEA BX,Pennies
+    148	00B9  8B 07			     MOV AX,[BX]
+    149	00BB  BB 0008r			     LEA BX,NumberOfCoins
+    150	00BE  01 07			     add [BX],AX
+    151
+    152	00C0  BB 0008r			     LEA BX,NumberOfCoins
+    153	00C3  8B 07			     MOV AX,[BX]
+    154	00C5  E8 0000e			     CALL OUTDEC
+    155
+    156	00C8  BA 0037r			     LEA dx,Input3
+    157	00CB  B4 09			     MOV AH,9
+    158	00CD  CD 21			     int 21H
+    159
+    160	00CF  B4 02			     MOV AH,2		     ;return
+    161	00D1  B2 0D			     MOV DL,0DH
+    162	00D3  CD 21			     int 21H
+    163	00D5  B2 0A			     MOV DL,0AH
+    164	00D7  CD 21			     int 21H
+    165
+    166	00D9  BA 003Fr			     LEA dx,Input4
+    167	00DC  B4 09			     MOV AH,9
+    168	00DE  CD 21			     int 21H
+    169
+    170	00E0  B4 02			     MOV AH,2		     ;return
+    171	00E2  B2 0D			     MOV DL,0DH
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 4
+p5.ASM
+
+
+
+    172	00E4  CD 21			     int 21H
+    173	00E6  B2 0A			     MOV DL,0AH
+    174	00E8  CD 21			     int 21H
+    175
+    176	00EA  BB 000Ar			     LEA BX,CoinTotal	     ;find LEAst number	of coins
+    177	00ED  8B 07			     MOV AX,[BX]
+    178	00EF  B9 0019			     MOV cx,19h	     ;Quarters
+    179	00F2  BA 0000			     MOV dx,0
+    180	00F5  F7 F1			     div cx
+    181	00F7  BB 0000r			     LEA BX,Quarters
+    182	00FA  89 07			     MOV [BX],AX
+    183	00FC  8B C2			     MOV AX,dx
+    184
+    185	00FE  B9 0009			     MOV cx,9h	     ;Dimes
+    186	0101  41			     inc cx
+    187	0102  BA 0000			     MOV dx,0
+    188	0105  F7 F1			     div cx
+    189	0107  BB 0002r			     LEA BX,Dimes
+    190	010A  89 07			     MOV [BX],AX
+    191	010C  8B C2			     MOV AX,dx
+    192
+    193	010E  B9 0005			     MOV cx,5h	     ;Nickelsles
+    194	0111  BA 0000			     MOV dx,0
+    195	0114  F7 F1			     div cx
+    196	0116  BB 0004r			     LEA BX,Nickels
+    197	0119  89 07			     MOV [BX],AX
+    198	011B  8B C2			     MOV AX,dx
+    199
+    200	011D  BB 0006r			     LEA BX,Pennies ;Pennies
+    201	0120  89 07			     MOV [BX],AX
+    202	0122  8B C2			     MOV AX,dx
+    203
+    204	0124  BA 0063r			     LEA dx,NumberQ
+    205	0127  B4 09			     MOV AH,9
+    206	0129  CD 21			     int 21H
+    207
+    208	012B  BB 0000r			     LEA BX,Quarters	     ;print Quarters
+    209	012E  8B 07			     MOV AX,[BX]
+    210	0130  E8 0000e			     CALL OUTDEC
+    211
+    212	0133  B4 02			     MOV AH,2		     ;return
+    213	0135  B2 0D			     MOV DL,0DH
+    214	0137  CD 21			     int 21H
+    215	0139  B2 0A			     MOV DL,0AH
+    216	013B  CD 21			     int 21H
+    217
+    218	013D  BA 006Fr			     LEA dx,NumberD
+    219	0140  B4 09			     MOV AH,9
+    220	0142  CD 21			     int 21H
+    221
+    222	0144  BB 0002r			     LEA BX,Dimes	     ;print Dimes
+    223	0147  8B 07			     MOV AX,[BX]
+    224	0149  E8 0000e			     CALL OUTDEC
+    225
+    226	014C  B4 02			     MOV AH,2		     ;return
+    227	014E  B2 0D			     MOV DL,0DH
+    228	0150  CD 21			     int 21H
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 5
+p5.ASM
+
+
+
+    229	0152  B2 0A			     MOV DL,0AH
+    230	0154  CD 21			     int 21H
+    231
+    232	0156  BA 0078r			     LEA dx,NumberN
+    233	0159  B4 09			     MOV AH,9
+    234	015B  CD 21			     int 21H
+    235
+    236	015D  BB 0004r			     LEA BX,Nickels	     ;print Nickels
+    237	0160  8B 07			     MOV AX,[BX]
+    238	0162  E8 0000e			     CALL OUTDEC
+    239
+    240	0165  B4 02			     MOV AH,2		     ;return
+    241	0167  B2 0D			     MOV DL,0DH
+    242	0169  CD 21			     int 21H
+    243	016B  B2 0A			     MOV DL,0AH
+    244	016D  CD 21			     int 21H
+    245
+    246	016F  BA 0083r			     LEA dx,NumberP
+    247	0172  B4 09			     MOV AH,9
+    248	0174  CD 21			     int 21H
+    249
+    250	0176  BB 0006r			     LEA BX,Pennies	     ;print Pennies
+    251	0179  8B 07			     MOV AX,[BX]
+    252	017B  E8 0000e			     CALL OUTDEC
+    253
+    254	017E  B4 02			     MOV AH,2		     ;return
+    255	0180  B2 0D			     MOV DL,0DH
+    256	0182  CD 21			     int 21H
+    257	0184  B2 0A			     MOV DL,0AH
+    258	0186  CD 21			     int 21H
+    259
+    260	0188  BA 008Er			     LEA dx,NumberT
+    261	018B  B4 09			     MOV AH,9
+    262	018D  CD 21			     int 21H
+    263
+    264	018F  BB 0000			     MOV BX,0
+    265
+    266	0192  C7 06 0008r 0000		     MOV NumberOfCoins,0
+    267	0198  BB 0000r			     LEA BX,Quarters	     ;total output coins
+    268	019B  8B 07			     MOV AX,[BX]
+    269	019D  BB 0008r			     LEA BX,NumberOfCoins
+    270	01A0  01 07			     add [BX],AX
+    271
+    272	01A2  BB 0002r			     LEA BX,Dimes
+    273	01A5  8B 07			     MOV AX,[BX]
+    274	01A7  BB 0008r			     LEA BX,NumberOfCoins
+    275	01AA  01 07			     add [BX],AX
+    276
+    277	01AC  BB 0004r			     LEA BX,Nickels
+    278	01AF  8B 07			     MOV AX,[BX]
+    279	01B1  BB 0008r			     LEA BX,NumberOfCoins
+    280	01B4  01 07			     add [BX],AX
+    281
+    282	01B6  BB 0006r			     LEA BX,Pennies
+    283	01B9  8B 07			     MOV AX,[BX]
+    284	01BB  BB 0008r			     LEA BX,NumberOfCoins
+    285	01BE  01 07			     add [BX],AX
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 6
+p5.ASM
+
+
+
+    286
+    287	01C0  BB 0008r			     LEA BX,NumberOfCoins
+    288	01C3  8B 07			     MOV AX,[BX]
+    289	01C5  E8 0000e			     CALL OUTDEC
+    290
+    291	01C8  B4 4C			     MOV AH,4ch
+    292	01CA  CD 21			     int 21H
+    293
+    294
+    295
+    296	01CC			     main endp
+    297				     end main
+Turbo Assembler	 Version 2.01	     04/24/08 21:28:39	    Page 7
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/24/08"
+??FILENAME			  Text	 "p5	  "
+??TIME				  Text	 "21:28:39"
+??VERSION			  Number 0201
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 P5
+@MODEL				  Text	 2
+@WORDSIZE			  Text	 2
+COINTOTAL			  Word	 DGROUP:000A
+DIMES				  Word	 DGROUP:0002
+INDEC				  Near	 ----:---- Extern
+INPUT1				  Byte	 DGROUP:000C
+INPUT2				  Byte	 DGROUP:0029
+INPUT3				  Byte	 DGROUP:0037
+INPUT4				  Byte	 DGROUP:003F
+MAIN				  Near	 _TEXT:0000
+NICKELS				  Word	 DGROUP:0004
+NUMBERD				  Byte	 DGROUP:006F
+NUMBERN				  Byte	 DGROUP:0078
+NUMBEROFCOINS			  Word	 DGROUP:0008
+NUMBERP				  Byte	 DGROUP:0083
+NUMBERQ				  Byte	 DGROUP:0063
+NUMBERT				  Byte	 DGROUP:008E
+OUTDEC				  Near	 ----:---- Extern
+PENNIES				  Word	 DGROUP:0006
+QUARTERS			  Word	 DGROUP:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  009D Word	  Public  DATA
+_TEXT				  16  01CC Word	  Public  CODE
+

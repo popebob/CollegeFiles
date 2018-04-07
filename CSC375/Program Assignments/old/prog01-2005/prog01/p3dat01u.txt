@@ -1,0 +1,3204 @@
+1466 2204 44460 Greystones, Ireland
+2226 838 110051 Milan, Italy
+1397 1166 37854 Red Bank, NJ
+1337 1545 149545 Warsaw, Poland
+330 736 23905 Lima, Peru
+2438 2170 81886 Middlebury, VT
+1103 1573 74412 Halstead, Essex, England
+523 1660 115528 Heiloo, Netherlands
+2712 1057 9992 Ras al-Khaimah, U.A.E.
+103 1051 46399 Rockwall, TX
+1901 2456 138596 Marburg, Germany
+2070 1931 81041 Folkestone, England
+2264 329 42538 Ciudad del Este, Paraguay
+787 2258 104437 Newburgh, IN
+2949 1084 42231 Round Lake Beach, IL
+2584 1721 80518 Karlskrona, Sweden
+2867 2101 135665 Las Cruces, NM
+522 2696 83067 Canton, OH
+2792 993 18184 Wolverhampton, England
+2875 1270 119259 Palm Coast, FL
+1778 1214 141029 Culiacn, Mexico
+602 308 11159 Denpasar, Indonesia
+403 253 130550 Cortex, CO
+857 1838 126608 Muskogee, OK
+19 118 3334 Campana, Argentina
+1487 2531 84341 Gravesend, Kent, England
+1523 2518 183341 Cold Lake, Canada
+2183 464 96179 Corsham, England
+1422 456 61939 Watonga, OK
+603 47 149538 Lake Bluff, IL
+1478 1213 85199 Keszthely, Hungary
+1467 1612 180858 Forest Grove, OR
+758 1846 117928 Lee's Summit, MO
+2292 2791 163974 Bergen, Norway
+911 634 53796 Plymouth, England
+1810 2010 179133 Camp Verde, AZ
+2506 2297 7249 Lake Macquarie, Australia
+421 2425 38709 Brighton, England
+1077 2244 148219 Galion, OH
+1411 2381 139108 Kemerovo, Siberia, Russia
+1879 2855 161483 Istanbul, Turkey
+1422 2959 1779 London, ONT, Canada
+32 905 18396 Fort Walton Beach, FL
+2795 260 10311 Skopje, Macedonia
+1182 1643 148690 Zanzibar, Africa
+1270 494 16947 Bournemouth, England
+2837 1294 125286 Gilroy, CA
+122 1075 198640 Landshut, Germany
+1238 1736 157070 Key Largo, FL
+1572 418 106815 Dordrecht, Netherlands
+2162 2215 100031 Canosa di Puglia, Italy
+843 1269 2269 Trollhttan, Sweden
+1866 618 118696 Wagin, W.Australia
+864 2028 176931 Menlo Park, CA
+2201 2080 68938 Aracaju, Brazil
+1672 255 121955 Brasilia, Brazil
+136 2206 112739 Alameda, CA
+1002 622 18440 Jablonec nad Nisou, Czech Republic
+3 2569 33621 Fort Saskatchewan, Canada
+73 2332 63589 Cedar Springs, MI
+1173 2758 62773 North Palm Beach, FL
+867 669 199155 Richland, WA
+613 2487 176004 Kansas City, MO
+1732 1920 73222 Leipzig, Germany
+2204 447 52780 Anadarko, OH
+2511 238 110124 Mission Viejo, CA
+1436 2811 91759 Fort Smith, AR
+2884 375 178834 Columbia, MO
+16 304 80552 Belluno, Italy
+480 2473 153322 Carlisle, MA
+2281 2938 13661 Garden City, KS
+31 2859 194788 Prestwick, Scotland UK
+2060 2186 125561 Sonoma, CA
+2867 388 87831 Santa Cruz, CA
+2694 2826 110871 Fitchburg, MA
+1021 2585 181347 Chino Hills, CA
+1803 2214 156829 Eggby, Sweden
+1944 2930 192878 Huntington, WV
+1775 1086 114509 Rugeley, England
+500 2986 5908 Valencia, Spain
+1397 2254 192669 Auburn, AL
+2444 1264 8178 Uxbridge, England
+1462 781 11263 Sebring, FL
+2296 1495 6208 Farmingdale, NJ
+1271 1185 121939 Augusta, W.Australia
+683 491 146025 Mission, TX
+1211 2044 3511 New Haven, MO
+2275 13 155297 Crail, Fife, Scotland
+943 2712 177066 Ocklawaha, FL
+845 2761 108810 Cozumel, Mexico
+2724 1398 125956 Toulon, France
+2261 430 85598 Murray, NE
+2198 1846 164260 Parkes, Australia
+1216 84 111325 Gisborne, New Zealand
+2010 264 1675 Spokane, WA
+62 1232 197590 Granbury, TX
+2647 2888 183660 Emmaus, PA
+1708 2844 109792 Guetersloh, Germany
+2563 993 27513 Cuzco, Peru
+1602 2725 22043 Al-'Ayn, A.D., U.A.E.
+2388 1906 173671 Bologna, Italy
+2042 1447 54912 Rize, Turkey
+1230 27 150475 Lugano, Switzerland
+1304 277 180528 Bombay, India
+1205 404 8491 Christiansburg, VA
+514 1774 59243 Dumfries, Scotland, UK
+1915 357 185433 Quito, Ecuador
+1608 1534 49044 Avila, Spain
+2531 1948 46366 Whitmore Lake, MI
+2940 878 44496 Eltville, Germany
+2774 2019 125447 Watford, ON, Canada
+1372 103 104781 Boca del Cielo, Mexico
+2535 136 183701 Mason City, IA
+2369 2688 83430 Robinson, IL
+56 787 68745 Baie-Comeau, Canada
+2091 968 43373 Newark, CA
+1295 637 115096 Skowhegan, ME
+2085 2491 39319 Canton, IL
+1362 1964 183819 Blakeslee, PA
+820 1377 95147 Murcia, Spain
+237 902 190220 Delran, NJ
+2248 2216 128218 Cookstown, ON, Canada
+243 2626 186090 Fayetteville, NC
+2004 554 157976 Fremont, CA
+1507 2595 115109 Kendal, England
+2054 1432 187108 Wubin, W.Australia
+103 2083 118478 Dhaka, Bangladesh
+2717 1549 8065 Corbeil-Essonnes, France
+1754 2631 97147 Jonesboro, AR
+315 2477 6330 Hartford, CT
+207 909 62045 Chennai, India
+922 1696 146408 Depew, NY
+1476 9 7783 Hattiesburg, MS
+2343 1189 36027 Struer, Denmark
+276 2949 146544 Prince George, Canada
+1257 1029 25693 Warrnambool, V, Australia
+827 118 27189 Bountiful, UT
+2124 1542 133749 Newport, TN
+1548 78 20830 Paintsville, KY
+1092 2097 9813 Cascavel, Par., Brazil
+1853 1090 144743 Emlichheim, Germany
+1706 2626 172203 Chinandega, Nicaragua
+974 2988 180360 Earlysville, VA
+1533 2725 189234 Boston, MA
+2117 983 102450 Baton Rouge, LA
+905 513 181315 Sacramento, CA
+2655 2162 114599 Capac, MI
+2662 1155 23672 Dhahran, Saudi Arabia
+1576 2091 93969 Benton City, WA
+2974 1652 135454 San Antonio, TX
+1386 420 82418 Blythe, CA
+261 2931 64049 Augusta, ME
+1604 2337 158651 Kaiserslautern, Germany
+1053 1686 157178 Caracas, Venezuela
+1057 1586 135802 Cap-de-la-Madeleine, QU, Canada
+872 329 193769 Bronson, MI
+61 1476 99853 Dunfermline, England
+80 82 147620 St. Clair, MI
+116 941 63680 Marlborough, MA
+1061 2028 95191 Chihuahua, Mexico
+1879 972 101079 Campbell, CA
+1335 1537 14939 Fernandina Beach, FL
+2381 2692 49692 Johannesburg, South Africa
+2683 733 86494 Ljungby, Sweden
+774 182 17203 Westfield, NJ
+1998 1182 69890 Milpitas, CA
+968 1149 123151 Brunswick, ME
+816 1824 129620 Barstow, CA
+875 1216 179407 Saint Marys, PA
+1875 409 33903 Wise, VA
+1143 772 128350 Cullar, Spain
+2760 430 154348 Atascadero, CA
+2854 950 114871 Hemlock, MI
+2377 202 194033 Fort Kent, ME
+2169 904 134641 Lismore, NSW, Australia
+2571 356 26830 Mineola, NY
+829 981 69142 Geissen, Germany
+774 2291 10774 Barnegat, NJ
+2151 2883 194935 Stayton, OR
+2665 256 72346 Merrill, IA
+2544 603 170757 Bishop's Stortford, England
+1468 2012 141743 Marietta, GA
+269 2115 99032 Newcastle, England
+272 1265 133738 Lucca, Italy
+894 2245 172309 Milledgeville, IL
+2642 1554 137918 Alingss, Sweden
+2727 2458 162178 Dublin, Ireland
+1353 2499 174176 Modesto, CA
+92 736 165071 Vermillion, SD
+1678 2930 17498 Chiba, Japan
+665 2349 68623 Ndola, Zambia
+1779 1471 185836 Murska Sobota, Slovenia
+502 443 9734 Englewood, FL
+2839 313 134521 Billings, MT
+2236 2571 67106 Nelson Bay, NSW, Australia
+2501 2238 26811 Winchester, VA
+1724 959 84375 Emmer-Compascuum, Netherlands
+1559 1899 94598 Bardstown, KY
+178 21 11639 Gloucester, England
+1474 2447 28004 Fowler, KS
+1295 126 15724 Kilkenny, Ireland
+173 1332 22629 Bath, ONT, Canada
+1070 730 55502 Lafayette, LA
+2923 2390 186541 Dana Point, CA
+1997 2859 105831 Cape Girardeau, MO
+1825 2844 102577 Cleveland, GA
+2089 1691 95182 Manassas, VA
+33 153 11782 Erie, PA
+1480 1442 45958 Silver Spring, MD
+970 2515 143757 Murphy, NC
+2277 2287 62870 Chisasibi, QU, Canada
+2287 2743 193521 Uppsala, Sweden
+1982 2568 1850 Stoneville, NC
+570 1562 114815 Fcamp, France
+506 1754 89705 Jupiter, FL
+313 1244 157742 Ingleside, ON, Canada
+878 2979 142171 Windhoek, Namibia
+249 1978 100905 Lake Benton, MN
+1989 1599 21140 Orinda, CA
+28 2768 128724 Guernsey, England
+1556 1418 142549 Solvang, CA
+2001 1327 121276 Essen, Germany
+1942 506 126205 Oinville-sous-Auneau, France
+2495 297 174138 La Rochelle, France
+6 694 72832 Fredericksburg, VA
+2215 468 82077 Rouen, France
+2748 2462 77211 Minden, Germany
+2739 2908 124132 Portici, Italy
+1210 1178 177552 Melk, Austria
+732 1253 128493 Roswell, NM
+1209 1160 130562 Charleston, WV
+1805 836 41005 Swansboro, NC
+368 1240 6489 Novato, CA
+2058 301 42882 Lewistown, PA
+1583 1192 86115 Zagreb, Croatia
+877 162 25312 Sofia, Bulgaria
+1582 1487 162766 Bedford, VA
+2398 1997 21149 Regensburg, Germany
+762 2449 80690 Glen Ellyn, IL
+937 2526 118911 Millerton, NY
+196 1324 154270 Shippensburg, PA
+2842 1422 71519 Worcester, MA
+440 2167 133922 Asns, Denmark
+742 2383 91507 Breedsville, MI
+297 1414 13224 Muscat, Oman
+646 665 168842 Geneva, Switzerland
+200 2979 108658 Port Jefferson, NY
+1518 2413 54616 Brampton, ON, Canada
+439 2259 10013 Duncan, OK
+2688 648 105075 Helmstedt, Germany
+1459 1936 35884 Mays Landing, NJ
+1628 1605 198655 Geraldton, W.Australia
+1949 2465 105755 Charleston, RI
+2328 2049 178340 Salvador, Brazil
+2480 2540 47760 Jersey Shore, PA
+1217 2582 187887 Los Fresnos, TX
+886 861 99910 Ho Chi Minh City, Vietnam
+1543 1183 26131 Rector, AR
+2282 2482 105869 Lucky Lake, SSK, Canada
+570 444 177527 Bratislava, Slovakia
+395 2205 94510 Apex, NC
+76 2481 47301 Clovis, NM
+1870 259 148202 Center Moriches, NY
+2617 2025 3777 Ponce, Puerto Rico
+2856 557 41767 Ovid, MI
+891 2957 188920 Talavera de la Reina, Spain
+2429 2261 110852 Little Rock, AR
+763 1890 45566 Cuernavaca, Mexico
+1155 842 110130 Cheltenham, England
+626 1525 9572 Poznan, Poland
+729 32 195056 Drayton Valley, AL, Canada
+2580 2417 49145 Mishawaka, IN
+2876 2596 136296 Morristown, IN
+813 2405 163686 Champaign-Urbana, IL
+1476 2454 190603 Boca Raton, FL
+396 2674 31549 Columbus, OH
+500 618 74419 Sandusky, OH
+2909 293 196946 International Falls, MN
+2939 1700 73335 Gastonia, NC
+1019 2153 199029 Owensboro, KY
+805 2522 50258 Russell, KS
+806 2451 20502 Galax, VA
+38 829 92427 Newcastle, Australia
+2391 2396 173631 Janesville, WI
+1350 459 52765 Taunton, Somerset, England
+2724 1740 49140 Leichlingen, Germany
+2442 2804 51644 New York, NY
+683 2331 52561 Hong Kong, China
+2819 2247 69707 Warren, PA
+51 194 151765 Taipei, Taiwan
+1576 501 103615 Lebanon, NH
+816 117 90821 Fayetteville, GA
+1647 723 3575 Yuma, AZ
+159 168 132819 Prior Lake, MN
+1491 2317 98489 Stanford, KY
+87 2752 154424 Albany, GA
+845 2907 53435 Placentia, CA
+612 724 177070 Delphi, IN
+562 1758 116213 Thornbury, ON, Canada
+1396 184 21364 Fenton, MI
+2542 737 41785 Soham, England
+1521 1026 128796 Oakland, CA
+2929 1060 116353 Lausanne, Switzerland
+977 151 122401 Barbastro, Spain
+484 2065 142528 Deltona, FL
+682 2935 53076 Orange, CA
+2661 2671 142945 Aurora, CO
+489 1368 58315 Independence, KS
+455 1966 193619 Middleville, MI
+1429 626 155486 Green Valley, AZ
+2498 388 31773 South Plainfield, NJ
+2890 892 66708 Bancroft, ON, Canada
+2582 868 3659 Hickory, NC
+2896 1483 110013 North Attleboro, MA
+1851 1480 53120 Punxutawney, PA
+1476 701 140080 Villahermosa, Mexico
+2991 2585 34090 Dennis Port, MA
+787 898 198656 Marion, OH
+1879 1501 165990 Cuthbert, GA
+1453 1097 160146 Chehalis, WA
+768 856 101214 Gouda, Netherlands
+1338 1776 98256 Chibougamau, Canada
+1776 2475 69612 Krasnoyarsk, Russia
+2008 1848 149215 Vernon, CT
+509 408 190771 Landisburg, PA
+1088 1048 69841 Walvis Bay, Namibia, Africa
+1954 2779 102738 Destin, FL
+2901 274 102890 Redmond, WA
+1649 696 167126 Ipoh, Malaysia
+2717 1959 167310 Lakewood, CA
+1861 34 55697 Helsingborg, Sweden
+1775 1453 142388 Kristiansand, Norway
+59 529 15316 Murrieta, CA
+77 2107 72788 Ninety Six, SC
+1734 2378 141789 Bowen, QLD, Australia
+928 1658 114297 Vernon, France
+2093 362 13926 San Juan Capistrano, CA
+1289 2534 26439 Bluefield, WV
+2348 2758 143414 Split, Croatia
+36 1737 137161 Hamilton, MI
+205 2696 151475 Ketchikan, AK
+919 2196 88207 Jasper, GA
+2700 2761 77725 Meribel-Mottaret, France
+2993 1156 121635 Carterville, IL
+1504 1354 130355 Mount Magnet, W.Australia
+2364 1041 173687 Newry, ME
+1929 2001 29281 Dubuque, IA
+2023 2195 44795 Munster, IN
+1629 2451 85700 Andalusia, AL
+74 2127 40481 Vernon, BC, Canada
+2030 1262 27719 Santa Clarita, CA
+355 2970 24482 Malaga, Spain
+171 16 69120 White Plains, NY
+1683 2973 56137 Kalkaska, MI
+2627 1421 49598 St. Charles, IL
+105 1857 45527 Peachtree City, GA
+1098 2040 165889 Alessandria, Italy
+345 2171 165812 Skive, Denmark
+2193 2661 114955 Fort Wayne, IN
+804 1388 112915 Jerseyville, IL
+930 2306 136571 Columbus, NE
+967 1504 17307 Tuxtla Gutirrez, Mexico
+1373 2585 104337 Princeton, WV
+204 2529 174575 Edinburg, IN
+1586 2996 84330 Morges, Switzerland
+137 2169 34606 Chesterton, IN
+1286 2622 165175 Downers Grove, IL
+1419 1611 185736 Adel, IA
+2449 636 15119 Huskvarna, Sweden
+1741 312 150634 Sudbury, Canada
+797 456 186533 Lawton, MI
+430 2008 51945 Athens, GA
+1255 922 68316 Dundee, Scotland, UK
+2652 1527 89414 Hernando, FL
+1100 1032 188281 Livingston Manor, NY
+2982 2647 28761 Greenwood, SC
+2504 136 158039 Spartanburg, SC
+1397 1392 88054 Celle, Germany
+412 575 87655 La Quinta, CA
+782 89 140019 Hanover/Lebanon, NH
+1913 2663 99324 Tamarite de Litera, Spain
+2779 1950 16336 Huntsville, AL
+2349 1054 5663 Armstrong, IA
+2849 1296 42304 Crescent City, FL
+1888 2101 129455 Passaic, NJ
+2183 2440 6675 Lombard, IL
+1381 753 9597 Everman, TX
+1008 2189 5212 Hamilton, New Zealand
+860 745 118156 La Paz, Bolivia
+645 2738 185839 Kungsbacka, Sweden
+2549 2141 182130 Springdale, AR
+2052 1865 113043 Yverdon, Switzerland
+1405 1570 126314 Easton, PA
+831 2938 9612 Hinesville, GA
+2760 1182 138916 Oamaru, SI, New Zealand
+1549 2979 9848 Torrelavega, Spain
+2128 884 196218 Carnarvon, Australia
+2433 2073 35199 Batesville, IN
+2755 1471 75254 Branford, CT
+2176 2317 82231 Eagle River, WI
+578 2351 60777 Longford, Rep. Of Ireland
+1212 436 183495 Cahors, France
+1821 2119 38828 Iqaluit, NWT, Canada
+1737 664 3763 Richmond Heights, OH
+2407 813 109675 Fairview, OK
+42 1604 71178 Jefferson City, MO
+433 2674 111318 Wykoff, MN
+1887 300 143076 Columbus, MS
+523 2660 198631 Gallatin, TN
+1565 103 189482 Tours, France
+2682 67 64882 Kumla, Sweden
+157 1635 179236 Leicester, England
+295 1360 21679 Flemington, NJ
+1275 679 113291 Grand Rapids, MI
+898 2161 82926 Walled Lake, MI
+2739 2393 80273 Williamstown, KY
+339 1049 18085 Port Louis, Mauritius
+1422 2267 24151 North Bennington, VT
+1422 2282 30740 Ossipee, NH
+408 1266 98250 Warren, NH
+621 2722 105439 Rindge, NH
+1943 593 104041 Clear Lake, IA
+1501 528 85161 Creswell, OR
+1140 2059 84914 Kitchener, ONT, Canada
+497 2622 130127 Capitola, CA
+2215 440 126065 Hornbrook, Denmark
+663 1218 187074 Greenwood, IN
+13 2765 194611 Tuscumbia, AL
+2702 1984 154310 Hodgenville, KY
+506 1459 102526 Bend, OR
+1453 145 188390 Magdeburg, Germany
+983 1708 104726 Martin, TN
+1756 2181 34334 Birmingham, MI
+966 1792 190367 Esbjerg, Denmark
+1071 1511 144209 Ellijay, GA
+1469 1798 108972 Manchester, NH
+585 2087 197153 Erie, KS
+66 2860 23091 Fairfield, OH
+586 1490 6606 Somerset, KY
+976 2399 190203 Kona, HI
+2585 2857 52951 Fort Payne, AL
+487 2127 162232 Hernando, MS
+1993 2761 130715 Odessa, WA
+1562 1845 103648 Novi Sad, Yugoslavia (form.)
+1666 1739 53238 Cobourg, ON, Canada
+2830 2834 140513 Watertown, NY
+122 2289 154743 Bethlehem, PA
+2848 2732 126926 Grand Junction, CO
+355 513 164086 Ashtabula, OH
+1622 980 8844 North Wales, PA
+1865 688 150032 Albany, W.Australia
+1959 2211 19315 Ipswich, England, UK
+1931 1000 196508 Rockford, IL
+2166 471 62240 Osnabreck, Germany
+118 1418 105095 Colrain, MA
+1425 2305 125676 Moddy, AL
+623 2567 171746 Launceston, Australia
+602 1723 137445 Martinsville, VA
+924 1162 37055 Kenton, MI
+2639 2639 184341 Longview, WA
+1654 1911 118704 Hawthorne, NJ
+1633 234 164434 Blackshear, GA
+456 1407 126130 Beaver Crossing, NE
+135 2980 44023 Hermann, MO
+77 2717 137467 Groton, CT
+2349 2669 70261 Green Brier, TN
+1422 2675 32865 Coral Springs, FL
+375 782 88112 Invercargill, New Zealand
+462 1564 161412 New Brunswick, NJ
+2744 352 26894 Bridgetown, Barbados, West Indes
+1791 738 40038 Curitiba, Brazil
+1782 1410 12012 Monroe, MI
+2318 1189 107390 Cebu City, Philippines
+1985 1862 122835 Kearney, NE
+267 938 43150 Grinnell, IA
+2554 2739 163175 West Monroe, LA
+1361 761 180787 Leonberg, Germany
+823 1118 130627 Girard, KS
+991 2397 2144 Burlington, VT
+2096 1064 36411 Prince Albert, SSK, Canada
+1556 320 175289 Wewoka, OK
+1063 652 24547 Salisbury, MD
+708 1233 173232 New Roads, LA
+758 340 131101 Hendersonville, TN
+1379 516 101092 Bath, NY
+201 2533 97187 Quebec, Canada
+1733 2350 89869 Marysville, WA
+466 1738 176596 New Castle, PA
+110 1039 127510 Dar es Salaam, Tanzania
+1134 805 71993 New Canaan, CT
+790 2442 194936 El Segundo, CA
+1416 2220 168207 Colmar, France
+1346 2870 174017 Paramus, NJ
+1691 361 122910 East Aurora, NY
+1372 315 147982 Osage Beach, MO
+1810 1429 113252 Macomb, IL
+2944 1909 121955 Ste. Rose du Lac, MN, Canada
+2363 2301 126596 Merredin, W.Australia
+2573 1091 51063 Hollister, CA
+1168 2403 103323 Kenton, TN
+1274 530 162542 Lugo, Spain
+142 2077 85999 Moreno Valley, CA
+1695 1291 116154 Saarbrucken, Germany
+2353 1620 87999 Clatskanie, OR
+2672 1815 12448 Kourou, French Guiana
+556 352 197065 Mentone, CA
+1677 2915 130954 Port Gentil, Gabon, West Africa
+2310 2046 108144 Marshall, NC
+1165 2042 48063 Casar, NC
+2448 2755 164755 Bladenboro, NC
+282 1062 13727 Gilbert, MN
+1756 2297 124646 Greenville, NC
+256 2241 39740 Woodhull, NY
+1443 2930 123695 Warner Robins, GA
+2911 1917 105412 Blackpool, England
+1691 1171 156230 Idabel, OK
+1010 2190 28039 Nashville, AR
+388 607 5868 Cudahy, WI
+402 1116 97192 Clintwood, VA
+49 1793 148204 Trostberg, Germany
+1253 372 77311 Bowie, MD
+2935 133 169174 Pescadero, CA
+1009 2330 188187 Milledgeville, GA
+180 2756 190115 Barton City, MI
+2800 1419 141958 Whitehorse, Canada
+1402 193 20193 Fort Riley, KS
+1149 2061 87289 Mexico City, Mexico
+1051 181 40273 Bluffton, SC
+2706 2017 124367 Nancy, France
+597 1899 45184 Rochester, NY
+2235 1315 72036 Starkville, MS
+422 2804 182796 Manhattan, KS
+684 379 18619 Grove, OK
+2596 1451 191226 Trenton, NJ
+2593 284 180562 Casa Grande, AZ
+2196 1454 113654 La Verne, CA
+2995 1078 54531 Sault Ste. Marie, Canada
+1810 313 160722 Ponca City, OK
+419 2813 144211 Danville, IL
+13 2867 160038 Cumberland, MD
+2548 2785 30575 Cceres, Spain
+1364 2453 168959 Ferris, TX
+2047 2344 81570 Mashpee, MA
+1015 358 182795 Prairie City, OR
+2265 2552 92911 Ijsselstein, Netherlands
+290 213 147990 Gary, IN
+1544 2427 172061 Burke, VA
+87 1685 138858 Saint Cloud, MN
+787 867 185114 Leeuwarden, Netherlands
+2397 911 181860 Belo Horizonte, Brazil
+2150 278 97778 Kern River Valley, CA
+799 737 141803 Kentville, NS, Canada
+2819 1465 42119 Cambridge, England
+736 956 185159 Bad Neustadt a.d.S., Germany
+465 2339 45776 Gibsonburg, OH
+1502 2777 85132 Scottsdale, AZ
+1452 2321 109152 Lahore, Pakistan
+401 1 151430 Darmstadt, Germany
+2378 343 48144 Accra, Ghana
+342 2422 78195 Osaka, Japan
+480 1552 173359 Carman, Canada
+1511 2235 172527 Lancaster, CA
+2398 2135 89646 Oulu, Finland
+348 1832 183065 Glenview, IL
+9 2754 88625 Yazoo City, MS
+393 2854 47121 Stone Mountain, GA
+2437 1917 181259 Perth, Australia
+1941 1625 181050 Bangalore, India
+300 137 21645 Berkeley Springs, WV
+1400 1619 98275 Kathmandu, Nepal
+680 1303 132619 Conroe, TX
+1526 1800 89225 Stockton, CA
+2360 1799 61931 Jackson, WY
+1982 2779 112419 Bloomington, MN
+2275 1812 165936 Alpena, MI
+1910 2300 171993 Bowling Green, KY
+1875 924 52922 Elko, NV
+1599 2316 13427 Basel, Switzerland
+2118 913 159796 Dahlenburg, Germany
+2623 1595 94693 Munster, Germany
+1204 464 41480 Forster, NSW, Australia
+1856 1180 72374 Culpeper, VA
+1342 2415 136202 Colon, MI
+2588 2803 171796 Lawrence, KS
+1226 1133 113676 San Luis Potos, Mexico
+1025 470 197179 San Bernardino, CA
+1582 1089 72531 Lulea, Sweden
+55 382 158569 Brick, NJ
+2546 2421 27954 Grand Falls, NWF, Canada
+1392 2838 197094 Garden Plain, KS
+2104 2537 8391 Waxahachie, TX
+867 2287 101593 Burlington, WA
+1244 475 125065 Chinook, MT
+2694 49 175235 Utica, NY
+2684 625 98453 Toronto, Canada
+1037 1828 4664 Joliet, IL
+1172 2266 95878 Gladstone, QU, Australia
+2118 1164 120128 Goreville, IL
+245 2999 67648 Tazewell, VA
+1999 1536 123075 St. Charles, MO
+2899 1677 20874 Worland, WY
+851 249 137109 Tuscaloosa, AL
+2182 898 24422 Fuquay-Varina, NC
+1532 2301 40620 Gothenburg, Sweden
+2442 438 37954 Troy, NC
+2187 2811 169397 Saco, ME
+2400 2197 85451 Wilmington, DE
+2928 2950 34037 West Long Branch, NJ
+2092 30 105895 Camarillo, CA
+1625 2567 111570 Hastings, England
+431 1278 29402 Hackettstown, NJ
+714 2081 13229 Charles City, IA
+462 1228 83424 Lexington, VA
+2238 268 152520 Norcross, GA
+297 579 18941 Bastrop, LA
+1566 745 92087 Dearborn, MI
+1932 1173 54403 Leningrad, Russia
+1502 2947 142518 South Pittsburg, TN
+1523 1748 43487 Lawrenceville, GA
+2735 567 28827 Bonn, Germany
+1653 64 96162 Wrentham, MA
+286 1890 97334 Rolla, MO
+1966 162 99242 Fall River, MA
+1097 2058 54948 Mesa,AZ
+534 1345 173068 Poole, England
+724 193 74041 Muscatine, IA
+111 1033 73789 Maryborough, QU, Australia
+827 142 142654 Barrie, ONT, Canada
+1848 978 26807 Jassy, Romania
+1938 615 133645 Marion, IN
+705 2654 13315 Banta, CA
+143 2245 49145 Port Angeles, WA
+495 1305 111214 Worthing, England
+2231 182 122614 Dortmund, Germany
+10 1659 63889 Herne, Germany
+365 396 19196 Bristolville, OH
+1867 1830 156340 Fort Myers, FL
+1242 995 175407 Keene, NH
+2912 913 148979 Chester, England
+1606 1149 192371 Midland Park, NJ
+2783 1323 49788 Santa Ana, CA
+1983 2999 185433 Montevideo, Uruguay
+2921 501 136020 Massillon, OH
+1358 1140 84303 Delhi, India
+992 830 163710 Athens, Greece
+2121 2254 172243 Decatur, AL
+403 2335 143788 Boulder, CO
+874 570 105919 Oxford, CT
+308 1643 154847 Corona, CA
+730 2730 95945 Bradford, PA
+2526 866 11226 Riom, France
+1806 719 3790 Woodbridge, VA
+138 436 6476 Portland, OR
+838 2953 100614 Kingman, AZ
+2664 1583 79620 Northeim, Germany
+77 137 127538 Kabul, Afghanistan
+414 588 7599 Ypsilanti, MI
+2049 412 3565 Sutton, WV
+1547 2088 106467 Anderson, IN
+826 901 82431 Hamburg, MI
+635 243 91595 Broken Hill, NSW, Australia
+1687 1315 183206 Crow Agency, MT
+2556 1069 95377 Port Charlotte, FL
+770 2767 189741 Monrovia, CA
+1581 2021 145059 Brussels, Belgium
+2718 286 164801 Timmins, ONT, Canada
+1481 1914 93632 Windsor, CT
+1217 83 149787 Plymouth, MA
+1899 2015 32959 Duisburg, Germany
+908 567 44646 Ascension Island
+2852 1011 15501 Seneca Rocks, WV
+1484 995 22987 Kennebunk, ME
+1359 2245 115188 Vista, CA
+1812 1667 191316 Angelica, NY
+2604 2047 88257 Angers, France
+345 1269 149068 Gmunden, Austria
+2803 1201 197332 Davis, CA
+460 1177 138219 Fairbanks, AK
+2305 1937 81364 Yuba City, CA
+56 585 155913 Binghamton, NY
+836 1517 6072 Lahti, Finland
+2579 1958 99495 Ribeiro Preto, Brazil
+1132 1036 17474 Adrian, MI
+1863 325 176577 Santo Domingo, Dominican Republic
+1246 362 25761 Turin/Torino, Italy
+2557 1791 91568 Elliot Lake, ON, Canada
+712 2056 140722 Bolivar, OH
+184 725 111599 Mill Valley, CA
+1800 2910 125591 Palmdale, CA
+793 2388 119534 Aspen, CO
+549 291 123289 Birmingham, AL
+2119 91 186288 Durham, NC
+2728 2062 26423 Devine, TX
+1100 2817 20496 Hendersonville, NC
+442 1339 141652 Songkhla, Thailand
+736 1667 113131 Wroclaw, Poland
+1088 1107 95353 Rabat, Malta
+1504 2301 101345 Schroon Lake, NY
+1292 1877 140393 Hot Springs, AR
+41 2685 28444 Montpellier, France
+1321 2417 187079 Sault Ste. Marie, MI
+832 2892 189491 Kununurra, West. Australia
+428 823 59210 Monroe, CT
+1709 1234 1699 Grass Valley, CA
+359 592 57946 Sedona, AZ
+87 1272 100290 Narragansett, RI
+501 2215 83200 Emerald, QU, Australia
+485 2262 7170 Dresden, Germany
+2598 1962 57810 Bangor, ME
+1158 2208 80770 Ontario, CA
+1330 464 168726 Grand Island, NE
+2169 377 110457 Fremont, OH
+1943 733 131983 Fairfield, TX
+2356 524 124324 Bielefeld, Germany
+5 500 109106 Waidhofen/Thaya, Austria
+2963 2952 33805 Dominica, West Indies
+902 1643 1934 Tabuk, Saudi Arabia
+1578 1464 143595 Asheboro, NC
+1318 621 127982 Islip, NY
+2932 2924 67490 Pacific, MO
+2684 1204 63459 Reading, England
+2701 2255 125816 Armidale, NSW, Australia
+794 1962 34533 Abington, MA
+1729 58 161837 Amman, Jordan
+1287 835 144501 Paducah, KY
+1641 1745 102939 Death Valley, CA
+178 1872 41101 Oslo, Norway
+617 847 119563 Bariloche, Argentina
+2425 319 27407 Cancun, Mexico
+2378 2008 12053 Mount Butterwicky, Australia
+2818 1368 124804 Fort Dodge, IA
+1840 85 126488 Mauston, WI
+1117 1375 87748 Manila, Philippines
+1894 726 149656 Pembroke, MA
+2668 767 26519 Highland Falls, NY
+840 2136 128333 Plymouth, NH
+357 260 175838 Wheaton, IL
+139 1632 64954 Cagayan de Oro, Philippines
+1957 2780 188414 San Diego, CA
+683 2709 160038 Mountain Grove, MO
+1799 304 184155 Blaine, WA
+18 104 153544 Princeton, IL
+1671 2710 116194 Montpelier, OH
+604 346 79145 West Sand Lake, NY
+1939 835 174194 June Lake, CA
+1368 2408 94646 Moses Lake, WA
+580 1649 195239 Jackson, MO
+118 1845 169013 Mount Shasta, CA
+1944 812 139188 Scranton, PA
+1924 2085 98253 Stuttgart, Germany
+1644 673 175293 Cairo, Egypt
+2598 789 23622 Lafayette, CA
+2575 972 23632 Irving, TX
+1627 327 55983 Meredith, NH
+88 904 86181 Lebanon, TN
+2070 2009 116279 Carle Place, NY
+743 2315 120174 Gaithersburg, MD
+147 1890 102922 Kadoka, SD
+2744 228 125900 Bethesda, MD
+178 2356 44642 Piura, Peru
+280 1160 118770 Amboy, IL
+1852 1290 195402 Livermore, CA
+2628 2637 34993 Hamilton, Ontario, Canada
+1394 1772 1146 Kingsport, TN
+50 1281 83949 Pusan, South Korea
+102 1312 125353 Charlottetown, Canada
+2204 2221 120173 Arcola, IL
+2093 1124 74953 Northampton, England
+2077 2196 185173 Santa Marta, Colombia
+2748 2951 150981 Oak Forest, IL
+1792 2248 166281 Chester, WV
+1402 2116 90577 Lisnaskea, N.Ireland
+555 1046 140607 Cottbus, Germany
+1818 735 6214 Blossom, TX
+1367 1517 111779 Hopkins, SC
+2651 1417 24666 Oxford, MI
+2614 1161 30934 Borlnge, Sweden
+468 806 74760 Villingen-Schwenningen, Germany
+988 122 100700 Schertz, TX
+2406 2626 143191 Streamwood, IL
+2656 1378 52374 Skien, Norway
+2681 2309 70229 Cincinnati, OH
+1306 90 170808 Fairland, IN
+734 2382 92353 Swansea, Wales, UK
+2013 862 120835 Mesquite, NV
+212 566 63536 Lone Rock, WI
+662 780 62009 Newport, RI
+990 799 128865 Lemoore, CA
+973 2979 176103 Bridgeview, IL
+2227 214 32616 Bainbridge Island,WA
+587 1038 22159 Pleasant Grove, UT
+2064 1706 142715 Poteau, OK
+1456 2411 71522 Burns, TN
+2850 348 55938 Fort Madison, IA
+1045 1560 36726 Evanston, WY
+1345 1382 87201 Cork, Ireland
+2468 378 125890 Framingham, MA
+2495 1554 167945 Elmira, NY
+1745 1956 156062 Gtene, Sweden
+504 2706 192460 Liverpool, England
+2678 1502 197285 Virginia Beach, VA
+288 2364 72538 San Jose, Costa Rica
+2030 2661 169889 Sahagn, Spain
+770 527 135036 Guildford, England
+1706 289 132817 Sheboygan, WI
+481 2495 163451 Mobile, AL
+155 106 163522 Prattville, AL
+2291 1689 56478 Kerrville, TX
+1067 2629 46622 Stratford Upon Avon, England
+1270 275 155639 Oklahoma City, OK
+1438 1518 170996 Sheridan, WY
+1767 125 78493 Penn Yan, NY
+960 592 64187 Kotka, Finland
+518 2241 102590 Port Erin, England
+1314 58 51452 Niceville, FL
+933 288 40850 Bromley, England
+950 1110 1903 Bilbao, Spain
+2787 822 94973 Moscow, Russia
+2120 918 107185 Gainesville, GA
+2678 2087 19902 Brighton, MI
+2847 764 198102 Sombor, Yugoslavia
+2100 949 164367 Torhout, Belgium
+977 1865 77524 Monmouth Junction, NJ
+2087 689 63523 Port St. Lucie, FL
+685 897 141901 Cordoba, Argentina
+2958 550 45867 Kenniwick, WA
+1015 2278 78549 Jackson, MI
+2447 1729 173394 Frankfort, MI
+2933 1103 126664 Stratford, TX
+2465 810 61667 Oak Ridge, TN
+2052 769 37050 Traverse City, MI
+50 2371 113409 Aberystwyth, Wales, UK
+1869 1851 100127 Whakatane, New Zealand
+1517 2103 79080 Great Bend, KS
+2826 316 169781 Tylden, Australia
+1899 2888 82877 Chattanooga, TN
+2580 1310 159232 Fordyce, AR
+979 2471 151336 Cleveland, TN
+796 1736 94276 Wappingers Falls, NY
+370 2756 70754 Malin, OR
+1749 969 158469 Glenwood Springs, CO
+2269 2374 167842 Grafton, NSW, Australia
+1991 2393 192116 Martinsville, IN
+2094 553 13661 Derry, NH Des Moines, IA
+508 1194 65328 St. Peter, MN
+242 1118 145277 Aden, Yemen (PDR of)
+2728 2934 35757 Inglis, FL
+1227 1126 90732 Bahrein, Bahrein
+352 738 117742 Freehold, NJ
+1157 2763 178571 Monroeville, AL
+2338 767 50504 Meekatharra, W.Australia
+1798 1593 134868 Saint Paul, MN
+2168 745 151887 New Bedford, MA
+1107 477 162751 Carlisle, England
+522 1509 93439 Canby, MN
+19 138 188574 Rome, GA
+1763 2829 185151 Montgomery, AL
+1886 2748 122866 Troy, MI
+1664 2363 57586 Cairns, Australia
+1040 1149 47636 Ticonderoga, NY
+2867 1955 57754 Santander, Spain
+1340 1989 20220 Sao Paulo, Brazil
+2161 2664 74208 East Stroudsburg, PA
+2122 802 34536 Detroit, MI
+2346 967 65160 North Grosvenordale, CT
+1305 1959 182122 Columbus, GA
+2285 565 65272 Perris, CA
+1446 2623 162212 Coos Bay, OR
+2997 2224 119502 Wawa, ON, Canada
+596 815 144108 Tullamore, Ireland
+1517 1443 44913 Waller, TX
+1908 2560 8454 Boden, Sweden
+2058 310 59991 Boxford, MA
+2339 1015 173366 Greymouth, S.I., New Zealand
+2335 1890 97220 Steilacoom, WA
+948 2416 112667 Conover, NC
+2886 407 130653 Methuen, MA
+267 1570 83766 Albacete, Spain
+2026 924 19320 Singapore
+950 2659 122515 Peabody, MA
+2224 60 10401 Great Falls, MT
+1475 2422 162649 Krynica, Poland
+1033 1759 23025 Usti nad Labem, Czech Republic
+1714 797 147719 Aiken, SC
+2492 2462 63410 Texhoma, OK
+1946 2790 180203 Stevens Point, WI
+1327 2608 48215 Marion, AL
+1461 1596 80407 Tinley Park, IL
+2426 2160 167257 Crown Point, IN
+1080 2736 132989 Nelson, New Zealand
+2171 2857 83743 Seneca, SC
+136 89 166107 Basingstoke, England
+2591 2723 144582 New Iberia, LA
+407 2790 38314 Floyd, VA
+2000 2841 163080 Pakenham, VC, Australia
+1250 2198 142517 Inverness, FL
+1113 1213 8744 Denver, CO
+1011 2473 150501 Edmond, OK
+2845 2836 168290 Jansen, NE
+547 1583 27940 Dundalk, Ireland
+345 239 106215 Sarnia, ONT, Canada
+1660 1499 93822 Campbellton, NB, Canada
+2617 2161 148907 Lincoln, England
+1603 1930 5056 Danville, VA
+2051 2176 128394 San Luis Obispo, CA
+2629 1356 77197 Woodinville, WA
+2313 2501 173646 Hoorn, Netherlands
+1958 2726 164569 Mocksville, NC
+691 1727 98084 Trento, Italy
+645 2926 37392 Stafford, VA
+2611 80 123028 Whitefish, MT
+285 2307 133966 Los Angeles, CA
+650 1763 185848 Sumter, SC
+2788 2841 83063 Williams Lake, BC, Canada
+2846 98 64631 Genoa, Italy
+1270 32 138878 Aberdeen, Scotland
+2842 833 179471 Medellin, Colombia
+2436 25 9327 Inglewood, CA
+1515 783 190779 Innsbruck, Austria
+236 1773 116031 Beer-Sheva, Israel
+2709 115 127994 Layton, UT
+783 2815 148777 Dededo, GM
+2067 425 90786 Rome, NY
+1964 836 136713 Apple Valley, CA
+1224 2224 32197 Klazienaveen, Netherlands
+1628 2634 85911 Madison, GA
+1486 316 91240 Atlantic City, NJ
+988 1572 153322 Portree, Scotland
+1633 726 83905 Villata, Italy
+140 1299 66501 Carbondale, IL
+288 2333 185984 Banner Elk, NC
+2682 2957 79654 Nipomo, CA
+1867 613 135978 Leesville, LA
+2050 617 177482 Glens Falls, NY
+2962 1301 142628 Santos, Brazil
+1311 1909 38449 Corsicana, TX
+1343 1786 139154 Canute, OK
+2452 310 153924 Charlevoix, MI
+1189 1067 145779 Greensboro, NC
+784 1845 12626 Jefferson, WI
+1098 238 158550 Grand Bend, ONT, Canada
+2945 264 89199 Letterkenny, Ireland
+2974 1141 185126 Mount Newman, W.Australia
+67 1217 127344 Hobart, Australia
+1570 2602 126815 Bentonville, AR
+1235 2674 66992 Lake Wales, FL
+2762 1013 87531 Zwolle, Netherlands
+2463 758 46758 Paramount, CA
+689 1035 111281 Stratford, ON, Canada
+387 165 93115 Mauritius, Indian Ocean
+2967 2502 61324 Blacksburg, VA
+2437 2660 174848 Plainville, CT
+852 2452 8028 Grebbestad, Sweden
+1033 2305 63638 Whittier, CA
+1668 2740 161894 Salem, IL
+2613 2759 28835 Lancaster, England
+1684 1140 150469 Brest, France
+2205 2014 13206 Findlay, OH
+2402 259 31778 Gillett Grove, IA
+1473 1281 151665 West Milford, NJ
+921 1941 74851 Ennis, Ireland
+382 2228 138270 Florianopolis, Brazil
+155 55 8819 Kouvola, Finland
+2911 534 66941 Sarasota, FL
+2475 2359 85299 Royan, France
+2982 2072 52224 Alymer, ONT, Canada
+1241 1864 128023 Livingston, NJ
+2311 2239 85590 Monclova, Coahuila, Mexico
+1632 634 126224 Ann Arbor, MI
+1184 96 9427 North Haven, CT
+1850 1385 111213 Monmouth, OR
+722 1871 2886 Haarlem, Netherlands
+2933 1867 89867 South Amboy, NJ
+307 2582 87856 Brownwood, TX
+382 2321 2194 Reggio nell'Emilia, Italy
+2649 1021 166690 Szczecin, Poland
+2618 720 161916 Vitoria, Spain
+846 467 68853 Valencia, Venezuela
+298 1779 54868 Balladonia, W.Australia
+1248 2218 9459 Salisbury, England
+707 2998 5385 Palm Beach Gardens, FL
+1438 2391 168558 Thomasville, NC
+905 2078 109954 Shullsburg, WI
+903 888 88786 Saint John's, Antigua
+1293 2762 81851 Fairfield, CA
+1214 803 100507 Saint Polycarpe, QU, Canada
+2562 664 110907 Farnham, England
+1717 589 35168 San Francisco, CA
+858 1972 171128 Grahamstown, South Africa
+41 1946 173764 Karlstad, Sweden
+2345 1923 161979 Oshkosh, WI
+2670 499 71379 Ruston, LA
+185 194 77409 Orem, UT
+1158 1512 147092 Lyons, CO
+2213 81 105211 Belcourt, ND
+274 2654 79201 Nuuk (Godthb), Greenland/Denmark
+1934 1925 60857 Moosonee, Canada
+369 2998 89427 Luanda, Angola
+141 2973 56105 Osterhofen, Germany
+2895 1516 66255 Napa, CA
+2247 1674 106499 Tilburg, Netherlands
+480 1218 185583 Puerto de la Cruz, Tenerife/Spain
+2643 2519 102185 Westport, Ireland
+1502 373 183383 Giebelstadt, Germany
+1215 1171 133263 Hartford, AL
+1181 2855 187125 Barranquilla, Colombia
+446 2407 114090 Bettendorf, IA
+1478 2205 50480 Fort Lauderdale, FL
+1643 2561 39670 Indianapolis, IN
+691 381 94907 Oroville, CA
+19 2987 40077 Sherbrooke, Canada
+791 1963 107328 Limeira, Brazil
+2661 1284 151487 El Vendrell, Spain
+1614 158 24446 Miami, FL
+1982 2271 110420 Mackay, QL, Australia
+2481 2182 169273 Tampico, Mexico
+1310 925 25102 Schwelm, Germany
+2353 2713 189488 Sidney, MT
+2402 2143 163423 Daytona Beach, FL
+36 1044 70528 Beckley, WV
+2100 2851 72045 Ledenscheid, Germany
+19 1071 19947 Piscataway, NJ
+2431 1701 112839 Wilton Manors, FL
+965 488 172431 Castro Valley, CA
+1416 2956 159151 Lisbon, OH
+2097 2897 44284 Lapeer, MI
+139 602 163734 Landau/Pfalz, Germany
+2260 2478 1136 Emporia, KS
+1225 2756 157894 San Jose, CA
+2173 2908 4762 Wysox, PA
+75 145 27803 Ballarat, Australia
+2784 1442 45343 La Mesa, CA
+975 2718 35648 Anderson, SC
+2031 1461 44356 Coeur d'Alene, ID
+2540 734 20151 Memphis, TN
+1949 1197 90923 Redmond, OR
+35 1804 121815 Half Moon Bay, CA
+2875 2243 174396 Odenton, MD
+955 2187 121429 Menard, TX
+2269 2074 129458 Millsboro, DE
+375 2614 50776 Ponte-Pitre, Guadeloupe
+220 2048 130867 Nuneaton, England
+1805 1779 134171 Burns Flat, OK
+2161 1729 84571 Oshawa, Canada
+2642 802 49933 Terre Haute, IN
+1897 1749 156261 Grand-Prairie, AB, Canada
+238 1791 34556 Mankato, MN
+1472 833 153595 Bowling Green, OH
+1540 2041 8776 Johnson City, TN
+1281 1915 161819 Fargo, NM
+1409 1092 109282 La Plata, MD
+1036 811 65042 Scarborough, England
+2996 1233 152835 Murrysville, PA
+2580 652 182997 Cabanatuan City, Philippines
+1387 1036 176623 Kingwood, TX
+2881 1966 118246 Monterey, CA
+2761 215 153646 Junction, TX
+2204 1990 145665 Bethlehem, NH
+1804 2072 48873 Claremont, CA
+2062 2911 14738 Jacksonville, FL
+605 1458 56521 Northome, MN
+149 441 40778 Salem, OH
+53 874 11906 Chandler, QUE, Canada
+146 2013 21313 Auckland, New Zealand
+2546 1987 92106 Saint Simons Island, GA
+560 1650 193171 Lubeck, Germany
+658 1287 130715 Pithiviers, France
+1526 2289 27948 Petersburg, VA
+1479 2722 137923 Lumpkin, GA
+2892 1480 42217 Livingston, MT
+690 456 107860 General Roca, Argentina
+192 643 56204 Madison, WI
+1241 132 15320 South Lake Tahoe, CA
+447 836 27158 Jnkping, Sweden
+1636 2536 112033 Selayang, Malaysia
+469 161 21888 Staunton, VA
+1819 926 52674 Salisbury, CT
+536 1572 11018 Yoakum, TX
+454 1590 99663 East Brunswick, NJ
+2432 2850 84063 Coppell, TX
+2594 216 103990 Brunswick, GA
+1764 865 133406 L'Anse, MI
+634 393 74759 Hollywood, FL
+2461 2476 36827 Rutland, VT
+916 2311 56070 Farnborough, England
+2159 43 14896 L'viv, Ukraine
+588 87 67352 Nuremberg, Germany
+2951 2435 101060 Meuselwitz, Germany
+1142 697 57569 South Hill, VA
+14 56 190693 Dover, DE
+2242 1659 198155 Netphen, Germany
+2086 1692 76709 Ludvika, Sweden
+1034 2065 118674 Gelsenkirchen, Germany
+1679 2013 130131 Guadalajara, Mexico
+1094 2644 128426 Gadsden, AL
+852 2898 122784 Lynbrook, NY
+929 1423 21112 Derby, Western Australia
+2282 2430 184062 Waddington, NY
+1875 2628 64568 Conway, SC
+2567 2618 22216 Doha, Qatar
+482 2984 136731 Tomar, Portugal
+2513 2667 18330 Gilman, IL
+932 858 36723 Ironton, OH
+2925 1759 33719 Haugesund, Norway
+665 258 95678 Charlestown, NV, West Indies
+1966 2050 152509 Shrewsbury, MA
+2401 1359 37541 Lisse, Netherlands
+2476 624 151364 Bolingbrook, IL
+2558 1647 146966 Rawlinna, W.Australia
+1006 1614 87722 Porterville, CA
+2903 2993 59511 Charlottesville, VA
+593 2528 134204 Nassau, Bahamas, WI
+784 2976 148109 East Liverpool, OH
+1853 901 29499 Savannah, GA
+873 1634 147914 Everett, WA
+880 119 174447 Pisa, Italy
+2420 2150 8589 Venice, Italy
+1849 2565 50808 Houston, TX
+2003 2141 159492 Wagga Wagga, NSW, Australia
+502 1286 56248 Mount Vernon, WA
+1032 2866 123924 Liberty, MO
+830 1908 162193 Washington, DC
+1017 949 51515 Stratford, CT
+2225 1703 16920 Hamilton, Bermuda
+701 369 91731 Purcellville, VA
+1631 750 56349 Slough, England
+907 477 48727 Rio de Janeiro, Brazil
+2229 475 76174 Campos, Brazil
+2112 337 35272 Cannes, France
+1190 1562 109422 Beirut, Lebanon
+2195 2314 85712 Pontiac, MI
+877 347 19351 Dakar, Senegal
+1747 1898 70327 Iowa City, IA
+2860 1517 122846 Tashkent, Uzbekistan
+29 118 132206 Burlington, ON, Canada
+1840 2687 132131 Lahaina, Maui, HI
+1419 1532 130920 Sevilla, Spain
+2819 2140 40286 Mount Pleasant, NC
+1713 1219 167074 Palermo, Italy
+1483 1171 177582 Pittsburgh, PA
+2200 1817 104130 Baie Verte, NF, Canada
+1524 612 66826 Visby, Gotld., Sweden
+1874 1704 161630 Pirot, Serbia
+389 2438 37598 Ridge, NY
+2585 1627 89207 Radlett, England
+2254 846 152489 Eugene, OR
+1935 1988 66212 Lansing, KS
+228 2300 153041 Huesca, Spain
+68 231 75598 Stockholm, Sweden
+652 548 138879 Griffith, NSW, Australia
+2916 2121 80775 Yakima, WA
+1926 1423 198235 Eau Claire, WI
+290 2898 156269 Skagway, AK
+748 2014 41853 Perry, FL
+2099 2477 119122 Chandigarh, Punjab, India
+399 948 158095 Springerville, AZ
+2019 841 178649 Gypsumville, Canada
+1557 1469 61345 High Point, NC
+249 2443 189232 Roslyn, WA
+1036 1079 19649 Middletown, MD
+507 874 35905 Southern Cross, W.Australia
+2431 1114 23416 Powell River, BC, Canada
+1621 1366 167745 Saint Andrews, Scotland, UK
+1080 2502 89604 Vilnius, Lithuania
+1038 2498 172155 Leiden, Netherlands
+1416 817 100714 Indiana, PA
+524 845 52526 Lake Park, MN
+1433 2841 163234 Blytheville, AR
+1241 2600 106039 Boucherville, Canada
+654 1649 51183 Naples, FL
+844 2573 198732 Steenwijk, Netherlands
+847 2759 157836 Solihull, England
+529 1582 86516 Girona, Spain
+2440 386 15242 Sapporo, Japan
+2580 852 63257 Zywiec, Poland
+487 2613 194433 Glasgow, Scotland
+1292 2352 187669 Salem, IN
+321 1876 50964 Nicosia, Cyprus
+1778 955 177230 Leonardtown, MD
+461 914 174706 New Britain, CT
+2208 622 177708 Falun, Sweden
+1571 1575 89136 Malm, Sweden
+255 2463 37092 Albuquerque, NM
+1071 2598 159551 Homcourt, France
+216 1958 57164 Lihue, Kauai, HI
+2589 1237 94922 Calcutta, India
+1967 1997 34936 Marion, NC
+2022 1066 178386 Olivia, MN
+2548 954 11036 Frankfurt/O., Germany
+231 17 164503 Misawa, Japan
+2420 2778 50963 Halifax, NS, Canada
+1476 2052 182664 Windsor, England
+2205 1669 104886 Sandviken, Sweden
+1089 668 99984 Simla, CO
+1619 347 121297 Wollongong, Australia
+1472 865 193295 Las Palmas de Gran Canaria, Spain
+381 1455 22642 Anaheim, CA
+1576 2627 110121 Linz, Austria
+1973 1470 156107 Virginia, MN
+869 1676 188462 Fishers, IN
+2777 1937 121603 Christchurch, New Zealand
+1013 2974 76876 Tver' (Kalinin), Russia
+1400 81 189146 Cartagena, Colombia
+744 1057 87604 Salford, England
+665 1416 11351 Lindsay, ONT, Canada
+402 1264 36332 Clarksville, MD
+1020 220 186574 Oak View, CA
+2120 926 172986 Estevan, SSK, Canada
+2368 2388 17141 Lansing, MI
+2020 775 62273 Khartoum, Sudan
+1435 2481 183753 Lake Charles, LA
+1935 1259 136094 Nortingen, Germany
+2165 636 196851 Zouteland, Netherlands
+1872 1135 180285 Spiro, OK
+2155 1292 195185 Minneapolis, MN
+1872 2663 176696 Sleaford, England
+9 961 94757 Medford, OR
+2257 1065 87878 Woodstock, IL
+816 2522 156743 Birkerd, Denmark
+2234 503 93425 Iraklion, Greece
+174 426 24531 Norwalk, CT
+1890 580 156559 Providence, RI
+1573 1460 27112 Hull, QU, Canada
+787 2660 34491 Keyser, WV
+1608 1251 44922 Hackensack, NJ
+2728 1167 138143 Sydney, NS, Canada
+2368 1903 125270 Honoka'a, HI
+2334 23 163152 Poulsbo, WA
+2131 1420 39171 Wiscasset, ME
+711 2838 73671 Nottingham, England
+2530 1276 178721 Fort Polk, LA
+1335 260 89641 Charter Oak, IA
+668 1091 194012 Port Townsend, WA
+575 248 192609 Sliema, Malta
+1739 1411 74622 Shelbyville, TN
+1374 616 64868 Ocean City, NJ
+2622 2577 165545 Dunedin, New Zealand
+776 899 53343 Wildomar, CA
+1217 2027 88723 Marche-en-Famenne, Belgium
+1820 2273 62807 Legnano, Italy
+2095 301 121220 Galesburg, IL
+997 2186 100201 Roswell, GA
+310 264 101160 Staten Island, NY
+187 1966 28376 Loosduinen, Netherlands
+2194 2016 31348 Middletown, NY
+2776 1988 179920 Perrysburg, OH
+88 391 73124 Cessnock, NSW, Australia
+1498 648 49167 Kingston, NY
+674 2195 59341 Garden City, MI
+1165 2133 95840 Saratoga Springs, NY
+1021 1771 48914 Roselle, IL
+1771 2127 110300 Beaufort, SC
+163 637 194704 Norristown, PA
+868 1188 185193 Brea, CA
+1464 948 74588 Ottumwa, IA
+2386 2260 115955 Hazleton, PA
+958 325 89813 Anchorage, AK
+1123 918 128950 Lompoc, CA
+2981 244 141181 Wabash, IN
+2492 923 42005 Ciudad Real, Spain
+2180 2369 103088 Macedonia, OH
+1717 1925 188830 Saltillo, Mexico
+508 1192 162068 Paradise, CA
+1011 1223 36246 Cootamundra, NSW, Australia
+1998 810 138228 Enterprise, AL
+2110 524 197241 Nixon, TX
+1383 1520 121328 Maracaibo, Venezuela
+457 1069 141809 Zruc nad Szavou, Czech Republic
+1433 2736 180271 Mount Tom Price, W.Australia
+898 1485 192664 Armenia, Colombia
+556 904 128343 Leeds, England
+2416 876 186436 Choudrant, LA
+2267 635 144877 Hayward, WI
+214 1496 192545 Carroll, IA
+1719 1581 86715 Papeete, Tahiti, Fr. Polynesia
+1787 965 30509 Magalia, CA
+59 2311 28800 Walnut Creek, CA
+829 2549 61524 Saint George's, Grenada
+1813 699 147895 Wilkes-Barre, PA
+1116 2337 79364 Northam, W.Australia
+1932 2291 122897 Monteria, Colombia
+2528 2282 83663 Bellingham, WA
+2546 1945 176272 Rheda-Wdbrck, Germany
+2688 1892 153206 Dusseldorf, Germany
+614 141 124147 Hesperia, CA
+185 2275 187679 Lusaka, Zambia
+2124 931 175512 Edmonton, Canada
+2616 1318 165712 Tuzla, Bosnia
+2127 902 116411 San'a', Yemen
+2636 127 37475 Ponte Vedra, FL
+1048 859 79527 Chicoutimi, Quebec, Canada
+467 678 9191 Honesdale, PA
+317 698 39930 Oviedo, Spain
+2940 2999 186073 Pozega, Croatia
+2721 1632 127993 Vanderbijlpark, South Africa
+1219 2227 160963 Hyderabad, India
+1971 2311 109504 Casino, NSW, Australia
+1829 963 88555 Bern, Switzerland
+904 1884 153462 Arboga, Sweden
+1633 981 179986 Lublin, Poland
+674 1532 159509 Ramat-gan, Israel
+1038 2796 135656 Stamford, CT
+2723 1076 74298 Elyria, OH
+2077 652 29960 Libby, MT
+2688 94 26026 Lewiston, ID
+1563 1393 123065 Stoke-on-Trent, England
+2299 1635 79480 Ocean Springs, MS
+2569 2378 127983 Pearl River, NY
+270 2930 21455 Burnie, Australia
+186 1250 1173 Cedar Falls, IA
+1975 1065 18701 Albury, NSW, Australia
+119 2391 150586 Berkley, MA
+2352 2923 54307 Coventry, CT
+607 1520 139819 Belgrade, Serbia
+61 2337 182606 San Juan, PR
+1333 1592 192506 Sebastian, FL
+770 1998 176556 Ardmore, OK
+2839 2636 67486 Zeeland, MI
+1666 2419 25067 Manjimup, W.Australia
+442 2716 20984 Bedford, MA
+738 1644 139468 Cochabamba, Bolivia
+1388 706 182352 Al Kharj, Saudi Arabia
+2302 606 9640 Talala, OK
+1567 1037 57857 Bismarck, ND
+272 355 31005 Roznov p/R, Czech Republic
+1610 936 122977 McMinnville, TN
+2242 1575 37232 Marlette, MI
+238 2367 166409 Berwick-upon-Tweed, England
+959 916 127045 Torrington, CT
+2042 1093 154829 Ljoerdalen, Norway
+1886 2781 74043 Laguna Beach, CA
+1032 1909 8428 Brooten, MN
+2926 1872 43135 Messina, Sicily/Italy
+2188 930 135605 Oaxaca, Mexico
+1765 1668 101491 Fort Knox, KY
+2359 2772 170738 La Crescent, MN
+46 2239 195908 Brisbane, Australia
+337 1226 25820 Douala, Cameroon
+2550 2737 74752 Morristown, NJ
+1365 2803 71615 Konstanz, Germany
+964 2317 71691 Kuwait City, Kuwait
+523 1213 92588 Ashland, KY
+2410 1874 102488 Novosibirsk, Russia
+2063 2823 181216 Newent, England
+929 2441 118114 Laredo, TX
+1452 1783 61000 Oberlin, OH
+1836 1552 199245 Meridian, MS
+629 2158 188135 Medicine Hat, AB, Canada
+2325 1873 106851 San Fernando, CA
+2478 696 71651 Trout River, NFL, Canada
+2547 144 104821 Manchester, England
+489 424 90761 Coffs Harbour, Australia
+1682 2494 31942 Hedemora, Sweden
+1655 2548 23521 Arnhem, Netherlands
+441 2920 71616 Jackson, TN
+1449 2649 135156 Pembroke Pines, FL
+1398 1897 11955 Sylva, NC
+1396 1552 185567 Reston, VA
+2414 323 21424 Mamoutzou, Mayotte (Comores)
+1291 2674 163722 Rockport, MA
+280 2211 160454 Elgin, Scotland, UK
+2170 1034 62625 Greenville, SC
+2599 50 146975 Goodland, KS
+2542 18 113505 Norseman, W.Australia
+1975 2259 70064 Salinas, CA
+150 1035 148829 Millet, AL, Canada
+2163 1486 142068 Beaumont, TX
+1839 2005 73434 Lake Havasu City, AZ
+452 159 65649 Redding, CA
+2386 1899 122992 Hana, Maui, HI
+777 1814 158739 Sequim, WA
+1353 194 94725 Lenox, MA
+724 2456 102073 Selden, NY
+6 484 141529 Brno, Czech Republic
+2433 1437 124002 Gardner, MA
+728 1480 60635 Lake Grace, W.Australia
+2558 439 123046 Oakdale, CT
+2552 1943 116110 Abington, PA
+124 2843 34100 Salem, OR
+1979 1092 68934 Kokomo, IN
+2007 2903 164403 Colon, Panama
+2305 2229 1004 Montevarchi, Italy
+2685 628 58730 Napier, New Zealand
+1113 87 59280 Stavanger, Norway
+2255 1935 140027 Benicia, CA
+494 1839 178214 Mora, Sweden
+600 1093 104671 Helsinki, Finland
+1907 1036 41932 Centralia, IL
+1971 1 54984 Midland, TX
+638 2584 49177 Juva, Finland
+5 578 56270 Alamosa, CO
+2210 1404 135159 Siegen, Germany
+445 753 75768 Montpelier, VT
+916 2387 44299 Naumburg/Saale, Germany
+2384 1509 198042 Meriden, CT
+679 2830 79041 West Hempstead, NY
+452 802 172058 Wauwatosa, WI
+1692 2488 27063 Solingen, Germany
+2346 834 103412 Snyder, TX
+416 2 193073 Zielona Gra, Poland
+2484 2560 82947 Port Washington, WI
+65 814 189939 Odessa, TX
+40 773 76160 Perpignan, France
+1060 735 116504 Heath, OH
+635 2604 115291 Marietta, OH
+2423 635 196939 Payson, AZ
+2523 2956 143301 Deggendorf, Germany
+2860 1424 189524 Versailles, KY
+587 1041 147945 Riverton, WY
+1662 2717 194668 Weymouth, MA
+2775 784 102831 Manitowoc, WI
+624 1406 166559 Road Town, Brit.VirginIslds.
+2188 724 89257 Poos de Caldas, Brazil
+91 88 72018 Glendora, CA
+12 779 156517 Kinston, NC
+1017 1059 56098 Andover, MA
+456 630 11543 Palominas, AZ
+2146 1401 174294 Karlshamn, Sweden
+573 2834 192307 New Braunfels, TX
+97 118 42611 Wonalancet, NH
+2686 943 8853 Koszalin, Poland
+278 1043 47855 Fort Bragg, CA
+2380 2792 126030 Como, Italy Concord, CA
+1343 2739 55469 Lyon, France
+351 953 10574 Cardiff, Wales, UK
+851 2612 102989 Pleasant Hill, CA
+966 366 182081 Gjvik, Norway
+33 618 188752 Victorville, CA
+2617 632 115506 Port-of-Spain, Trinidad & Tobago, W.Indies
+2760 840 113201 Inverness, Scotland
+1334 1443 155184 Kiel, Germany
+787 2515 6055 Wyndham, W.Australia
+888 1413 77726 McQueeney, TX
+643 1798 132316 Buffalo Grove, IL
+641 2101 128170 Poynette, WI
+550 2654 188107 Kettering, England
+128 1305 36895 Coalinga, CA
+1904 1852 160515 Townsville, Australia
+1699 941 141607 Rochester Hills, MI
+2835 2012 145250 Natchitoches, LA
+1001 1841 181509 Belem, Brazil
+1929 2967 152784 Franklin, PA
+703 2721 35692 Coleraine, Northern Ireland
+2679 1151 162006 Palestine, TX
+2920 2851 70884 Scunthorpe, England
+2445 2333 149293 Raleigh, NC
+1040 1078 158755 Belfield, ND
+310 1201 151425 Bracknell, England
+2174 568 25030 Cranbrook, BC, Canada
+2831 666 169748 Lebanon, KY
+2328 661 85350 Londonderry, NH
+1763 1791 124603 Karlsruhe, Germany
+1863 347 170255 Charleston, VT
+117 1460 47849 White Lake, MI
+2368 516 74289 Herten, Germany
+1697 223 61607 Vicksburg, MS
+1928 1421 170814 Boston, NY
+1015 117 42373 Spring Hill, FL
+1024 1977 40396 Denton, TX
+2893 2004 48443 Owen Sound, Canada
+1799 2321 111194 La Crosse, WI
+1619 679 82435 Washington, KS
+1936 1889 58463 Hyannis, MA
+2405 2256 56111 Peterborough, Canada
+2748 2711 50310 Potsdam, NY
+1486 225 81278 Trs Pontas, Brazil
+2365 1241 135565 Ulm, Germany
+2505 371 62155 Long Beach, CA
+231 1830 194868 Taylors Island, MD
+338 1538 31487 Hundred-Mile House,Canada
+2544 2396 105541 Mount Holly, NJ
+508 769 31346 Dnipropetrovsk, Ukraine
+2807 54 32415 Leigh Creek, SA, Australia
+282 2200 147505 Midwest City, OK
+1775 1351 22218 Toulon, IL
+1559 1917 130294 Palo Alto, CA
+1213 990 193918 Monte Carlo, Monaco
+2613 387 9519 Saint Lucie, FL
+667 1046 57152 Duluth, GA
+1546 771 67640 Sunnyvale, CA
+1434 1299 48165 Ben Guerir, Morocco
+1074 1454 121884 Mikkeli, Finland
+1847 2493 108779 Lethbridge, AL, Canada
+29 837 27599 Greeley, CO
+525 1381 192918 Marshfield, MA
+124 734 48959 Huancayo, Peru
+114 1373 1258 Lagos, Nigeria
+490 793 105795 Barnstaple, England
+649 2040 35294 Williston, ND
+497 537 164085 Cape Town, South Africa
+2625 2462 139233 Niagara Falls, Canada
+1814 1873 181963 Milan, MI
+9 2208 73100 Stadskanaal, Netherlands
+2353 336 132020 Plantation, FL
+1404 1093 187389 Weyauwega, WI
+2758 2430 73194 Sioux Falls, SD
+1285 2553 156882 Jakarta, Indonesia
+1499 223 27019 York, England, UK
+1123 985 189334 Lima, OH
+2255 1890 114233 Burns, OR
+803 1889 4789 Riga, Latvia
+2982 1224 174060 Aalborg, Denmark
+2784 1697 134543 Saint Albans, England
+2537 2984 109653 Casablanca, Morocco
+1572 258 133747 Phoenix, AZ
+2163 2988 158346 Modena, Italy
+710 2594 75240 Lake Geneva, WI
+676 664 138748 Enniskillen, N. Ireland
+456 1778 40145 Boone, IA
+2509 2142 172287 Vinkovci, Croatia
+2895 1023 186451 Spruce Pine, NC
+876 1846 162710 Noril'sk, Russia
+1602 519 162525 Fort Davis, TX
+850 2435 139959 Fond du Lac, WI
+2980 2263 89616 Anna, IL
+29 604 95175 Cimarron, NM
+123 2897 46450 Bay St. Louis, MS
+1799 1198 153724 Arequipa, Peru
+818 2532 189600 Sale, VC, Australia
+2365 1941 196605 Zephyrhills, FL
+971 2163 159521 Marlton, NJ
+66 1241 134902 Cambridge, MA
+2950 318 96418 Sewanee, TN
+1371 2522 116584 Aswan, Egypt
+1930 839 74597 Morgan City, LA
+961 2991 73925 Santa Maria, CA
+2416 2738 193992 Wisconsin Rapids, WI
+234 2056 114650 Orleans, France
+1936 259 104438 Antananarivo, Madagascar
+2021 2363 185698 Rockaway, NJ
+129 2447 164011 Rotterdam, Netherlands
+2289 750 44520 Massapequa, NY
+1207 987 68406 Schiedam, Netherlands
+133 2537 151465 Honolulu, HI
+884 1648 119398 Queenstown, New Zealand
+1917 623 106742 Fort Gaines, GA
+721 275 40521 Hobe Sound, FL
+2071 1714 140739 South Bend, IN
+1466 2948 27502 Noordwijk, Netherlands
+1903 1949 156357 Sulphur, LA
+2594 1970 164010 Abbotsford, BC, Canada
+555 235 119875 Durango, CO
+2203 2616 23617 Worcester, England, UK
+1320 1923 155052 Lewisburg, PA
+76 1910 42212 Susice, Czech Republic
+1144 1280 44477 Piracicaba, SP, Brazil
+1047 654 120741 Rochester, MN
+921 2675 62497 Gruver, TX
+2612 1317 99358 Lebanon, OH
+2376 587 99206 Martinsburg, WV
+2516 863 63601 Tulsa, OK
+2671 2613 55940 Ada, OK
+2359 2320 44443 Logan, UT
+1865 2567 78452 Amersfoort, Netherlands
+2093 2122 42849 Rotorua, New Zealand
+18 2399 7848 Centerport, NY
+2201 2713 119735 Escanaba, MI
+1819 2646 48645 Trevor, WI
+160 2396 197432 Ede, Netherlands
+686 1694 96994 Putte, Netherlands
+704 2063 118837 Mszana Dolna, Poland
+2348 2269 148607 Hemet, CA
+86 42 33074 Port Alberni, BC, Canada
+1371 75 198166 Galway, Ireland
+2340 1389 16146 Fair Haven, VT
+2879 553 22381 Vienna, Austria
+840 1648 138187 Tempe, AZ
+1291 94 10409 Mayaguez, PR
+441 2082 70715 Hillsborough, Northern Ireland
+2988 2388 6165 Karratha, W.Australia
+378 2332 174633 Saint Helier, England
+650 784 80581 Calgary, Canada
+147 149 161361 Noblesville, IN
+2701 233 109993 Warrensburg, MO
+316 2257 54718 American Fork, UT
+1367 2595 16420 Baden, Austria
+2778 846 68604 Antioch, CA
+1245 1552 86823 Fort McMurray, Canada
+2134 1642 168985 Land O' Lakes, FL
+2158 2429 169097 Columbia, IL
+656 1958 52816 Paramaribo, Suriname
+1562 1339 88372 San Mateus, E.S., Brazil
+1655 2625 107125 Arlington, MA
+750 384 19738 Waterford, MI
+1977 447 183253 Ramstein, GermanyRancagua, Chile
+1101 748 75944 Beaufort, NC
+899 120 180032 Valdosta, GA
+2804 1341 126696 Americus, GA
+1596 179 117682 Liberia, Costa Rica
+1232 2751 152202 Humacao, Puerto Rico
+1526 353 16351 Portsmouth, OH
+1925 2804 7724 Vejle, Denmark
+2012 92 142110 North East, MD
+2055 2854 132700 College Station, TX
+2921 1640 173730 Jefferson Township, NJ
+795 577 156453 Chamberlain, SD
+2186 659 147517 Uist Islands, Scotland/England
+2954 525 78475 Islamabad, Pakistan
+1592 900 29661 Elizabeth City, NC
+382 499 134846 Pretoria, South Africa
+1775 2494 90932 Iquique, Chile
+2125 922 59454 Eibiswald, Austria
+189 649 32147 Dunedin, FL
+14 1849 103039 Regina, SK, Canada
+2612 1895 119140 Longview, TX
+1915 170 81506 St-Georges de Beauce, QU, Canada
+2996 2904 30874 Managua, Nicaragua
+2577 1311 140319 Taylorsville, UT
+466 1096 20249 Dexter, MO
+392 992 94369 Slippery Rock, PA
+2806 1469 20242 Corning, NY
+835 2663 108691 Bound Brook, NJ
+1710 1707 42639 Highland, NY
+1139 2473 129593 Marlborough, England
+1450 1081 151607 Ponta Delgada, Portugal
+2658 2003 2654 Vads, Norway
+850 103 161831 Newton, NC
+1964 2245 24518 Toledo, Spain
+889 1329 82129 Clearlake, CA
+822 981 56511 Pullman, WA
+1628 1543 171165 Blumenau, Brazil
+1604 101 45390 Huntington Beach, CA
+1438 1544 95884 Williamsport, PA
+2563 2618 28829 Deer Park, OH
+1185 2874 86290 Saint John's, NF, Canada
+2112 2888 14671 Nagoya, Japan
+1109 364 124003 Calhoun, KY
+2287 391 161986 Tacoma, WA
+1993 2152 106921 Mandeville, Jamaica
+2463 133 66805 Jamnagar, India
+2018 2682 100110 Arlington, TX
+1779 2363 178432 Wervik, Belgium
+1294 547 46460 Port Orchard, WA
+2269 637 91770 Durham, NH
+992 1439 42643 Ashburn, VA
+290 2402 32368 Weehawken, NJ
+2588 2576 189877 Westby, WI
+1144 133 108340 Lake View, SC
+1574 2768 98288 Winnipeg, Canada
+2126 1157 189781 Doylestown, PA
+2095 1389 98021 Clovis, CA
+324 389 163977 Escondido, CA
+1694 2691 3797 Stanford, CA
+2022 2756 168329 Orlando, FL
+87 897 149636 Stirling, Scotland, UK
+803 16 131588 Sullivan, MO
+300 2881 87802 Oxford, MS
+239 1617 119189 Monticello, IN
+47 1669 44911 Reedsville, PA
+2011 1517 115535 Kalamazoo, MI
+774 2616 40692 Mar del Plata, Argentina
+2138 1113 48468 Moore, OK
+1052 2770 84027 Metz, France
+1064 1530 119208 Beaverton, MI
+678 874 199958 Canterbury, England
+461 954 148788 Statesville, NC
+592 661 99563 Topeka, KS
+2305 438 134772 Price, UT
+865 2516 165321 Sao Bartolomeu deM., Portugal
+2635 2656 158932 La Salle, ON, Canada
+853 2077 98474 Thunder Bay, Canada
+1726 2063 14561 Saskatoon, Canada
+686 981 140230 Schleswig, Germany
+2654 707 182294 Rome, Italy
+1650 2131 2260 Oneonta, NY
+148 2208 143286 Bialystok, Poland
+1363 120 163213 Dalton, GA
+801 1953 88670 Valencia, CA
+2163 1490 59383 Abu Dhabi, A.D., U.A.E.
+75 1680 191165 Sydney, Australia
+443 1444 96613 Harrisonburg, VA
+2162 1531 110993 Slidell, LA
+78 1178 76188 Okinawa, Japan
+995 2033 43799 Boston, England
+193 2136 78916 Dacula, GA
+2952 2408 165906 Pekin, IL
+2038 1487 145253 Zanesville, OH
+913 378 142882 Alva, OK
+2351 1288 22557 Bloomsburg, PA
+224 1609 4946 Caimanero, Sinaloa, Mexico
+374 1884 150549 Lehigh Acres, FL
+252 698 193248 Costa Mesa, CA
+882 750 132248 Richmond, BC, Canada
+2904 2741 137184 Nanjing, China
+1569 205 98083 Stellenbosch, South Africa
+1833 312 195349 Sorel, QU, Canada
+1931 1577 100998 Nouma, New Caledonia
+536 676 18177 Cartago, Costa Rica
+434 2175 59746 Zalaegerszeg, Hungary
+1405 1582 81653 Anacortes, WA
+2012 1240 92188 Moline, IL
+2571 820 142647 Bradenton, FL
+55 2110 127913 Holyhead, Wales, UK
+2541 2380 48362 Lake Arrowhead, CA
+2922 1025 59766 Chatham, On, Canada
+514 2801 170594 Pocatello, ID
+2840 2793 48743 Samarate, Italy
+528 2892 197156 Caloundra, QU, Australia
+1617 591 95796 Campina Grande, Brazil
+552 1879 27761 Pereira, Colombia
+580 96 49960 Flower Mound, TX
+2751 2547 11619 Lexington Park, MD
+825 1770 22249 Norfolk Island, Australia/Pacific
+1619 2585 161957 Downey, CA
+2599 2144 74733 Asheville, NC
+2347 2376 82343 Lansing, IL
+444 2559 57715 North Tonawanda, NY
+1635 378 180257 Opotiki, New Zealand
+842 936 139854 Besanon, France
+33 2934 119629 Peguis, MN, Canada
+2280 1050 191735 Buffalo, MN
+217 1662 153612 Pickering, ON, Canada
+486 66 174829 Kidderminster, England
+633 1441 101270 Salina, KS
+1144 82 92987 Forres, Scotland, UK
+2019 811 61544 Chesapeake, VA
+1452 2667 122956 Newberg, OR
+860 1125 96893 Massena, NY
+2644 2497 182302 St. Helens, England
+1237 1920 180070 Dublin, OH
+182 723 72108 San Pedro Sula, Honduras
+978 773 32716 Newport News, VA
+491 1502 150896 Petaling Jaya, Malaysia
+1197 1401 113939 McHenry, IL
+1570 1528 122255 Goshen, IN
+1311 834 197171 Valaske Mezirici, Czech Republic
+2661 741 162715 Bridgman, MI
+1769 2399 17173 Yellville, AR
+136 1505 85932 Fryeburg, ME
+562 2181 91300 Tucson, AZ
+1638 1707 2089 Panama City, FL
+823 1365 177726 Maastricht, Netherlands
+2609 382 40496 Greenville, TX
+238 2685 52198 Linkping, Sweden
+1486 935 148711 Nice, France
+35 1778 176853 Hargshamn, Sweden
+522 1237 30886 Parksley, VA
+375 2398 118657 Searcy, AR
+2179 828 141773 Weinheim, Germany
+116 1103 72118 Springfield, IL
+141 490 8252 Hornepayne, ON, Canada
+2870 1474 43767 Spring Valley, NY
+1940 1377 104241 Lynchburg, SC
+1172 172 189106 Winnemucca, NV
+2374 1724 175918 Dayton, TX
+1656 937 34986 Maidstone, England
+2399 1074 62929 Hampton, VA
+1467 1443 77151 Cross Plains, IN
+548 1980 177398 Leland, MS
+2654 2174 77697 San Marcos, TX
+1898 1617 77276 Pori, Finland
+2332 2803 109259 Los Altos, CA
+1174 617 70453 Port Laoise, Ireland
+937 2935 92689 Ajdovscina, Slovenia
+2761 2292 103989 Cumbernauld, Scotland
+1977 1933 152532 Weatherford, OK
+396 2946 49921 Nagpur, India
+2729 1039 49545 Smith Center, KS
+2401 843 167709 Tehran, Iran
+2929 21 154713 Pendleton, OR
+2836 1215 15846 Putnam Valley, NY
+2224 2668 88322 Casselberry, FL
+2531 2960 12670 Oakland, NJ
+563 40 20812 Jeannette, PA
+579 2714 176221 Cullowhee, NC
+399 1912 163190 Encinitas, CA
+255 738 99120 Leakey, TX
+1622 1599 195972 Farmington, NM
+2153 1274 186200 Kalgoorlie, W.Australia
+1173 646 96888 Winona, MN
+1313 298 111600 Plattsburgh, NY
+129 647 163214 Tyngsboro, MA
+2203 242 9257 Poncha Springs, CO
+2677 640 91522 Gaborone, Botswana
+1227 1000 123300 Socorro, NM
+3000 1921 85851 Harrison, MI
+632 1151 6950 Coonabarabran, NSW, Australia
+1164 2876 153879 New Haven, CT
+1015 2177 124827 Nantes, France
+766 1362 120442 Palma de Mallorca, Spain
+987 479 173051 Kalmar, Sweden
+2849 227 188717 Willington, CT
+541 1509 118947 Limerick, Ireland
+820 42 37400 Erlangen, Germany
+1419 2278 30123 Oxford, England
+1191 37 185758 Lennon, MI
+1623 2447 177453 Southampton, England
+59 2203 52700 Tower, MN
+2789 1832 55533 Eureka, CA
+1091 904 80618 Porto Alegre, Brazil
+2532 28 105766 Temuco, Chile
+171 2059 81504 Minot, ND
+1445 2135 139468 Corinth, MS
+1876 516 83505 Warburton, Australia
+537 1043 191166 Baldwin Park, CA
+2454 788 109270 Manistee, MI
+2633 1420 19927 Moss Beach, CA
+1733 2432 190762 Valparaiso, IN
+2142 641 118654 Fitzroy Crossing, W.Australia
+190 834 159381 Bozeman, MT
+2805 2980 51442 Lockport, NY
+2786 1884 92210 Rimouski, QU, Canada
+1188 2020 9107 Visalia, CA
+28 328 25556 Seal Beach, CA
+155 1711 95371 Southington, CT
+1385 684 118999 Alice Springs, Australia
+2298 1386 41846 Port Washington, NY
+2375 2010 35181 Barcelona, Spain
+163 53 178135 Stillwater, OK
+1372 330 188445 Adams, MA
+1159 2262 129538 Owosso, MI
+580 2665 154776 Wellfleet, MA
+794 1702 163338 Simcoe, Canada
+1456 1014 32663 Kassel, Germany
+455 497 32217 Washington, IL
+185 313 141759 Moberly, MO
+2325 1149 91217 Elk Rapids, MI
+977 2491 32759 Santa Maria, Brazil
+200 1925 114697 Canton, TX
+2077 958 183160 Eucla, W. Australia
+1716 446 72956 Twin Falls, ID
+952 1542 168995 Wuerzburg, Germany
+2527 1316 162403 Lewisburg, WV
+803 519 84126 Saint George, UT
+2768 267 117714 Tolna, Hungary
+4 2101 80485 Union City, CA
+1238 169 85410 Moron, Argentina
+2392 1000 2273 Panama City, Panama
+2127 2939 122028 Amherst, OH
+992 413 40283 Agana, Guam
+1036 1125 28037 Eindhoven, Netherlands
+948 1505 97952 Santa Barbara, CA
+349 2211 164897 Cornwall, ON, Canada
+1096 2565 126487 Boynton Beach, FL
+2553 2554 18350 Halmstad, Sweden
+2487 2205 111294 Surrey, BC, Canada
+2866 2114 133779 Mariposa, CA
+1953 1176 82972 Nashua, NH
+2770 381 97133 Frankfort, IL
+1930 2520 15774 Wooster, OH
+2581 142 139546 Madrid, Spain
+417 2959 78505 Temple, TX
+1395 95 19655 State College, PA
+1288 2073 86232 Austin, TX
+2276 2520 100145 Chiang Mai, Thailand
+1744 1857 1784 Saginaw, MI
+1896 1166 70532 Coventry, RI
+1555 909 100069 Gold River, BC, Canada
+2916 1180 35700 Danbury, CT
+1192 2749 41858 Brookings, OR
+587 1594 49995 Pasadena, CA
+288 1611 148746 Yorba Linda, CA
+2865 1087 21438 Eden, NC
+693 437 65386 Clermont, FL
+1954 2107 77059 Natchez, MS
+668 2793 51852 Elkhorn, WI
+2293 1151 10881 Ocala, FL
+2632 845 186694 Recklinghausen, Germany
+511 1017 79046 Mornington Island, QUE, Australia
+1694 1641 121350 Allegan, MI
+924 1780 189609 Plattsmouth, NE
+1172 1032 89247 Norwood, NC
+329 2474 199456 Bonne Terre, MO
+2777 26 173414 Tepic, Mexico
+1835 2974 111731 Hauppauge, NY
+871 1295 69117 Prague, Czech Republic
+839 199 155949 Richmond, IN
+1581 1930 125802 Flint, MI
+2719 1628 120149 Rocklin, CA
+2372 1751 112249 Ishpeming, MI
+1816 1190 116511 Roy, WA
+1429 2301 159534 Naugatuck, CT
+2901 1218 136425 Olathe, KS
+901 2069 155593 Bellefontaine, OH
+1087 144 109853 Carbondale, PA
+1961 1392 146693 Bullhead City, AZ
+2154 2730 64107 Buenos Aires, Argentina
+2049 2890 84803 Dodge City, KS
+1719 1188 15599 Vladivostok, Russia
+612 599 40964 Gravendeel, Netherlands
+239 496 101231 Mulvane, KS
+1074 342 33856 Essexville, MI
+2549 2107 25474 Kuala Lumpur, Malaysia
+1238 2964 193318 Cookeville, TN
+121 783 4588 Norrkping, Sweden
+1311 1766 62966 Buxtehude, Germany
+860 849 26599 Clare, MI
+2793 2837 97542 Pembroke, ON, Canada
+589 1835 73824 Marina, CA
+2183 17 42043 Augusta, GA
+2299 1995 46547 Nevada, MI
+2998 1449 195840 Stockton, KS
+2902 1226 93744 Thun, Switzerland
+977 964 150251 Burlington, CT
+2586 2744 3411 Nmes, France
+556 2875 144631 Partiznske, Slovakia
+2096 2638 15390 New Orleans, LA
+557 1363 159402 Darwin, Australia
+1345 308 19075 Running Springs, CA
+629 246 112589 Anahuac, TX
+1510 1257 177225 Heilbronn, Germany
+2612 1131 9861 Palm Springs, CA
+1143 1643 168700 York, NE
+2725 2057 187847 Zaragoza, Spain
+2556 639 94352 Mearnsville, Jamaica, W.I.
+2612 2424 154976 River Edge, NJ
+2459 671 39912 Winlock, WA
+2723 2552 50438 Santa F de Bogot, Colombia
+2924 1766 151920 Niles, MI
+1757 100 174156 Terespolis, Brazil
+1808 380 15430 Assen, Netherlands
+2077 2102 127834 Saronno, Italy
+489 2150 155678 New Hyde Park, NY
+149 1 133719 Port Hedland, Australia
+2775 2696 54760 Joensuu, Finland
+733 851 126090 Grand Cayman Island
+1859 1692 145628 Bamberg, Germany
+120 2434 129332 Livonia, MI
+1415 231 44806 Netanya, Israel
+2652 1198 63556 Bartlesville, OK
+627 1416 64571 Beaumaris, Wales, UK
+1722 1037 97005 Sabinal, TX
+1707 2510 55221 Morgantown, KY
+1908 1245 127452 Rancho Palos Verdes, CA
+36 355 162550 Queens, NY
+1454 1520 193906 Mechanicsburg, PA
+1473 143 188557 Newnan, GA
+2959 138 14861 Chiclayo, Peru
+1942 1550 173056 Enschede, Netherlands
+2883 2910 30185 Nashville, TN
+1857 966 171522 Brentwood, NY
+1451 1267 148243 Vacaville, CA
+2173 1158 140152 Olin, IA
+782 1519 149621 Trujillo, Peru
+2840 2267 182397 Vcklabruck, Austria
+1287 100 119603 New Port Richey, FL
+2859 2512 39946 Punta Gorda, FL
+2977 202 106106 Tetbury, England
+1859 1269 82937 Casper, WY
+1775 747 89992 Lisbon, Portugal
+949 1281 160958 Belleville, ONT, Canada
+65 438 65423 Shanghai, China
+2915 2762 2847 Midway, GA
+2850 2690 40210 Bloomington, IN
+1584 2774 162953 Idaho Falls, ID
+1694 1122 135188 Valparaiso, Chile
+184 895 83424 Hartland, MI
+2354 2281 44653 Armagh, Northern Ireland, UK
+1397 2926 173631 Santa Rosa, CA
+719 2464 142404 Ironwood, MI
+783 2294 199085 Hamburg, Germany
+1852 1366 186722 Big Rapids, MI
+2810 1301 180564 Milford, IN
+1407 650 101336 Pietermaritzburg, South Africa
+2283 1386 169672 Yachats, OR
+1342 2534 40171 Wilmington, NC
+1472 2329 170998 Conneautville, PA
+772 2707 130968 Leitchfield, KY
+2923 2628 193500 Breda, Netherlands
+2840 2408 187915 Bendigo, VC, Australia
+2573 1269 40847 Lige/Luik, Belgium
+1431 2656 6983 Bloomington, IL
+1320 988 82245 Charleston, IL
+2956 627 186034 Nacogdoches, TX
+262 1041 140659 Kimberley, South Africa
+281 695 121169 Port Arthur, TX
+111 2729 149634 Woomera, Australia
+1871 38 35392 Breese, IL
+1526 2962 9618 North Port, FL
+1265 1761 189821 Taman Tun Dr. Ismail, Malaysia
+660 197 83209 Jacare, Brazil
+1792 1350 21948 Ames, IA
+1140 134 90127 Elkland, PA
+2014 1085 43279 Omaha, NE
+2073 694 141370 Smyrna, TN
+1324 303 188492 Medford, NJ
+2028 2154 114510 Lexington, KY
+2893 128 199605 Cambridge, MD
+1184 1271 43238 Vysokov, Czech Republic
+1411 453 197949 Victoria, TX
+1585 2155 81415 Eureka, IL
+2166 2769 45277 Willmar, MN
+2597 1638 173276 Winder, GA
+2491 769 151961 Heppenheim, Germany
+490 2362 48239 Turku, Finland
+100 1946 195841 Mountainside, NJ
+2468 264 118549 Air Force Academy, CO
+1380 1165 158350 Grand Forks, ND
+2054 560 125180 Evansville, IN
+2635 1563 171474 Hannover, Germany
+1585 1848 128644 Sundsvall, Sweden
+2061 2759 51680 Herrenberg, Germany
+1477 353 121155 Ceres, Argentina
+2226 2468 63201 Clarksville, TN
+2614 2512 89615 Braga, Portugal
+350 2396 19350 Great Neck, NY
+1160 1800 88694 Meadville, PA
+1593 2379 107423 Watertown, MA
+424 737 160530 Martha's Vineyard, MA
+1508 1502 170786 Bakersfield, CA
+1354 823 6686 Fairview, TN
+1634 1445 149788 Denison, TX
+2125 1072 16866 Monterrey, NL, Mexico
+1274 1216 101893 Hialeah, FL
+848 23 4004 Florence, SC
+537 2235 91470 Forked River, NJ
+1028 287 166546 Biddeford, ME
+2889 1599 87215 Hanoi, Vietnam
+2524 1887 94320 Tower Hill, IL
+2855 1124 2794 Canberra, Australia
+2070 213 41824 Kalispell, MT
+541 418 14347 Algiers, Algeria
+2881 2768 130687 Mason, MI
+887 515 3716 Emory, TX
+1960 2922 198821 Lakeland, FL
+1278 308 86077 Wallingford, CT
+722 1788 195854 Kingston, Canada
+2434 514 151614 Lafayette, IN
+2531 655 94320 Elkhart, IN
+2813 565 101728 Patuxent River N.A.S., MD
+737 817 110174 Union City, TN
+309 720 127858 North Battleford, SSK, Canada
+2366 589 58331 Grand Lake, CO
+1956 909 94123 San Jose, Antique, Philippines
+235 964 46742 Middletown, NJ
+1745 2085 177792 Hutchinson, KS
+2170 2174 57709 Clinton, NC
+848 1782 43253 Ottawa, IL
+2734 1637 154452 Spencer, IA
+2018 2798 7441 Glenwood, MN
+2918 1083 190669 Acapulco, Mexico
+1931 2356 36091 Grand Blanc, MI
+70 1163 86180 Battle Creek, MI
+1519 1511 189004 Puerto Vallarta, Mexico
+2462 2062 67343 Atkinson, IL
+1749 2401 59739 Swindon, England
+1051 2117 62792 Thompson, MN, Canada
+241 1328 19727 Mirabel, QU, Canada
+915 2880 14626 Covington, TN
+2093 1777 159459 Salt Lake City, UT
+1084 743 177028 Garden Grove, CA
+951 715 13569 Aberdeen, WA
+444 2210 192144 Wanganui, New Zealand
+2544 1007 198031 Douglas, I.Man, England
+982 2405 116477 Addis Ababa, Ethiopia
+757 1772 44443 Cambridge, ONT, Canada
+748 1181 5120 rebro, Sweden
+2161 761 62212 Waterloo, ON, Canada
+1008 601 1023 Dothan, AL
+2058 1474 113436 Herndon, VA
+1941 694 166605 Hmeenlinna, Finland
+1072 1963 19942 Missoula, MT
+1526 141 110208 Ridgewood, NJ
+2685 202 196192 Margate, England
+54 565 152505 Brodheadsville, PA
+1574 1213 159338 Pittsfield, MA
+53 58 162435 Olympia, WA
+430 313 42896 Helena, AR
+1227 786 48000 Strasbourg, France
+313 1334 153624 Waterville, ME
+1666 733 103111 Birkenfeld, Germany
+2873 1591 49324 Covode, PA
+1345 881 47555 Binan, Philippines
+909 2402 118460 Polo, IL
+1883 216 59128 Ralph, AK
+1399 2178 179624 Newark, NJ
+1887 2797 146638 Tyler, TX
+2542 2340 9413 Kelowna, BC, Canada
+1850 160 72117 Valladolid, Spain
+368 1425 132239 Colorado Springs, CO
+2196 2186 109974 Des Plaines, IL
+2897 707 146587 Metairie, LA
+1852 499 146793 Douglas, AZ
+2324 592 42242 Collierville, TN
+2425 1233 89299 Krakow, Poland
+1450 1522 35951 Winston-Salem, NC
+924 103 154232 Warsaw, IN
+268 2014 163933 Cornelia, GA
+401 2264 181939 Lancaster, PA
+1437 2048 116740 Waterdown, ON, Canada
+1139 2660 3141 Nevers, France
+1392 2421 177282 Houlton, ME
+1283 291 110015 Hampstead, MD
+2105 1625 47750 Ukiah, CA
+1127 2336 8950 Granger, IN
+980 1665 79386 Petaluma, CA
+1162 2114 182171 Fairhope, AL
+1816 1412 169981 Grand Rapids, MN
+52 586 25683 Arlington, WI
+2510 93 31068 Imperial, NE
+2166 339 41879 Waynesboro, PA
+1639 469 126632 Augusta, KS
+913 34 134629 Truckee, CA
+1455 2677 184874 San Angelo, TX
+1830 188 103968 Montezuma, IA
+937 260 154407 Mannheim, Germany
+1332 1765 72070 Wellington, New Zealand
+439 1221 175668 Lodz, Poland
+1069 298 31795 Hays, KS
+1036 921 175657 Mexia, TX
+2807 1089 27499 Mansfield, PA
+2918 1720 30127 Nanaimo, BC, Canada
+1963 2962 107955 Elmhurst, IL
+1435 227 68706 Salem, MA
+2470 136 112325 McCaysville, GA
+766 2552 131821 Charleston, SC
+1917 1149 109273 Torremolinos, Spain
+583 539 109463 Berlin, Germany
+2021 1162 53532 Ashford, Kent, England
+1074 1340 27993 Tarboro, NC
+287 2299 199042 Beauharnois, QU, Canada
+324 2716 175416 Redding, CT
+1722 2390 104859 Rochester, IN
+2702 1513 43302 LaSalle, IL
+1179 2994 22255 Lund, Sweden
+542 995 24075 Chiefland, FL
+2117 1208 144226 Warren, MI
+11 1456 40781 Exmouth, W.Australia
+671 888 138018 Wichita, KS
+1106 276 167942 Lewisburg, TN
+384 1612 50248 Acton, MA
+1203 313 180927 Ventura, CA
+1600 434 145336 Santiago deComp., Spain
+1993 2538 102927 Nijmegen, Netherlands
+317 705 103790 Port Chester, NY
+1959 387 75006 Bridgeport, CT
+149 2259 190346 Otley, England
+3000 2127 139724 Magnolia, AR
+161 1138 62206 Bolivar, NY
+1758 683 189590 Peru, IL
+469 1247 157755 Silver City, NM
+2960 1675 11712 Ringwood, NJ
+922 101 38899 Belize City, Belize
+552 783 192533 Neillsville, WI
+20 2511 88400 Superior, WI
+2115 976 33878 Bucharest, Romania
+2071 2261 116152 Aosta, Italy
+1132 2858 71991 Walla Walla, WA
+2154 2064 160464 Petoskey, MI
+720 33 47334 Nanticoke, PA
+1429 881 139553 Bourges, France
+2976 843 132842 Veseli nad Moravou, Czech Rep.
+1179 1208 156762 Koblenz, Germany
+1812 2350 100541 Titusville, FL
+81 1997 140909 Reinbeck, IA
+1453 1475 129234 Tallinn, Estonia
+1125 2132 152636 Richfield, UT
+196 472 136954 Wuppertal, Germany
+443 135 60911 Highlands, TX
+1524 1513 187827 Storrs, CT
+1912 645 120754 Saint John, NB, Canada
+943 310 153198 Willemstad, Netherlands Antilles
+857 2336 68813 Westport, IN
+2307 1498 65256 Breckenridge, CO
+655 2159 150986 Branson, MO
+541 2899 152877 Portage, IN
+2481 2653 82823 Turnov, Czech Republic
+249 924 13713 El Dorado, AR
+2062 2780 36428 Corpus Christi, TX
+899 869 45704 Portsmouth, England
+1709 2514 43936 Rosman, NC
+372 459 138760 Corner Brook, Canada
+1776 2725 47611 Timisoara, Romania
+151 791 129204 Langhorne, PA
+2250 2264 8706 Bellinzona, Switzerland
+1417 989 198377 Saint Peterburg, Russia
+2910 708 117143 Poplar Bluff, MO
+1870 2173 198205 Setbal, Portugal
+2183 756 10024 Mountain Lake, MN
+2967 1027 127057 Gasp, QU, Canada
+1425 176 104265 Cdiz, Spain
+1604 861 164913 Hartford, KY
+410 2414 57940 Utrecht, Netherlands
+1319 2757 59941 Paterson, NJ
+44 19 57610 Melbourne, FL
+1572 1094 119098 Presque Isle, WI
+904 2860 35406 Siloam Springs, AR
+2962 2694 174006 Pittsburgh, CA
+521 2360 23265 Bunbury, W.Australia
+1569 64 133167 Coronado, CA
+890 2156 68919 Chico, CA
+67 2339 132257 Wenatchee, WA
+2016 1972 139263 Syracuse, NY
+157 52 102854 Youngstown, OH
+2413 2142 46770 Garnett, KS
+154 2648 98127 La Grange, CA
+1572 234 189588 Oakville, ON, Canada
+2259 2024 131912 Lithgow, NSW, Australia
+1758 1305 75305 Tamworth, Australia
+600 2252 119765 Mountain Home, AR
+2116 69 27261 Taylorville, IL
+174 798 182810 Rehovot, Israel
+2641 2266 197533 Glendale, CA
+2461 1328 13856 Sudbury, MA
+1519 2719 176128 Karachi, Pakistan
+2211 1381 62758 Helena, MT
+1175 1613 65964 Mansfield, PA
+622 398 11777 Hanau, Germany
+702 179 55958 Ruidoso, NM
+2004 913 119799 Vinton, IA
+2661 264 107040 Lansdale PA
+314 390 36559 Barquisimeto, Venezuela
+2059 157 87389 Lawton, OK
+840 717 52592 Warren, NJ
+626 2942 132069 Naha, Okinawa, Japan
+1276 1655 53303 Ambleside, England
+2013 1880 4876 Moriarty, NM
+1837 635 161918 Thomasville, GA
+608 1832 19355 Seoul, South Korea
+1011 505 167193 Allen, TX
+870 1716 69024 Romeo, MI
+2584 475 129547 Athens, WV
+1349 1984 39599 Coventry, England
+107 2283 140119 New Bethlehem, PA
+569 2906 160879 Rockingham, NC
+2267 753 102805 Southold, NY
+2067 2970 189070 Carlsbad, NM
+648 208 38471 Blairsville, GA
+1433 1553 64499 Giles Met.Station, W.Australia
+2084 1080 138412 Alma, Quebec, Canada
+2304 611 20514 Bogota, Colombia
+280 1755 111573 Milford, MA
+2152 372 7246 Christmas Island
+2447 2979 158324 Astoria, OR
+453 2262 142001 Satiledo Luiacutes, Brazil
+1806 1394 107414 Marseilles, IL
+2431 1129 107878 Soldotna, AK
+1549 2917 171745 San Jacinto, CA
+1388 1836 67414 Shimane, Japan
+2956 1622 101413 Jersey City, NJ
+2933 396 150306 Lugansk, Ukraine
+1165 1060 169979 Cocoa Beach, FL
+1275 409 61798 Huntsville, TX
+2944 2676 104604 Ankara, Turkey
+2701 692 109100 Graz, Austria
+1885 1809 99895 Montreal, Canada
+1467 2591 71549 Lorida, FL
+321 2018 3218 Belchertown, MA
+2154 2875 181878 Maryville, TN
+1478 570 33004 Vallejo, CA
+1282 2960 170882 Abingdon, VA
+333 1308 136724 Henderson, NC
+275 294 186015 Frankfort, KY
+2183 326 98480 Miramichi, NB, Canada
+355 2150 185808 Inverurie, Scotland UK
+2333 343 38164 Caribou, ME
+1255 2447 33038 Hoogeveen, Netherlands
+1009 2555 103814 Lynchburg, VA
+696 387 49581 Wendell, NC
+29 1354 50087 Council Bluffs, IA
+1758 158 53714 Rancho Cucamonga, CA
+2540 2661 103001 Wellington, KS
+2020 623 177322 Horsholm, Denmark
+853 1881 56068 Oak Harbor, WA
+605 1487 107248 Clarksburg, WV
+2100 1392 12917 Port Moresby, Papua New Guinea
+1295 1041 25902 Kirtland, OH
+10 100 16669 Glasgow, KY
+1405 1168 40279 Benton Harbor, MI
+1739 341 109995 Tulu, Colombia
+1040 2048 89827 Norway, ME
+2897 2248 12853 Monroe, LA
+1728 458 3258 Brazil, IN
+2615 194 84998 Bayreuth, Germany
+1170 2973 80889 Horn, Austria
+296 718 12448 Port Jervis, NY
+768 1672 127762 Boardman, OR
+1345 1417 105461 Greensburg, PA
+2682 1898 1211 West Springfield, PA
+1860 2414 117791 Wyoming, OH
+929 1892 134172 Haverhill, MA
+2131 2889 6822 Denbigh, Wales, UK
+1707 2510 7399 Gent/Ghent, Belgium
+1188 226 30569 Ossining, NY
+2692 991 156582 Milton Keynes, England
+443 191 120034 Creston, BC, Canada
+483 874 36699 Williamsburg, VA
+659 1594 41361 McCook, NE
+2547 2150 50343 Aarhus, Denmark
+1624 1857 12751 Saundersfoot, Wales, England
+2032 1311 158434 Poitiers, France
+651 1978 73352 Santa Rita do Sapuca, Brazil
+1044 2394 173072 Monterey, MA
+1172 246 35443 Elizabeth, NJ
+861 883 24539 Attleboro, MA
+2423 1698 136856 Budapest, Hungary
+1968 198 123354 Proctor, VT
+1191 2952 91208 Sunbury, Australia
+1789 313 172961 Edinburgh, Scotland
+2331 2180 167221 Marshall, AR
+2914 1334 144806 Fort Scott, KS
+1635 2575 157280 Neustadt a/d Weinstraue, Germany
+1049 1017 159056 Guitiriz, Spain
+2069 884 20252 Kankakee, IL
+411 1761 177308 Chelmsford, England
+282 1821 83614 Santiago, Chile
+1519 2105 187496 Szkesfehrvr, Hungary
+1578 1111 32678 Breckenridge, MI
+2178 1386 19571 Grant's Pass, OR
+836 2199 154601 Green Creek, NJ
+1679 540 56289 Yellowknife, NWT, Canada
+1162 1835 36198 Waldwick, NJ
+1316 1506 86831 Quincy, IL
+1399 2508 145622 Mount Pleasant, MI
+470 2054 117404 Zoetermeer, Netherlands
+2403 2900 41315 Saint Petersburg, FL
+335 174 107227 Dexter, MI
+453 1269 108156 Athlone, Rep. of Ireland
+2025 1884 143723 Paris, TN
+2113 1909 114953 Palmerston North, New Zealand
+1314 2899 194344 Tegucigalpa, Honduras
+261 1761 19693 Shreveport, LA
+565 1795 70778 Byron Center, MI
+2239 1935 122709 Prince Frederick, MD
+1964 2103 13710 Moroni, Comores
+1600 1111 182119 Connersville, IN
+826 2447 187264 Alamogordo, NM
+659 827 73490 Riyadh, Saudi Arabia
+2082 1823 148479 Boardman, OH
+2822 386 126764 Seattle, WA
+2421 1340 122649 Nazareth, Israel
+743 1695 7373 Yonkers, NY
+1712 646 172460 Plymouth, IN
+1787 2483 123905 Sendai, Japan
+469 1015 196509 Quakertown, PA
+1981 74 64643 Tbilisi, Rep. of Georgia
+1653 651 112281 Holland, PA
+1317 242 28056 Marshall, TX
+1311 1735 129648 Thousand Oaks, CA
+2365 1510 180403 Gibraltar, UK
+2890 1492 160234 Buffalo, NY
+1241 2888 129701 Taralgon, Australia
+1960 2924 199104 Whitby, England
+2665 2527 171124 Lecce, Italy
+1343 827 194664 Khancoban, Australia
+2500 2128 145829 Sochaczew, Poland
+1428 2252 161060 Bridgeport, CA
+2348 2008 50665 Conyers, GA
+1385 2394 130626 Waverly, NY
+1294 2353 28793 Pune (Poona), India
+1726 650 161976 Kaposvr, Hungary
+2071 1518 20652 Ingolstadt, Germany
+1977 2482 148941 Roy, UT
+725 2127 106936 Pinckney, MI
+1787 1190 107077 Houghton, MI
+2202 521 25850 Peekskill, NY
+594 1427 195810 Grayslake, IL
+1518 1000 105904 Gomer, OH
+718 1988 3099 Abilene, TX
+2814 2227 93135 Tunis, Tunisia
+1913 2352 193738 Altoona, PA
+2993 1498 77078 Kapfenberg, Austria
+880 1973 104671 Emporia, VA
+193 662 30047 Wartburg, TN
+1958 2031 153710 LaPorte, IN
+2323 2921 41295 Waco, TX
+1809 2488 86857 Shallowater, TX
+1984 1572 74147 Ciudad Guayana, Venezuela
+2276 150 144463 Manteo, NC
+1341 307 171344 Amsterdam, Netherlands
+1029 1484 50510 Watford, England
+2765 1110 126509 Woodstock, ONT, Canada
+2255 2730 30620 Fordham, England
+1710 601 161179 Winslow, NJ
+1807 2640 181132 Southfield, MI
+2232 2378 49212 Maplewood, MN
+843 1326 169744 Vsters, Sweden
+987 2297 125666 Rajahmundry, Pradesh, India
+1946 1130 113527 Guatemala City, Guatemala
+2471 1013 31431 Princeton, NJ
+909 254 72476 Amherst, WI
+1638 163 25753 Roanoke, VA
+1962 359 10419 Dallas, TX
+1008 2548 16525 Amery, WI
+632 347 35646 Rodgau, Germany
+2252 602 20069 Salida, CO
+1582 360 113534 Loxahatchee, FL
+1151 2158 63252 Roseville, CA
+1737 2070 29297 Green Bay, WI
+1378 2706 112201 Keswick, ON, Canada
+303 325 138010 Florence, AL
+2804 1268 52743 Annapolis, MD
+2201 2658 179691 Antwerp, Belgium
+1334 2524 187245 Delray Beach, FL
+1806 2878 150487 Jacksonville, NC
+2040 1976 7208 Schaumburg, IL
+2650 1600 104375 Stephentown, NY
+1076 2667 87201 Hermiston, OR
+142 184 32998 Freeland, PA
+208 2585 174946 Saint Louis, MS
+1493 2170 193783 Lappeenranta, Finland
+602 396 38878 Lamar, MO
+1942 1949 125382 Tampa, FL
+2538 2778 143301 Rochelle Park, NJ
+2023 435 87100 Biloxi, MS
+1310 1090 83433 Industry, PA
+541 2073 65267 Huntsville, ON, Canada
+2556 344 141581 Kaunakakai, Molokai, HI
+231 2046 143060 Veracruz, Mexico
+1462 1861 105939 Ste. Rose, Family Reunion
+1113 1625 65927 Iowa Park, TX
+1223 335 120113 Chittagong, Bangladesh
+1902 1833 114088 Wilton, CT
+1468 2717 17932 Cobram, Australia
+891 1440 115904 Fraser, MI
+2469 1496 55589 Marshville, NC
+1958 99 75083 Otego, NY
+1865 1971 10804 Lehighton, PA
+2381 631 121572 Guelph, ONT, Canada
+1776 1306 114647 Akron, OH
+2381 2092 137433 Turners Falls, MA
+2054 2679 46232 Plano, TX
+405 1498 162135 Tirana, Albania
+871 284 136858 Albany, NY
+2123 1591 78200 Tainan, Taiwan
+281 787 18648 Ithaca, NY
+1452 118 80959 Bandar Seri Begawan, Brunei
+1815 446 54112 Westover, PA
+2922 2761 40527 Bauru, Brazil
+1064 2450 44139 Pottsville, PA
+928 2247 43778 Eastport, ME
+1066 220 190404 Enfield, CT
+463 2897 27313 Holzkirchen, Germany
+935 1773 184062 Bacolod, Philippines
+386 2939 69617 Homs, Syria
+2043 698 199407 Gladwin, MI
+2111 2219 110422 Patos de Minas, Brazil
+1698 1246 166732 Springfield, VA
+2444 2612 77351 Galveston, TX
+1529 657 75085 Huy, Belgium
+1000 2902 116011 Mitchell, IN
+1863 1157 122353 Hamilton, OH
+244 2521 18778 Saint Catherines, ON, Canada
+422 1670 29237 Delphos, KS
+2509 1430 15552 Faringdon, England
+2877 2486 118857 Red Bluff, CA
+2362 2986 18951 Hagerstown, MD
+1401 2242 33892 Anniston, AL
+383 360 61095 Mentor, OH
+56 2427 58615 Carol Stream, IL
+251 859 160198 Thetford-Mines, QU, Canada
+1427 877 91371 Soperton, GA
+222 2785 67647 Arnold, CA
+2758 1947 55812 San Salvador, El Salvador
+816 2937 31746 Laverton, W.Australia
+568 1764 69138 Newtown, PA
+416 1400 104839 Tiet, Brazil
+1598 2307 81345 Northampton, MA
+1815 1718 144993 San Clemente, CA
+434 246 186805 Cleveland, OH
+1311 2073 126898 Bowman, GA
+1212 263 29929 Eeklo, Belgium
+538 1190 73973 Sanborn, NY
+1627 1007 16228 Kearney, ONT, Canada
+454 1642 109362 Linwood, NJ
+1443 2177 82253 Desert Hot Springs, CA
+2165 433 147633 Port Deposit, MD
+975 1938 137338 Gulf Breeze, FL
+1170 1492 136105 Tolland, CT
+2931 606 115687 Tamworth, England
+2456 149 146044 New Brockton, AL
+1782 167 156519 Columbus, IN
+1623 1275 29417 Lawrence, MA
+532 1289 150419 Zwijndrecht, Netherlands
+956 2140 67313 Concord, NH
+673 24 171317 Cathey's Valley, CA
+208 1854 172200 Deauville, PQ, Canada
+436 2252 117869 S-Volvoland, Norway
+1230 2652 35739 Durham, England
+71 1429 101786 Paris, France
+2702 1669 37425 Szeged, Hungary
+2361 2522 90601 Mandeville, LA
+2983 2091 72871 Sedalia, MO
+1834 1630 179925 Usolje-Sibirskoie, Russia
+2374 2115 37458 Winter Haven, FL
+2232 2961 198564 Saint Joseph, MI
+339 1718 1222 Dayton, OH
+1104 922 178275 Cabot, AR
+1468 1165 93873 Ashland, WI
+169 917 73261 Santa Luca, Uruguay
+1459 376 12884 Eastbourne, England
+2919 89 152819 Lockport, IL
+72 612 155006 Wilbraham, MA
+1927 1824 59299 Clinton, IA
+891 169 98906 Mount Airy, NC
+2061 367 31490 Cassville, MO
+2034 2843 1013 Macon, GA
+2855 1730 88375 Redwood City, CA
+2306 2453 65741 Alexander City, AL
+1314 1502 56614 Saint Louis, MO
+881 1494 92571 Mbabane, South Africa
+562 1851 56202 Rennes, France
+1307 2931 154325 Chicago, IL
+592 2604 196984 Mantes-la-Jolie, France
+1629 1104 120864 Kolding, Denmark
+2135 1582 99208 Westminster, CA
+1189 1581 26287 Stuart, FL
+949 1277 114199 Winchester, England
+1232 1054 118688 Hopewell Junction, NY
+1626 1250 29770 Sandefjord, Norway
+2420 722 171458 Bristol, England
+1000 1280 195178 Wellborn, FL
+1877 1669 3127 Blenheim, New Zealand
+1593 866 189006 Vila Velha, ES, Brazil
+2314 2784 98777 McAllen, TX
+3 1843 141813 Greenfield, IN
+1091 1124 189920 Sidney, BC, Canada
+1842 2349 84424 Effingham, IL
+1571 1801 74434 Lewes, DE
+2313 1283 142932 Yorktown Heights, NY
+2260 1748 21119 Belle Mead, NJ
+1299 2099 32044 Red Wing, MN
+1391 1132 128955 Vancouver, WA
+2893 1625 43752 Kharkov, Ukraine
+281 2179 72826 Shepparton, Australia
+46 580 23009 Witten, Germany
+1030 364 59039 Guayaquil, Ecuador
+240 2026 186760 Augsburg, Germany
+2314 1013 50511 Grenoble, France
+1067 2653 138548 West Chester, PA
+2002 955 117166 Aachen, Germany
+580 1195 168382 Yreka, CA
+1750 2295 82342 Englishtown, NJ
+949 2240 161834 Nykping, Sweden
+1762 297 61178 Berkeley, CA
+2408 2799 21566 Georgetown, TX
+851 71 51282 The Pas, MN, Canada
+17 2921 36000 Kiev, Ukraine
+289 973 38942 Tiverton, RI
+1500 1956 45996 Adelaide, Australia
+2848 2200 48882 Tweed Heads, Australia
+68 2279 120801 Charlotte Amalie, US Virgin Islands
+690 245 60434 Lewisville, TX
+2787 1977 113053 Foxworth, MS
+2969 2982 58451 China Lake, CA
+2943 411 28435 Muncie, IN
+1958 373 98009 Moscow, ID
+2730 1338 6727 Tubingen, Germany
+1370 2528 4222 Amiens, France
+623 1660 40475 Florence, Italy
+1906 1834 50668 Brescia, Italy
+135 184 20475 Lubbock, TX
+2996 2924 143913 Jena, LA
+2663 2718 24520 Brevard, NC
+1280 478 77007 Guantanamo Bay, Cuba
+2876 2654 161625 North Platte, NE
+759 17 168168 Mastic, NY
+1565 1345 77085 stersund, Sweden
+2739 370 167302 Senftenberg, Germany
+2982 1876 51052 Belfast, N. Ireland
+468 1542 37084 Burleson, TX
+1773 1375 177698 Luton, Bedfordshire, England
+2058 2077 195103 Caro, MI
+2934 2631 74705 Eupen, Belgium
+1083 1775 160362 Saint Gallen, Switzerland
+1265 2722 113550 Annandale, MN
+2534 2034 52857 Manteca, CA
+232 1319 176835 China Spring, TX
+1448 635 79535 Shelby, NC
+1385 2379 105310 Hardy, AR
+509 1184 90938 Bennington, VT
+71 821 163996 Rolling Prairie, IN
+504 733 152609 Lewes, England
+405 1222 88101 Kiruna, Lapland/Sweden
+1422 2212 20841 Libertyville, IL
+1007 1282 1935 Marab, Brazil
+2739 808 167251 Seven Mile, OH
+1423 1557 194490 Mount Carmel, IL
+1538 698 1016 Reidsville, NC
+237 662 51394 Arkansas City, KS
+183 466 73978 Tahoe City, CA
+1613 1175 176209 Yampi Sound, W.Australia
+234 2016 82853 Sukabumi, Indonesia
+1382 424 129618 Port Isabel, TX
+818 2735 2373 Allentown, PA
+705 482 161464 Arlington, NE
+1398 264 139959 Somers, CT
+2264 1603 30224 Jackson, MS
+2786 695 194176 Madison, FL
+164 1928 67258 Peoria, IL
+870 1555 190046 Harrison, TN
+1896 562 197433 Sturgis, KY
+645 143 83345 Port Huron, MI
+1365 1694 124063 McPherson, KS
+689 1136 67814 Boyne City, MI
+1613 926 167113 Santa Fe, NM
+700 2148 187120 Cartago, Colombia
+172 788 78352 Houma, LA
+1877 2707 56675 Southfield, MA
+713 2081 196416 Duxbury, MA
+5 168 161354 Medling, Austria
+618 261 4633 Millis, MA
+59 729 52339 Wilderness, South Africa
+389 1183 172518 Middletown, CT
+551 132 144471 Piraeus, Greece
+1169 2532 53116 Rostov-na-Donu, Russia
+1533 1488 150731 Pocahontas, AR
+2327 1512 57623 Springfield, OH
+2954 1444 43091 Toms River, NJ
+2321 1493 182131 Puerto Peasco, Mexico
+1539 2824 31068 Neenah, WI
+1398 1928 152032 Austin, MN
+326 1818 139086 Roosendaal, Netherlands
+744 979 36513 London, England
+1529 2658 18388 Myrtle Beach, SC
+987 605 103755 Wantagh, NY
+1709 1540 127405 Edgewood, MD
+1273 1709 182476 Page, AZ
+1851 2254 133825 Ume, Sweden
+412 252 103477 Willow Grove, PA
+997 2723 154822 Wingate, NC
+30 2983 53985 Northridge, CA
+1876 80 183772 Dorking, England
+88 1835 40494 Bridgewater, NS, Canada
+2476 183 5467 New Johnsonville, TN
+2368 940 157940 Burbank, CA
+287 909 43188 Szekszrd, Hungary
+2934 1979 56647 Pueblo, CO
+2876 1753 144102 Bonham, TX
+460 360 102622 Andersen AFB, Guam
+2140 895 153555 Castle Rock, CO
+851 412 55938 Rio Claro, SP, Brazil
+2 2261 121666 Norfolk, NE
+2655 273 167235 Reedsburg, WI
+338 592 190222 Rancho Santa Margarita, CA
+960 2422 35243 Natal, Brazil
+2701 1937 108568 Cary, NC
+1449 2441 185644 Hull, England
+1001 303 161979 Townsend, MA
+2305 2454 97139 Winfield, KS
+1826 1938 103699 Recife, Brazil
+1041 2917 10721 Len, Gto. Mexico
+1320 1915 40643 Brownsburg, IN
+1414 1317 50185 Lycksele, Sweden
+2705 1626 107369 Beulaville, NC
+1740 410 95780 Northampton, PA
+1542 871 126222 Saint Croix, US Virgin Islands
+2139 2363 31481 El Paso, TX
+2743 1007 94430 Freiburg, Germany
+358 328 51132 Heidelberg, Germany
+352 1778 112393 Jerome, ID
+2173 2132 39042 Mount Baldy, CA
+2815 1908 66448 Sonderborg, Denmark
+1009 755 54064 Haifa, Israel
+2368 2249 138706 Oak Ridge, NJ
+2996 1312 55615 Richmond, IL
+2962 309 88239 Pamplona, Spain
+640 2626 111914 Vidalia, GA
+1033 1067 27077 Cheyenne, WY
+1174 322 95948 Burnsville, NC
+1150 1837 163164 Fayetteville, AR
+939 1442 64163 Minooka, IL
+444 2567 117861 Bozen/Bolzano, Italy
+2435 2367 17362 Somersworth, NH
+1984 2992 14923 North Wilkesboro, NC
+1028 1450 33816 Fort Collins, CO
+1790 1459 102392 Biarritz, France
+1477 54 51714 Pikeville, KY
+2364 2162 132523 Polk City, FL
+352 204 79262 Mayfield, KY
+607 410 56666 West Lafayette, IN
+2036 2470 122477 Russellville, AR
+1000 163 104435 Darien, CT
+1881 616 47443 Amesbury, MA
+2347 2191 60674 Woodstock, GA
+1946 462 164284 Hanover, PA
+2422 2511 145479 Toulouse, France
+2102 936 30374 Tybee Island, GA
+2261 397 69056 Goose Bay, NF, Canada
+1799 584 138473 Ellensburg, WA
+2180 2354 9437 Joplin, MO
+1912 616 71495 Gundelfingen, Germany
+672 1472 47825 Durant, OK
+1396 1675 187306 Wall, SD
+1634 793 128008 Trondheim, Norway
+2523 1564 35318 Rock Springs, WY
+1943 405 163013 Funchal, Madiera, Portugal
+182 933 48983 King, NC
+2529 1513 10708 Redlands, CA
+584 428 120585 Preston, LCS, England
+1478 1835 19924 Livorno, Italy
+2942 479 90921 La Grange, MO
+2671 2904 60047 Warroad, MN
+1628 1890 25092 Cocklebiddy, W.Australia
+13 2605 145373 Tartu, Estonia
+1836 2680 197241 Bristol, TN
+927 87 99023 Elberta, AL
+504 884 93660 Flagstaff, AZ
+283 1383 46331 Malmesbury, England
+2587 1240 119921 Norwich, England UK
+1004 1881 186780 Luxembourg, Luxembourg
+2317 2336 80140 Edwards AFB, CA
+2070 2166 88527 Reutlingen, Germany
+247 1285 169145 Clinton, IL
+1353 107 40903 Zurich, Switzerland
+1020 522 105555 Ljubljana, Slovenia
+1760 301 7748 Duluth, MN
+2058 1698 132049 Highland, IN
+376 786 137387 Martinez, CA
+1410 1136 81780 Westminster, CO
+1842 70 155718 Louisville, KY
+2465 2259 176360 Banjul, Gambia
+2451 2316 62086 Walsall, England
+2516 2348 35343 Johnstown, PA
+2823 2288 195766 Franklin, NC
+97 743 37425 Iquitos, Peru
+594 23 183799 Winfield, IL
+1059 1434 168064 Crystal Falls, MI
+2826 2411 42174 Wrexham, Wales, UK
+65 2892 107953 Richmond Hill, ON, Canada
+823 922 150739 Frankfurt/M., Germany
+1501 197 47739 Washington, MO
+1413 549 79451 Osan, South Korea
+2557 1093 85898 Oldcastle, Ireland
+1126 2024 174895 Salem, NH
+1241 2946 151345 Knoxville, TN
+1779 913 114157 Munich, Germany
+2677 2012 115525 Tokyo, Japan
+655 2914 48868 Eksj, Sweden
+913 2884 185756 Provo, UT
+1500 1332 167597 Hamburg, NY
+357 412 43615 Highland, IL
+2613 1640 14024 Canvey Island, England
+1307 1096 85915 Hant's Harbour, NFLD, Canada
+1487 1119 7546 Merritt, BC, Canada
+2373 143 46571 Manchester, CT
+1242 2705 199923 Kodiak, AK
+585 1356 144876 Zeist, Netherlands
+1607 1586 187450 Inwood, IA
+832 1506 182909 Iwakuni, Japan
+979 1163 103430 Harrisburg, PA
+1657 1668 122295 Tunkhannock, PA
+337 2321 39523 Williamston, SC
+206 657 178523 Campinas, Brazil
+721 2696 111711 Grand Haven, MI
+1518 2735 38501 Jesup, GA
+2104 558 117010 Belle Isle, FL
+1206 1951 115525 Jerusalem, Israel
+2802 2428 174318 Marseille, France
+2758 1060 194468 Judenburg, Austria
+1954 1595 59381 Richmond, VA
+610 2819 143319 Temecula, CA
+1780 2839 88203 Walldorf, Germany
+1529 466 163817 Carlsbad, CA
+477 1921 85694 Fayetteville, TN
+1884 1873 167979 Bordentown, NJ
+2954 1648 172971 Rocky Mount, NC
+187 12 4992 Gliwice, Poland
+8 231 126460 Palatine, IL
+1052 458 38479 San Marcos, CA
+1467 1304 63129 Chillicothe, MO
+1553 2176 9015 Holyoke, MA
+1212 2340 66588 Lincoln, ME
+1138 730 86037 Mountain Top, PA
+675 426 98109 Portage-la-Prairie, MN, Canada
+1136 1710 52341 Bremen, Germany
+2421 1213 43301 Bloemfontein, South Africa
+231 1659 68970 Paia, HI
+2483 2676 138890 L'Aquila, Italy
+2824 1785 129962 Harrison, AR
+5 1286 118681 Davenport, IA
+436 1350 160558 Portland, ME
+989 610 64432 P'ohang, South Korea
+1416 193 142556 Phoenixville, PA
+3000 911 161144 The Woodlands, TX
+928 2279 102323 West Point, GA
+444 2932 135036 Waterloo, Belgium
+2959 610 36393 La Tuque, Canada
+303 1422 134245 Sierra Vista, AZ
+2909 574 68739 Odessa, Ukraine
+547 1541 93740 Peterborough, England
+136 2339 58007 Hannibal, MO
+1409 565 107285 Wayne, NJ
+1135 1652 160135 Wiesbaden, Germany
+2388 1239 22336 Tehachapi, CA
+490 361 195026 Grove, PA
+1661 1610 137134 Newmarket, England
+428 508 185809 Gloversville, NY
+190 558 164652 Benalla, Australia
+1797 530 161364 Raymond, NH
+1427 1642 121358 Wausau, WI
+1987 2963 69777 Saint Charles, MI
+1624 110 13812 Westlock, AL, Canada
+1552 1831 193739 West Fargo, ND
+678 1762 66567 Eagle River, MI
+1442 547 180179 Port Richey, FL
+1458 173 109721 Wells, England
+386 1360 126884 Cambridge Bay, NWT, Canada
+2258 489 17602 Pittsfield, IL
+1771 1804 122440 Warren, OH
+2901 2476 82503 Bowmanville, Canada
+1910 812 21169 Beavis, QU, Canada
+139 1336 163039 Wilmington, VT
+2908 2239 123373 Boise, ID
+1321 1216 38376 Rapid City, SD
+1495 268 104456 Arica, Chile
+1635 2268 68873 Greenville, KY
+2915 1761 176550 Montezuma, KS
+1895 464 98184 Fredericton, Canada
+2106 2305 108214 Freshwater, Isle of Wight, England
+377 1572 38487 Simrishamn, Sweden
+649 1062 121095 Suva, Fiji Islands
+597 2761 189054 Chapel Hill, NC
+2988 2585 172471 Lleida, Spain
+517 59 135720 Dandenong, Australia
+2597 722 78568 North Bay, ONT, Canada
+42 2294 21342 Bristol, CT
+723 2084 129784 Exeter, England
+2861 1360 76932 Pagosa Springs, CO
+1962 72 53266 Moab, UT
+348 2867 133496 Kyoto, Japan
+2349 2120 86435 Columbia, SC
+306 2126 24427 Winsen (Luhe), Germany
+732 413 175818 Alexandria, Egypt
+1107 156 115455 Santiago de Queretaro, Mexico
+2706 1931 87679 Moultrie, GA
+2628 2239 141040 Brentwood, CA
+212 2715 20302 Littleton, CO
+2819 236 147123 Tiffin, OH
+238 2873 15522 Manizales, Colombia
+2327 2597 123423 York, PA
+841 1561 8999 Xenia, OH
+261 760 131386 Allen Park, MI
+561 2817 1030 Paderborn, Germany
+2346 1454 76738 Lewiston, MN
+2960 887 148635 Braunschweig, Germany
+1502 2421 106626 Summit, NJ
+2470 1464 1661 Valognes, France
+2340 606 128914 Dubai, United Arab Emirates
+2303 356 151779 Hilo, HI
+707 957 131321 Grand Rapids, OH
+2087 2488 142572 Mesquite, TX
+1160 1849 142898 Toowoomba, QLD, Australia
+342 1651 5435 Hof, Germany
+2105 1880 167206 Ojai, CA
+2826 2233 86333 Conway, AR
+474 524 1954 Lakemoor, IL
+2352 1123 81404 Hornbrook, CA
+531 1211 68930 Irvine, CA
+477 2321 23111 Schenectady, NY
+568 2000 35730 Asuncion, Paraguay
+2756 2869 139864 Rogers, AR
+2902 110 188541 Luzerne, Switzerland
+2345 725 34571 Lexington, NC
+587 2463 161556 Andros Island, Bahamas
+443 765 73356 Sabadell, Spain
+2435 1560 73315 Solothurn, Switzerland
+502 56 188678 Grants, NM
+71 662 85229 Kampala, Uganda
+2373 1665 155271 Euless, TX
+1939 28 157445 Sheffield, England
+1287 1327 176745 Herrin, IL
+2810 2477 159083 Vrnamo, Sweden
+1573 1089 21585 Mont Alto, PA
+2515 806 185790 Fairfield, IA
+2744 2699 85567 Kimberley, BC, Canada
+1308 409 88110 Ely, England
+1546 369 122300 Springfield, MA
+1170 893 95345 Corvallis, OR
+1233 1491 140685 Dahlonega, GA
+210 915 146691 Gardiner, ME
+1546 2184 39377 Norfolk, VA
+2859 1039 86096 Snellville, GA
+1869 2015 94219 Sintra, Portugal
+2630 1683 136790 Charlotte, NC
+2616 759 99428 Wheeling, WV
+1262 82 4199 Kingston, Jamaica
+1815 1271 39580 Bochum, Germany
+33 2017 168114 Ridgecrest, CA
+2234 2183 90061 Grimsby, England
+2809 81 15927 Kristianstad, Sweden
+2319 601 154400 Pilot Point, TX
+1260 2879 40480 Denver City, TX
+2077 180 93198 Reading, PA
+337 1697 7920 Hssleholm, Sweden
+949 2291 65405 Laramie, WY
+321 410 18126 Baltimore, MD
+2073 1327 158394 Thessaloniki, Greece
+1337 2948 78240 Hudson, OH
+2274 903 185984 Stewartsville, NJ
+851 1511 132140 Fullerton, CA
+463 1813 153530 Gainesville, FL
+2975 2072 177448 Penang, Malaysia
+1510 449 31245 Miercurea-Ciuc, Romania
+1717 1225 187791 Sioux Center, IA
+2857 2140 101606 Montclair, NJ
+2546 2100 5692 Jekyl-n-Hyde, Finland
+2253 2024 92295 Concordia, Argentina
+573 1509 82661 Beanblossom, IN
+1048 1760 72217 Waynesville, OH
+106 1049 87592 Lecco, Italy
+151 1454 116304 Washington, NJ
+1935 1181 54213 Conneaut, OH
+276 809 143502 Long Beach, NY
+2817 1753 29997 Gimo, Sweden
+2416 2225 188718 Yucca Valley, CA
+1783 2079 114369 Jacksonville, AL
+1040 2096 156819 Rahway, NJ
+369 2493 199044 Loughborough, England
+1622 1057 175794 Kropp, Germany
+2905 815 47613 Birmingham, England
+1935 2272 199666 Wilmington, OH
+2405 2330 67302 Esperance, W.Australia
+1696 285 102923 Archer, FL
+2993 2593 148694 Coldwater, MI
+615 1545 10609 Reelsville, IN
+1749 1985 38793 Madras, India
+1772 439 104966 King's Lynn, England
+678 473 121923 Longmont, CO
+184 501 144812 West Plains, MO
+12 1780 166973 Plainfield, IL
+1265 239 22076 Riverside, CA
+1788 2339 135813 New Tripoli, PA
+1071 1519 101130 Gallup, NM
+443 2528 50230 Brownsville, TX
+1900 1707 58026 Gilbertsville, KY
+2722 1298 9337 La Coruna, Spain
+390 2451 113660 Ozark, IL
+1366 327 1614 Greeneville, TN
+625 648 57650 Londonderry, Northern Ireland
+2324 269 47236 Dryden, ON, Canada
+1141 1675 30972 Merritt Island, FL
+2219 2900 29508 Berkley, MI
+976 2830 73419 Evesham, England
+2911 168 98162 Long Branch, NJ
+1853 1500 88225 Philadelphia, PA
+719 2465 26198 Springs, NY
+2137 108 112020 Groningen, Netherlands
+2757 26 76985 Onancock, VA
+173 1205 87536 Watrous, Canada
+854 1467 185423 Cali, Colombia
+1017 836 6700 Kempen, Germany
+481 945 66928 Ustica Island, Italy
+1154 2044 88825 San Andreas, CA
+1868 903 76526 Castlegar, BC, Canada
+153 2641 199719 Brewster, NY
+1495 1350 120870 Gordonsville, VA
+1709 2146 84134 Las Vegas, NV
+799 2256 193997 Roanoke, TX
+2203 1616 171122 Bedford, IN
+1733 117 157061 Wailuku, Maui, HI
+1335 2771 140352 Fort Worth, TX
+1970 2107 130213 Oranjestad, Nethrlds. Antilles
+1149 2574 129145 Whitby, Canada
+673 2202 191474 Rastede, Germany
+2506 47 75779 El Dorado, KS
+2835 2008 69035 Laval, France
+864 1895 103339 Gunnison, CO
+2400 1270 73560 Milwaukee, WI
+2043 112 158274 South Hadley, MA
+2318 369 175703 Rockhampton, Australia
+536 1125 109903 Waterbury, CT
+1933 651 140421 Grand Prairie, TX
+840 1666 130684 Morrisville, PA
+2983 176 98668 Rangoon, Myanmar
+1421 1445 126536 Lufkin, TX
+1707 2776 145432 Joo Pessoa, Brazil
+1255 869 92662 Atlanta, GA
+723 1545 182063 Broome, W.Australia
+962 1690 6362 Wilmette, IL
+1195 1702 168193 Eagle Creek, OR
+2861 367 84694 Canadian, TX
+2753 748 187240 Lowell, MA
+1197 1799 147225 Marissa, IL
+526 192 112359 Laguna Niguel, CA
+742 2170 197258 Copenhagen, Denmark
+1183 2131 163434 Melbourne, Australia
+2347 13 117227 Valletta, Malta
+469 1113 193141 Port Sydney, ON, Canada
+2953 2760 83461 Statesboro, GA
+915 2128 53200 Mountain View, CA
+403 2075 193827 Havre, MT
+1334 578 90077 Keene Valley, NY
+675 2736 131755 Marienville, PA
+2229 735 177504 Newport Beach, CA
+1256 1386 151584 College Park, MD
+1818 2993 111526 Newport, OR
+1537 732 3594 Wetumpka, AL
+1396 2147 45043 Norwich, CT
+2473 2668 140233 Lakewood, CO
+473 212 151640 Las Vegas, NM
+1495 1832 188575 Belsingborg, Sweden
+498 1637 93180 Balve, Germany
+2041 2588 12743 Alexandria, LA
+388 1912 108300 Killingly, CT
+92 1459 87527 Fort Pierce, FL
+1623 2077 159188 Thurso, Scotland, UK Tianjin, China
+1761 1145 132076 Becket, MA
+1480 1690 92020 Halle/Saale, Germany
+2260 863 67107 Aberdeen, NC
+297 760 129139 De Land, FL
+864 635 47155 Lac La Biche, AB, Canada
+2581 2577 8821 Clemson, SC
+2229 1563 21605 Reykjavik, Iceland
+2961 2424 20645 Bristol, VA
+2436 2815 180339 Muskegon, MI
+2082 2931 170991 Isen, Germany
+2181 2003 115616 La Grande, OR
+2993 576 63812 Waterford City, Ireland
+1001 1211 55462 Trieste, Italy
+1846 1212 197952 Chelsea, MI
+921 1122 61606 Windsor, ON, Canada
+2251 2387 149206 Berlin, NH
+2965 2279 81909 Bremerton, WA
+2504 1557 142966 Delft, Netherlands
+1178 1620 106161 Venice, FL
+2770 894 9566 Portsmouth, NH
+2760 879 191942 Jaen, Spain
+670 2808 133814 Mississauga, ON, Canada
+314 2500 2655 Vernon, NJ
+1388 1697 79914 Hasbrouck Heights, NJ
+2911 1224 70572 Holmen, WI
+1409 2492 95547 Matera, Italy
+2240 2900 44657 Batesville, MS
+60 52 29390 Derby, England, UK
+2461 2443 155122 Audubon, IA
+1829 109 85735 Cedar Rapids, IA
+2303 1093 36637 Kwajalein, Marshall Islands
+1029 2234 186080 Rowley, MA
+2868 2982 55925 Willits, CA
+698 1052 124065 Newmarket, ON, Canada
+1370 2726 32584 Penticton, BC, Canada
+1963 697 68941 Cloverdale, CA
+557 545 46987 Victoria, BC, Canada
+1391 255 77671 Tallahassee, FL
+1104 217 61610 North Hollywood, CA
+2082 2535 169948 Kenosha, WI
+834 288 76812 Havana, Cuba
+2714 2321 169485 Stevenage, England
+680 2356 130784 Fountain Valley, CA
+1641 1895 149261 Sparta, WI
+2260 2360 90555 Tel Aviv, Israel
+2180 1732 108741 Del Rio, TX
+2462 1648 128223 Clearfield, UT
+614 144 190901 Brockton, MA
+2315 46 41892 Owatonna, MN
+363 337 157087 Bella Vista, Argentina
+2968 2037 63592 Izmir, Turkey
+2764 2134 67192 Ozark, AL
+815 1007 154803 Rieti, Italy
+2356 1069 114432 Warwick, England
+950 2679 109422 Seneca Falls, NY
+2071 1185 178140 Wilson, NC
+1711 521 64778 Cortland, NY
+350 1050 77126 Westville, IN
+266 2855 11767 Baghdad, Iraq
+2079 490 133375 Marquette, MI
+1868 2189 124733 Eerbeek, Netherlands
+2450 2694 37026 Pensacola, FL
+2321 363 40352 Centerville, IA
+2235 1634 23657 Nome, AK
+1072 1128 1256 Orchard Park, NY
+2956 1733 116598 Newburgh, NY
+1759 2775 78191 Woodland Hills, CA
+2572 2252 97872 Mansfield, MA
+1417 1015 60214 Torrance, CA
+373 2139 117508 Durban, South Africa
+640 1200 111173 Benson, AZ
+1357 1245 57937 Den Haag, Netherlands
+190 1779 72351 Monsey, NY
+2644 504 188580 Wichita Falls, TX
+2301 478 99087 Oporto/Porto, Portugal
+879 2900 58005 Port Clinton, OH
+910 1169 126803 Prescott, AZ
+608 2412 115021 Yokohama, Japan
+2098 1192 108703 Oceanside, CA
+508 1187 129430 Williamston, NC
+1503 1426 188294 Bangkok, Thailand
+1250 1257 47742 Middlesbrough, England
+834 2950 79122 Orense, Spain
+2227 2581 124519 Tupelo, MS
+2274 697 29464 Le Grand, CA
+2071 1397 163188 Schererville, IN
+1374 2743 29158 Chantilly, VA
+241 2790 60047 Pleasanton, CA
+2662 2629 121704 Faro, Portugal
+90 899 145630 Rittman, OH
+1884 893 44917 Batesville, AR
+1030 531 1799 Aurora, IL
+222 2399 10398 Beijing, China
+1792 385 38817 Cologne, Germany Colombo, Sri Lanka
+705 1842 58470 Gullivare, Sweden
+2619 1561 24469 Nantucket, MA
+1751 390 127364 Harrisville, OH
+2801 109 72988 Balamban, Philippines
+1959 2602 24298 Carrollton, OH
+2015 1689 69707 Erfurt, Germany
+764 1584 20509 Brooklyn, MI
+1888 1506 74347 Reno, NV
+1848 597 171856 Benton, AR
+2649 831 114120 Klagenfurt, Austria
+2128 737 39293 Alturas, CA
+2542 2330 58182 DeKalb, IL
+270 866 97420 Wiluna, W.Australia
+1584 1116 131519 Wheat Ridge, CO
+338 2477 197768 Covilh, Portugal
+763 1686 189365 Bordeaux, France
+1420 2126 78983 Yankton, SD
+1051 1201 90387 Monmouth, IL
+420 1177 155292 Dickinson, ND
+630 1938 2854 Amqui, Quebec, Canada
+1468 698 158211 Cape Canaveral, FL
+2333 1116 145284 Kamloops, BC, Canada
+2153 96 48338 Moose Jaw, SSK, Canada
+1787 2934 166989 North Haledon, NJ
+1968 1528 159789 Norman, OK
+2706 290 36237 Bishop, CA
+341 575 49011 El Portal, CA
+2280 1972 176907 Surabaya, Indonesia
+2905 1023 55092 Naperville, IL
+469 1198 125934 Waupun, WI
+2642 437 55063 Farmington, ME
+1283 596 115267 Crawfordsville, IN
+1487 212 128281 Bucaramanga, Colombia
+1107 2439 43624 New Castle, DE
+1574 2393 198926 Sandersville, GA
+1392 2811 63106 Decatur, IL
+2560 350 102452 Barmouth, Wales, UK
+1148 1752 8559 Columbia, MD
+416 757 12172 Fulton, MO
+857 816 87514 Appleton, WI
+1586 2323 177262 Irving, IL
+2388 2942 62092 Englewood, CO
+1831 2918 172513 Upice, Czech Republic
+812 1998 45630 Portage, WI
+2270 350 199574 Cupertino, CA
+1366 343 53863 Sanderson, TX
+745 1527 82587 Sioux City, IA
+785 1686 38493 Ostrava, Czech Republic
+105 2021 40789 Vici, OK
+2836 1874 160948 Hartselle, AL
+953 683 42635 Picayune, MS
+1760 1627 198448 Katherine, NT, Australia
+616 2403 71999 Rosendale, WI
+830 2393 127252 Johnstown, NY
+80 2659 44752 Amherst, MA
+450 2955 105396 Morgantown, WV
+2889 2540 7914 Erkelenz, Germany
+2274 1815 46111 Dingman's Ferry, PA
+1777 2587 84967 Hopkinsville, KY
+1027 1213 49537 Ogden, UT
+1813 2068 129726 Chicopee, MA
+199 1413 27551 Warminster, PA
+2854 460 90473 Lutz, FL
+2350 2387 152718 Jensen Beach, FL
+1378 1241 190100 Rochester, NH
+2727 1414 167389 Terneuzen, Netherlands
+1086 2232 62560 Needham, MA
+385 1288 190588 Lisle, IL
+1802 82 85867 Amarillo, TX
+1310 343 136500 Amberg, Germany
+2692 827 132746 Saint Augustine, FL
+990 708 105673 East Grinstead/Gatwick, England
+1988 2216 4640 Peterborough, S. Australia
+1176 660 33739 Heber Springs, AR
+391 2427 8795 Toledo, OH
+2108 2107 46226 Mildura, VIC, Australia
+2899 2077 144465 Baytown, TX
+2396 953 65683 Saint Jrme, QU, Canada
+2359 2278 57881 Sebastopol, CA
+2078 2195 10996 Bemidji, MN
+2034 2947 110070 Crescent City, CA
+2719 2305 18133 Matar, Spain
+1334 7 125544 Hertogenbosch, Netherlands
+1418 1604 118489 Ottawa, Canada
+625 372 101007 Dijon, France
+840 1219 89469 Saint-Constant, QU, Canada
+1805 989 4901 Merced, CA
+983 2605 106962 Yorkton, SSK, Canada
+39 2280 47151 Cedar City, UT
+2007 2415 55532 Gore Bay, ON, Canada
+2468 2563 97897 Acworth, GA
+955 2321 110394 Yarram, VC, Australia
+755 790 198710 Butte, MT
+1200 2806 119075 West Palm Beach, FL
+76 1997 132631 Tangier, VA
+36 1539 5032 Jaffna, Sri Lanka
+2635 1567 165838 Naples, Italy
+1371 2876 77683 Den Helder, Netherlands
+1761 343 194832 Port Elizabeth, South Africa
+2244 2205 190511 Lincoln, NE
+692 1711 149749 Palm Bay, FL
+459 1571 67091 Gettysburg, PA
+156 738 94299 Kane, PA
+2001 338 126021 Truro, CWL, England
+1311 1227 47652 Frederick, MD
+7 2621 1867 Danvers, MA
+1354 2904 1921 Farmington Hills, MI
+2064 2451 128807 Williamsville, IL
+739 2094 14392 Holland, MI
+923 1355 145398 Hickory Ridge, AR Highland, CA
+1398 195 4196 Fresno, CA
+661 2666 55130 Natick, MA
+730 1108 41196 Susanville, CA
+88 2009 48600 Springfield, MO
+2926 2885 134097 Poughkeepsie, NY
+2916 1909 122397 Mount Vernon, IL
+1691 331 198758 Vancouver, Canada
+2045 252 145545 Sarajevo, Bosnia
+567 675 192630 Killarney, Ireland
+1092 2240 3462 Clermont-Ferrand, France
+2347 942 176288 Racine, WI
+1807 2657 122094 Garza Garcia, Mexico
+1372 2132 156397 Tampere, Finland

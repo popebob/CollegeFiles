@@ -1,0 +1,10 @@
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\bin\Release\MyList.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\bin\Release\MyList.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\bin\Release\MyList.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.MyListForm.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 2\MyList\obj\Release\MyList.pdb

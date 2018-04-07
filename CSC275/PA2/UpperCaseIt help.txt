@@ -1,0 +1,68 @@
+I received this message from a student, and thought others in the class might also need some clarification.
+
+I'll past the message followed by my reply, where I give hints on how to handle the case conversion problems.
+
+Question:
+
+Linda, Anthony,
+
+                  Need a little help on Program 2, appreciate any clarification you can provide.  Sorry to have not brought this up in class but just now getting into the coding.  Questions are -
+
+                    When adding a new entry into the vector, for program 2, the example output shows the entry as
+"LASTNAME, FIRSTNAME" (minus the quotes of course).  In this case I could change all charters to lowercase other than the first character of the entry and the first character encountered after the comma.  This would result in "Lastname, Firstname" (Again minus the quotes).  If something is entered that does not have 1 or more characters followed by a comma and a blank and then followed by 1 or more characters is that an error?  Or do we add anything as entered?  
+
+                   When processing a delete we should search for a match regardless of case?  In other words a delete for "Walker, RICK" would find a match and delete "Walker, Rick", correct?  An extra whitespace/blank character would cause a fail, it would not be found or deleted, correct?  Same principle would apply to a search, case would not have to match but everything else should?
+
+                  Lastly, perhaps you can give me a hint, I'm looking at toupper as the method to alter the input string
+
+
+
+=====================================================
+My Reply:
+
+I didn't expect you to validate that the user input the name in  lastName, FirstName format  I'm just expecting you to put whatever the user enters into the sorted vector list.   That means to search or remove the name, it would have to be input in exactly the same way the name was placed in the list. 
+
+Your interpretation of how delete should work is correct.   So when searching and sorting for names, the comparison shouldn't be case sensitive.  That was the purpose of the little helper function I have named:   string  upperCaseIt(const string stringIn) 
+
+Once you have coded this function you can use it to compare both input strings  as all uppercase letters.  Note, this function doesn't change the original string, it just returns a version of the string in all uppercase letters.
+
+In coding the function   string  upperCaseIt(const string stringIn),   you can use the character manipulation function  toupper.  This works on a single character, returns the uppercase version of the character.  (I've added documentation of  character manipulation functions in Blackboard under: 
+  Course Documents ==>Chapter 12 - More About Characters, Strings, and the string Class ==>Character Manipulation Functions.doc
+
+The function toupper takes a character parameter and returns that character in uppercase if it is alphabetical, or if not alphabetical returns same character unchanged.   To use toupper you need to have #include <cctype> at the top of your program.  But since my driver already includes that statement you are good to go.
+
+In the upperCaseIt function, define a second string, use loop to access the individual characters in the String parameter.  Convert each character to uppercase, then assign it to the corresponding position of your local string. When all characters in the String parameter have been converted, return the local string you have created.
+
+I hope that helps,
+Linda
+
+
+
+----------
+
+
+string upperCaseIt(const string word)
+{
+	string upcaseWord;
+	for (int i=0; i < word.length(); i++)
+		upcaseWord += toupper(word[i]); //word[i] is a specific character
+}
+
+---------
+
+string upperCaseIt(const string word)
+{
+	string upcaseWord = word;
+	for (int i=0; i < word.length(); i++)
+		upcaseWord[i] = toupper(word[i]); //word[i] is a specific character
+			//returns a new word as opposed to modifying the current word
+	return upcaseWord;
+}
+
+-------
+string upperCaseIt(const string name)
+{
+	string newname= name;
+	
+	for(int i=0; i<name.length(); i++)
+		newname[i]

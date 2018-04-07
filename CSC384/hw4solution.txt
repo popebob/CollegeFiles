@@ -1,0 +1,129 @@
+-- 1. List customer number, name and balance of customers who reside in Colorado.
+
+-- Note that '||' is concatenation operator.
+
+SELECT CustNo, CustFirstName, CustLastName, '$' || CustBal AS Bal
+FROM Customer
+WHERE CustState = 'CO'; 
+
+-- GRADING: CHECK WHERE clause is correct, the concatenation using || in SELECT clause is not needed.
+
+-- 2. List the customer number, the name (first and last), and the balance of customers who reside in -- Denver with a balance greater than $150, or who reside in Seattle with a balance greater than $300.
+
+SELECT CustNo, CustFirstName, CustLastName, '$' || CustBal AS Bal
+FROM Customer
+WHERE (CustCity = 'Denver' AND CustBal > 150) OR (CustCity = 'Seattle' AND CustBal > 300); 
+
+-- GRADING: CHECK WHERE clause is correct.
+
+-- 3. List all columns of the OrderTbl for Internet orders placed in January 2007. Remember that an -- internet order has no associated employee.
+
+SELECT *
+FROM OrderTbl
+WHERE EMPNO IS NULL;
+
+-- GRADING: CHECK 'IS NULL' is specified correctly.
+
+-- 4. List the order number, order date, customer number, and customer name (first and last) of orders -- placed in January 2007 by Colorado customers (CustState), but sent to Washington recipients -- (OrdState).
+
+SELECT O.OrdNo, O.OrdDate, C.CustNo, C.CustFirstName, C.CustLastName
+FROM OrderTbl O, Customer C
+WHERE to_char(O.OrdDate, 'YYYY') = '2007' AND to_char(O.OrdDate, 'MM') = '01' AND 
+      O.OrdState = 'WA' AND C.CustState = 'CO' AND C.CustNo = O.CustNo;
+
+-- GRADING: CHECK dates checked appropriately. Multiple ways of checking, run and see that
+-- the student gets correct result.
+-- also check join, and the other conditions.
+
+-- 5. List the product number, name, and price of products ordered by customer number C0954327 in -- January 2007. Remove duplicate products in the result.
+
+
+SELECT DISTINCT P.ProdNo, P.ProdName, P.ProdPrice
+FROM Product P, ORDLINE OL, ORDERTBL O
+WHERE OL.ProdNo = P.ProdNo AND OL.OrdNo = O.OrdNo AND
+      O.CustNo = 'C0954327' AND to_char(O.OrdDate, 'YYYY') = '2007' AND to_char(O.OrdDate, 'MM') = '01';
+
+-- GRADING: CHECK DISTINCT is specified (though for the sample data, we may not get duplicates even
+-- w/o DISTINCT). CHECK 3 tables in FROM, and appropriate conditions in WHERE.
+
+-- 6. List the average balance of customers by city. Include only customers residing in Washington (WA) -- state. Eliminate cities in the result with less than 2 customers.
+
+SELECT CustCity, '$' || AVG(CustBal) AS AVGBAL
+FROM Customer
+WHERE CustState = 'WA'
+GROUP BY CustCity
+HAVING COUNT(*) >= 2;
+
+-- GRADING: CHECK GROUP BY clause, HAVING Clause, and WHERE clause. The '$' concatenation is not needed.
+
+-- 7. List the product number, product name, sum of the quantity of products ordered, and total order -- amount (sum of the product price times the quantity) for orders placed in January 2007. Only include -- products that have more than five products ordered in January 2007. Sort the result in descending -- order of the total amount.
+
+SELECT P.ProdNo, P.ProdName, SUM(OL.Qty) AS NumOrders, SUM(OL.Qty * P.ProdPrice) AS TotalAmt
+FROM Product P, OrdLine OL, OrderTbl O
+WHERE OL.ProdNo = P.ProdNo AND OL.OrdNo = O.OrdNo AND 
+      to_char(O.OrdDate, 'YYYY') = '2007' AND to_char(O.OrdDate, 'MM') = '01'
+GROUP BY P.ProdNo, P.ProdName
+HAVING SUM(OL.Qty) > 5
+ORDER BY (SUM(OL.Qty * P.ProdPrice)) desc;
+
+-- GRADING: Very difficult question. Multiple ways of doing it.
+-- CHECK ORDER BY, HAVING.. Again multiple ways of doing GROUP BY -- run the query from student
+-- and compare with the above solution.
+
+-- 8. List the employee number, the employee name (first and last), the commission rate, the supervising -- employee name (first and last), and the commission rate of the supervisor.
+
+SELECT E.EmpNo, E.EmpFirstName, E.EmpLastName, E.EmpCommRate, 
+       S.EmpFirstName AS SupFirstName, S.EmpLastName as SupLastName, S.EmpCommRate AS SupCommRate
+FROM Employee E, Employee S
+WHERE E.SupEmpNo = S.EmpNo;
+
+-- GRADING: Checking Self Join.
+
+-- 9. List the employee number and the name (first and last) of first and second-level subordinates -- (second-level subordinates are subordinates of subordinates) of the employee named Thomas Johnson. To -- distinguish the level of subordinates, include a computed column with the subordinate level (1 or 2).
+
+SELECT S.EmpFirstName, S.EmpLastName, '1' AS SubLevel
+FROM Employee E, Employee S
+WHERE S.SupEmpNo = E.EmpNo AND E.EmpFirstName = 'Thomas' AND E.EmpLastName = 'Johnson'
+UNION
+SELECT S.EmpFirstName, S.EmpLastName, '2' AS SubLevel
+FROM Employee E, Employee S1, Employee S
+WHERE S.SupEmpNo = S1.EmpNo AND S1.SupEmpNo = E.EmpNo AND 
+      E.EmpFirstName = 'Thomas' AND E.EmpLastName = 'Johnson';
+
+-- GRADING: CHECKING UNION, adding levels, and self-Join
+
+-- 10. For each employee with a commission rate greater than 0.03, compute the total commission earned -- from orders taken in Jan 2007. The total commission earner is the total order amount times the 
+-- commission rate. The result should include the employee number, employee last name, and total 
+-- commission earned.
+
+SELECT E.EmpNo, E.EmpLastName, '$' || ROUND(SUM(OL.Qty * E.EmpCommRate * p.prodprice), 2) AS TotComm
+FROM Employee E, OrderTbl O, OrdLine OL, Product P
+WHERE E.EmpCommRate > 0.03 AND to_char(O.OrdDate, 'YYYY') = '2007' AND to_char(O.OrdDate, 'MM') = '01'
+      AND O.EmpNo = E.EmpNo AND OL.OrdNo = O.OrdNo AND p.prodno = ol.prodno
+GROUP BY E.EmpNo, E.EmpLastName;
+
+-- GRADING: Again a difficult question. I will announce in class that commission rate is per dollar 
+-- earned. Therefore if an employee sells total $50, and his commission rate is 0.04, then he gets a 
+-- commission of $2. Also the rounding is not needed, concatenating '$' is also not needed.
+
+
+-- 11. List the total commission earner by each employee in each month of 2007. The result should 
+-- include the month, employee number, employee last name, and the total commission amount earned in 
+-- that month. The amount of a commission for an individual employee is the sum of the dollar amount of -- products ordered times the commission rate of the employee. Sort the result by the month in ascending -- month number, and the total commission amount in descending order.
+
+SELECT E.EmpNo, E.EmpLastName, to_char(to_date(to_char(O.OrdDate, 'MM'), 'MM'), 'Mon') AS month, 
+       '$' || ROUND(SUM(OL.Qty * E.EmpCommRate * p.prodprice), 2) AS TotComm
+FROM Employee E, OrderTbl O, OrdLine OL, Product P
+WHERE to_char(O.OrdDate, 'YYYY') = '2007'
+      AND O.EmpNo = E.EmpNo AND OL.OrdNo = O.OrdNo AND p.prodno = ol.prodno
+GROUP BY E.EmpNo, E.EmpLastName, to_char(O.OrdDate, 'MM')
+ORDER BY to_char(O.OrdDate, 'MM') asc, SUM(OL.Qty * E.EmpCommRate * p.prodprice) desc;
+
+-- GRADING: CHECK ORDER BY, GROUP BY.
+-- I return month in a format that will be quite complex for the students to do.
+-- Note that I can return only group by columns, so I start from the group by column, which 
+-- includes a 2 character string representing month, I convert that to a date, and then
+-- extract the 3 character month string.
+-- note - 2 digit rounding is NOT needed, as is the '$' sign.
+
+

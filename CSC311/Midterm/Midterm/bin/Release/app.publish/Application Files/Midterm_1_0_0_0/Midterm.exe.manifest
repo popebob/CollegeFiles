@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Midterm.exe" version="1.0.0.0" publicKeyToken="e12d9d8ad442e227" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Midterm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Midterm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.DataSetExtensions" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml.Linq" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Midterm.exe" size="26112">
+      <assemblyIdentity name="Midterm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>awIqQqZ/XQ9VQFpA/8C+W9pjIFM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=PopeMobile\Popebob" issuerKeyHash="290d030d8d2ab22e1d42f01e24cb33cdc03ed386" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XJUcPGU81Vdt5ivPBkF55NzXedM=</DigestValue></Reference></SignedInfo><SignatureValue>o+IqMvyhhztY6OwW57VVDwgIiWN9lsOKCZ9chKPSw2LAf0yYhHkvQStRyX35lS0yjDb54OCwCMBeMNsIis7BSWtTsfk45mswTyo324XC8HXfabC+e6UmDD2Sm6ZdX0iyt62cZ2KKyIvNc9nhxxlEIw/RCUMEAXHcQL4t2byfgGY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3uPQeeXq7qy4ewLzeQ5wAngzdvTRgievP+MZa6q34RCv4CkvAMGgHWVLwzsjxmcwADGyQZz5dXp4yidsP8SMxT/wYzd5CI8OlOkOop4x2XMczC3WkF+wFrvwLrcSRsnV72v6bafOlfcokpav4U/3KgMBU1eXV2p5jrxPOJYXuyc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d379d7dce4794106cf2be66d57d53c653c1c955c" Description="" Url=""><as:assemblyIdentity name="Midterm.exe" version="1.0.0.0" publicKeyToken="e12d9d8ad442e227" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PopeMobile\Popebob</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s6HutDKPEaOTmi3KwyrNUocJxK8=</DigestValue></Reference></SignedInfo><SignatureValue>q7sayDl9gcY+7v1E5Sd6YuOvt4Ihoua5hQ1Tr2W2DhCxYTafpNuYwk5X6YQ3duWcrmKdoWC2AFNen19fs/KxkccPsHN/1NjxyhEzTpWWfgearyS2GUrvYtoEbhLc8kCM4ZnXqTd/UGJOcpn76QonIAmvSM36SUYfuqckTJmpm/s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3uPQeeXq7qy4ewLzeQ5wAngzdvTRgievP+MZa6q34RCv4CkvAMGgHWVLwzsjxmcwADGyQZz5dXp4yidsP8SMxT/wYzd5CI8OlOkOop4x2XMczC3WkF+wFrvwLrcSRsnV72v6bafOlfcokpav4U/3KgMBU1eXV2p5jrxPOJYXuyc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQGTeEmeuSKLhKpYauLC1dtjANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUABvAHAAZQBNAG8AYgBpAGwAZQBcAFAAbwBwAGUAYgBvAGIwHhcNMTAwMjIxMTkyNzUyWhcNMTEwMjIyMDEyNzUyWjAvMS0wKwYDVQQDHiQAUABvAHAAZQBNAG8AYgBpAGwAZQBcAFAAbwBwAGUAYgBvAGIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN7j0Hnl6u6suHsC83kOcAJ4M3b00YInrz/jGWuqt+EQr+ApLwDBoB1lS8M7I8ZnMAAxskGc+XV6eMonbD/EjMU/8GM3eQiPDpTpDqKeMdlzHMwt1pBfsBa78C63EkbJ1e9r+m2nzpX3KJKWr+FP9yoDAVNXl1dqeY68TziWF7snAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAOWpCcFDtwUgSDhn9GQJLmM7RkwVcR+xxbQCaY/HXlsnkDuWahIVnmrw2cteMbGdhpPknHbqnQzm1TkEK6WZHl5fedPwyGW0l4SHK/1kfJdNdY01bEDgrMt1gtGNbKIImYPyTrRDGIJjhDo+EXnMhcsN3zh46j/FwGNzNsyeowKM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

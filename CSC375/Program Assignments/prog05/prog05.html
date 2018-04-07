@@ -1,0 +1,256 @@
+<HTML>
+<head>
+<title> Program 5, Due Wednesday April 22, 2009</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#FF3300">
+<h2> Program 5, Due Wednesday April 22, 2009 (70 points)</h2>
+
+<p> In this assignment, you will implement a spell checker program
+using hashing techniques.  Given the names of an input dictionary file
+and an input check-file, your program will read the dictionary
+into a hash table, then it will read through the check file and indicate
+in the screen output what words were found to be in error according to
+the dictionary.  </p>
+
+<p> This is done as follows:  first, for every word read from the dictionary file,
+insert it into the hash table using an appropriate hash function
+and a probing technique specified below.  The hash becomes an internal spelling
+database.  Second, for every word read from the
+check file (separated by whitespace), search the hash
+for that word.  Successfully finding it in the table means that it
+is correctly spelled, according to the current dictionary.  Failure to find
+it means that it is deemed incorrectly spelled.  The output is straightforward:
+it is a series of one-word lines that indicate what words the program thinks
+are not correctly spelled (as well as some statistics as specified below).</p>
+
+
+<p>You will be testing some collision resolution policies against each
+other with varying hash table sizes to compare their relative
+performance under the conditions imposed by this assignment.
+This will be measured by counting the total number of steps
+taken in attempting to find word positions in the hash table.  This includes
+inserting the dictionary words and searching for the check-file words.
+That is, a "step" is the act of comparing a location in the hash table with
+a word being checked or inserted, whether it's at a home position or during
+a probe.
+</p>
+
+<h3>Specific Requirements</h3>
+
+<p>In brief:
+<ul>
+<li>The input files will be specified on the command line.
+<li>The output is a list of "misspelled" words, followed by statistics.
+<li>You will use (and compare) different probing techniques as described below.
+<li>You will use (and compare) several different sizes of dictionaries.
+<li>You will write a summary report.
+</ul></p>
+
+
+<h3>Input Format</h3>
+
+<p> The dictionary file will be a list of words, one per line.  Proper names
+may be capitalized, but all other words should be all lower-case.  The
+check file will be any ASCII text file that I happen to come up with.  I will
+find web sites with various stories from which I'll cut and paste into
+sample input files.  Treat words in a case-insensitive fashion.  For example,
+treat "Treat" and "treat" as the same word.
+</p>
+
+<h3>Output Format</h3>
+
+<p>The output looks the same as the output of the unix spell command
+(see <a href=prog05-spell.html> prog05-spell.html</a>), with the
+additional requirement of printing a
+performance summary after the "misspelled word" output.
+The performance summary should include:</p>
+
+<ul>
+<li> The identity of the probing technique currently used.
+<li> The number of misspelled words found
+<li> The count of the number of steps used for the hashing technique
+</ul>
+<p>
+The count that is printed includes insert steps and search steps.  That is,
+count the number of steps it takes to insert words from the dictionary
+file, and also count the number of steps it takes to search for words
+from the check file.  For purposes of this assignment, "steps" are search steps,
+whether you are looking for a word in the hash table or searching for a
+position into which to insert a dictionary word (don't count the actual
+insert - just the number of steps it took to find its position).</p>
+
+<p>As far as testing of different probing techniques,
+I recommend that you simply recompile the program every time you wish
+to test a different one.  However, please leave all relevant functions
+coded in your program source.  </p>
+
+<p>
+For output format, consider the following dictionary (the words are
+not listed in any particular order):  <b><tt>{this, is, in, id, test, and,
+tent, a, but, testing, friendly}</tt></b>.  Now consider the following check
+file:  </p>
+
+<b><pre>
+This i
+a tet
+</pre></b>
+The output should look similar to this:
+
+</p>
+<b><pre>
+i
+tet
+
+Linear probing
+Number of misspelled words:  2
+Number of steps:  34212
+</pre></b>
+
+<p>There are two things of note in the example above:  (1) The number of steps was made up. For this
+small example, it would probably be a much smaller number. (2)
+Remember that the number of steps counts the number of steps
+it took to insert the dictionary words into the hash, as well as the number of
+steps spent looking for words read from the check file.</p>
+
+<h3> Hashing Techniques and Dictionary Sizes</h3>
+
+<p>Use and compare three dictionaries.  Each has on the order of
+8000, 25000, and 45000 words.  They are linked in as a zip file in
+<a href=progs.html> progs.html</a> and named <b>words08k.txt</b>,
+<b>words25k.txt</b>, and <b>words45k.txt</b>.  </p>
+
+<p>Use a suitable text-based hashing function, such as the ELF hash from
+my slides.  Do not use the folding method.</p>
+
+<p>The probing techniques that you must implement and compare include:
+<ul>
+<li>Linear probing
+<li>Double hashing
+</ul>
+<p>(Note:  double hashing means you need to find a second hash function.)</p>
+<p>
+The hash table sizes you will use are based on the size of the dictionary
+file.  It is possible that a given hash size will not work with one of the
+probing techniques, but unlikely.  If this is the case, then follow this rule:
+<ul>
+<li> If you are trying to insert a dictionary word and the probe fails to find a slot, then simply don't insert it.
+</ul>
+</p>
+<p>
+For the data files shown, use and compare performance for the following hash table sizes:
+
+<ul>
+<li> words08k.txt:  12577 and 16763
+<li> words25k.txt:  37717 and 50287
+<li> words45k.txt:  68141 and 90863
+</ul>
+</p>
+
+<h3>Report</h3>
+<p>
+You should submit with your program a short report summarizing the
+performance of the two probing techniques with various hash table sizes and
+dictionaries, drawing conclusions as to which perform the best with
+which data.  Attempt to interpret your results in your report.  </p>
+
+
+<h3>Extra Credit: Spell Check Rules</h3>
+
+<p>
+I will add 5 points for each of the following rules that your
+spelling checker applies to each misspelled word:
+
+<ul>
+<li> Add one character to try to find a correct word.
+<li> Remove one character to try to find a correct word.
+<li> Exchange adjacent characters to try to find a correct word.
+</ul>
+Each rule may generate a considerable number of alternative
+words.  For example, consider the first rule and think of an eight
+letter misspelled word, such as <b>sientist</b>;
+now imagine adding 26 possible alternative letters in nine possible
+locations.  For example, the letter 'c' could be tried as follows:
+<b>csientist</b>, <b>scientist</b>, <b>sicentist</b>, <b>siecntist</b>,
+<b>sienctist</b>, <b>sientcist</b>, <b>sienticst</b>, <b>sientisct</b>,
+<b>sientistc</b>.</p>
+
+<p>  If any alternative words are also found in the dictionary hash table,
+then your program should print them immediately after the
+questionable word, in a list format as follows.
+Consider the same dictionary and check files as before.
+The output file should look similar to this:
+</p>
+<pre>
+i: is, in, id
+tet: test, tent
+
+Linear probing
+Number of misspelled words:  2
+Number of steps:  42
+
+</pre>
+
+<h3>Extra Credit:  Punctuation</h3>
+ 
+<p> I will also give 5 points extra credit if you
+are able to account for various punctuation and
+other non-letter characters, such as dashes, periods, commas, quotation
+marks, and even numeric digits.  In my example data files, there may be
+many locations in which this occurs.</p>
+ 
+<p>For example, consider the words "Berkshire", "We", and "drunk" in the
+following sentence:</p>
+
+ 
+<pre>
+In Berkshire, Bob said "We were all drunk."
+</pre>
+ 
+<p>The point of this extra credit portion is that the comma, the quotation marks, and the period
+followed by quotation marks all must be removed in order to properly
+search the hash.  Otherwise, the program will consider things like
+"Berkshire," (including the comma) as a word, which won't be found even
+if "Berkshire" is in the dictionary.
+</p>
+
+<h2> Additional Notes</h2>
+<p>
+Input files are linked in to the <a href=progs.html>progs.html</a> page
+that this was linked from.  The files were created in Unix
+format, which means there is not a &lt;CR&gt;&lt;LF&gt; at the end of
+each line; instead, they have only a &lt;CR&gt;.  Practically, it
+means you may not easily be able to read them using an editor, a DOS shell, or Visual
+Studio, but they should work (of course, you can easily read them if you choose to
+do this on a Linux machine).  You can also invent your own input; I would encourage
+that for test runs.
+</p>
+ 
+Name your program <b>prog05.cpp</b>, and name the associated interface file and implementation
+file(s) accordingly, e.g. <b>hash.h</b> and <b>hash.cpp</b>.  Any programs named otherwise will
+not be examined. Do not include a compiled version however it is
+turned in, and paper copies are not necessary.
+</p>
+   
+<p>In your comment block to begin your main program, other than the
+function of the program and the variable dictionary, include a comment
+of the following format. The most important things are your name and
+the compiler you used:
+</p>
+<pre>
+// Name:         Joe M. Student
+// Program:      CSC 375 Program 5
+// Due Date:     Wednesday April 22, 2009
+// Compiler:     (whatever one you used.)
+</pre>
+   
+<p>
+Your program must follow "reasonable" rules of style.  Make sure that
+there is a variable dictionary or that you illustrate the purpose of all
+variables with comments. Make sure that your code is properly indented to
+indicate blocks, etc.
+</p>
+ 
+</body>
+</html>
+

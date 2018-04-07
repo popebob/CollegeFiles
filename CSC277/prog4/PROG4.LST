@@ -1,0 +1,125 @@
+Turbo Assembler	 Version 4.0	    04/16/08 16:21:37	    Page 1
+prog4.ASM
+
+
+
+      1				     ;Cody Adams
+      2				     ;CSC277-01
+      3				     ;W08
+      4				     ;Program 4
+      5
+      6
+      7
+      8	0000			     .MODEL SMALL
+      9	0000			     .STACK 100H
+     10
+     11
+     12				     EXTRN INDEC : PROC
+     13				     EXTRN OUTDEC : PROC
+     14
+     15	0000			     .DATA
+     16
+     17	0000  0A 0D 45 6E 74 65	72+  Inputx db 0AH,0DH,"Enter a	decimal	number:	",'$'
+     18	      20 61 20 64 65 63	69+
+     19	      6D 61 6C 20 6E 75	6D+
+     20	      62 65 72 3A 20 24
+     21
+     22	001B			     .CODE
+     23
+     24	0000			     MAIN PROC
+     25
+     26	0000  B8 0000s		     MOV AX,@DATA
+     27	0003  8E D8		     MOV DS,AX
+     28	0005  50		     push ax
+     29
+     30	0006  B4 09		     MOV AH,9
+     31	0008  BA 0000r		     LEA DX,Inputx
+     32	000B  CD 21		     INT 21H
+     33
+     34	000D  E8 0000e		     CALL INDEC
+     35	0010  E8 0000e		     call outdec
+     36
+     37	0013  B9 0004		     MOV CX,4
+     38	0016  50		     push ax
+     39
+     40	0017			     Burnination:
+     41
+     42	0017  8B D8		     MOV     BX,AX   ;copy AX to BX
+     43	0019  D1 E3		     SHL     BX,1	     ; OF = SF xor CF
+     44	001B  70 06		     JO	     DIFF	     ;bits 14 &	15 of AX are different
+     45
+     46				     ;Here bits	14 & 15	are the	same
+     47	001D  25 FFFE		     AND     AX,0FFFEh	     ;clear bit	0
+     48	0020  EB 04 90		     JMP     NEXT
+     49
+     50	0023			     DIFF:
+     51	0023  0D 0001		     OR	     AX,1	     ;set bit 0
+     52
+     53	0026			     NEXT:
+     54
+     55
+     56
+     57
+Turbo Assembler	 Version 4.0	    04/16/08 16:21:37	    Page 2
+prog4.ASM
+
+
+
+     58				     ;CALL RANDOMIZER
+     59	0026  E8 0000e		     CALL OUTDEC
+     60	0029  E2 EC		     LOOP Burnination
+     61
+     62				     ;Exit to DOS
+     63	002B  B4 4C		     MOV AH,4CH
+     64	002D  CD 21		     INT 21H
+     65
+     66	002F			     MAIN ENDP
+     67
+     68
+     69				     ;RANDOMIZER PROC
+     70
+     71
+     72				     ;RET
+     73
+     74				     ;RANDOMIZER ENDP
+     75
+     76				     END
+Turbo Assembler	 Version 4.0	    04/16/08 16:21:37	    Page 3
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/16/08"
+??FILENAME			  Text	 "prog4	  "
+??TIME				  Text	 "16:21:37"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 PROG4
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+BURNINATION			  Near	 _TEXT:0017
+DIFF				  Near	 _TEXT:0023
+INDEC				  Near	 ----:---- Extern
+INPUTX				  Byte	 DGROUP:0000
+MAIN				  Near	 _TEXT:0000
+NEXT				  Near	 _TEXT:0026
+OUTDEC				  Near	 ----:---- Extern
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  001B Word	  Public  DATA
+_TEXT				  16  002F Word	  Public  CODE
+

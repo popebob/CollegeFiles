@@ -1,0 +1,220 @@
+Hi class,
+
+I didn't email already as I was thinking what to do about the exam
+1 results.  Overall, it was not really that bad, although there were
+some low scores.  The average was 70/100.  However, there was one area
+of universal low performance, and I'm going to give a quiz related to
+those questions on Wednesday Oct. 15.
+
+The specific questions are those related to subnetting and subnet
+masks,
+whether it's the CIDR question or the actual subnet question.
+
+So here's a (really, rather long) email discussion of those questions.
+You may really want to print this out and study it.
+
+ - cut - cut - cut - cut - cut - cut - cut - cut - cut -
+
+Question 2 asked: "Consider the following information sent to a router
+as new IP addresses:  57.6.96.0/22, 57.6.104.0/21, 57.6.112.0/22,
+and 57.6.120.0/21.  If these all use the same outgoing line, then
+which
+of these can be aggregated and which cannot?"
+
+This question addresses CIDR, essentially.
+
+The approach begins with notation:  the "/21" or "/22" notation means
+the
+number of leading 1s in the subnet mask.  That is, "/21" is 21 leading
+1s.
+Break them into octets (groups of 8 bits):
+
+/21:  11111111 11111111 11111000 00000000  <-- 21 leading 1s.
+/22:  11111111 11111111 11111100 00000000  <-- 22 leading 1s.
+
+Now, apply it to an address, such as 57.6.96.0/22
+
+           57               6             96              0
+11111111 11111111 11111100 00000000
+
+The last octet can be ignored.  It's important to pay attention to the
+3rd octet.  That one is 11111100.  In a sense, the 1s are immutable
+and
+the 0s represent variation.  Since there are two 0-bits, it means 2^2
+or 4 combinations.  The CIDR (house) rules mean that you start from
+that
+.96 and give four combinations (i.e., counting from 96 inclusive):
+
+  57.6.96.0   <-- this is a whole subnet including 256 addresses
+  57.6.97.0   <-- this is a whole subnet including 256 addresses
+  57.6.98.0   <-- this is a whole subnet including 256 addresses
+  57.6.99.0   <-- this is a whole subnet including 256 addresses
+
+That is the set of four "groupings of 256" that are attached to that
+line.
+In other words, 57.6.96.0/22 means 1024 IP addresses, starting at the
+specific address 57.6.96.0.  It includes all of these specific
+addresses:
+
+57.6.96.0 up through 57.6.96.255,
+57.6.97.0 up through 57.6.97.255,
+57.6.98.0 up through 57.6.98.255, and
+57.6.99.0 up through 57.6.99.255.
+
+(Note that normally something like 57.6.99.0 implies the whole subnet
+of 256 addresses, so the above list is a bit redundant.)
+
+Based on that, the other sets of addresses are similar.  Just note
+that the ones
+with "/21" have twice as many, because "/21" is:
+
+11111111 11111111 11111000 00000000
+
+meaning there are 3 0-bits in that 3rd octet, 2^3 is 8, and therefore
+there are 8 "groupings of 256".
+
+That means:
+57.6.104.0/21 represents these subnets:
+
+57.6.104.0
+57.6.105.0
+57.6.106.0
+57.6.107.0
+57.6.108.0
+57.6.109.0
+57.6.110.0
+57.6.111.0
+
+57.6.112.0/22 represents:
+
+57.6.112.0
+57.6.113.0
+57.6.114.0
+57.6.115.0
+
+
+and 57.6.120.0/21 represents
+
+57.6.120.0
+57.6.121.0
+57.6.122.0
+57.6.123.0
+57.6.124.0
+57.6.125.0
+57.6.126.0
+57.6.127.0
+
+
+Now you can determine which aggregate together.  Note that there's a
+break
+between the numbers 57.6.99.0 and 57.6.104.0 - that is, the networks
+57.6.100.0 through 57.6.103.0 are not represented.  So 57.6.96.0/22
+cannot
+be aggregated with 57.6.104.0/21.
+
+By the same reasoning, 57.6.112.0/22 cannot be aggregated with
+57.6.120.0/21.
+
+However, the addresses ARE contiguous between 57.6.104.0/21 and
+57.6.112.0/22 - that is, these two address specifications represent a
+contiguous set of addresses that range from 57.6.104.0 to 57.6.115.0.
+That means these two sets of addresses can theoretically be
+aggregated.
+
+All that long-winded blah represents the part I thought would be easy.
+Now, the tricky part:  the combination of those two specifications
+represent 12 network addresses.  12 is not a power of 2, so they
+really can't be aggregated (with one entry) after all.  The number has
+to be a power of 2 in order to change the netmask from /22 to /21 or
+from /21 to /20.
+
+The answer I was looking for was that you'd note both of these facts.
+Unfortunately, nobody got this.  One person got somewhat closer than
+the other 12.
+
+
+
+Question 9 asked:  "The following subnet mask is used on a campus:
+255.255.248.0.  The campus is a class B network.  How many subnets and
+how many hosts per subnet are there on this campus?"
+
+Similar question but slightly different interpretation of the subnet
+mask.  In a class B network, the IP address
+
+  W.X.Y.Z
+
+breaks up into
+
+  W.X = netID
+
+  Y.Z - hostID
+
+The subnet part allows you to further subdivide Y.Z into subnet and
+hostID
+
+So consider that 255.255.248.0 means this:
+
+       11111111 11111111 11111000 00000000
+
+You should *know* this because 248 = 255 - 7 and 7 (base 10) = 111
+(base 2)
+
+Thus,        255 -     7 =      248 or
+     11111111 - 111 = 11111000
+
+This just shows what the subnet mask is.  Now you take the fact it's a
+class
+B address, using (say) UM-Flint's class-B address as an example:
+
+   141.216.0.0 <- that's our netID.
+
+Apply it:
+
+         141           216               0             0
+11111111 11111111 11111000 00000000
+
+Since it's class B, we know that the last two octets are the only
+ones that matter here, so eliminate the part having the '141.216':
+
+             0             0
+11111000 00000000
+
+In subnetting, it works this way:  if you consider the overall netID,
+then
+apply the mask, the 1s represent subnet IDs, and the 0s represent host
+IDs.
+
+There are 5 1s here.  That means 2^5 = 32 subnets.
+
+There are 11 0s here.  That means 2^11 or 2048 hosts (not including
+the ones
+that you cannot use, like all zeros or all 1s, which have special
+meaning).
+
+So there's the answer:  32 subnets each having about 2048 hosts.
+
+________________
+small correction to the last part of my answer to the 2nd question.  I
+had said:
+
+"...
+            0             0
+11111000 00000000
+
+In subnetting, it works this way:  if you consider the overall netID,
+then
+apply the mask..."
+
+I should've said   ... "if you consider the overall HOST ID" (not
+"netID")
+You are taking the host ID and breaking it into subnet and host.
+
+So - w.x.y.z which in abstract is netID.hostID
+
+becomes  netID.subnetID.hostID.
+
+Alles klar?
+
+Ok, last email for a while.  I promise.
+
+-Dr. Turner

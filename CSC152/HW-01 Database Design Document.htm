@@ -1,0 +1,544 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Design Document</title>
+<style>
+<!--
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	margin-left:0in; margin-right:0in; margin-top:0in}
+h4
+	{margin-bottom:.0001pt;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:Arial;
+	text-decoration:underline;
+	text-underline:single; margin-left:0in; margin-right:0in; margin-top:0in}
+-->
+</style>
+</head>
+
+<body>
+
+  <h4 style="border: medium none; padding: 0in">
+  PROBLEM STATEMENT</h4>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">You are a programmer for the Condo Management Company. The company 
+is located in a ski resort community and provides a rental service for condo 
+owners who want to rent their units. The company rents the condos by the week to 
+ski vacationers. </p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal">Currently the company has a manual system that is 
+paper-based, time-consuming and prone to errors. The company expects to grow 
+significantly in the near future and they need to computerize their record 
+processing system. You have been assigned the task of building a database, using 
+Microsoft Access, to replace the paper system. </p>
+<p><u><b><font face="Arial">DATABASE STRUCTURE</font></b></u></p>
+
+<p class="MsoNormal">The Condo Management company keeps condo owner data such as 
+name, address and contact information in their files. A condo owner may have 
+more than one condo available. They also keep detailed descriptions of each of 
+the condos that are available for rent including such things as number of 
+bedrooms, number of baths, and which amenities are included as well as what 
+restrictions may apply. Information about weekly rental rates is also recorded. 
+The following information is currently kept by the company about their rental 
+properties:</p>
+
+<ul>
+  <li>
+
+<p class="MsoNormal">owner's last name</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">owner's first name</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">owner's address</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">owner's phone number</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">number of bedrooms</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">number of bathrooms</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">list of amenities (linens, Jacuzzi, fireplace)</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">list of restrictions (pets, smoking, maximum number of 
+people)</p>
+
+  </li>
+  <li>
+
+<p class="MsoNormal">weekly rental rate</p>
+
+  </li>
+</ul>
+
+<p class="MsoNormal">The first step in designing a database is to analyze the 
+data that will be stored in the database. <b><u>Tables</u></b> are used to store 
+data in a database. Each table will contain only one kind of data. Tables 
+consist of <u><b>records</b></u> which contain <u><b>fields</b></u>, one field 
+for each piece of data to be stored. Each table must have one field that 
+contains unique data (the data in the field is never repeated in the table); 
+this field is called the table's <u><b>primary key</b></u> field.</p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal">Careful study of the list above reveals the 
+following facts:</p>
+<ul>
+  <li>
+  <p class="MsoNormal">The first 4 items are owner data.</li>
+  <li>
+  <p class="MsoNormal">The remaining items are condo unit data.</li>
+  <li>
+  <p class="MsoNormal">In order to avoid repeating all of the owner data for 
+  clients offering multiple units, it is most efficient to store owner data 
+  separate from condo data. </li>
+  <li>
+  <p class="MsoNormal">Our database will need two tables. One will be used to 
+  store owner data; the other will be used to store condo data.</li>
+  <li>
+  <p class="MsoNormal">Storing owner data in a separate table from condo data 
+  requires that one of the tables include some kind of cross-reference 
+  identification in order to associate the condo data with the correct owner 
+  data.</li>
+  <li>
+  <p class="MsoNormal">There is no identifiable primary key field among the 
+  owner data; none is unique. Unique data must be &quot;invented&quot; for each owner. 
+  This is typically done by assigning a unique code to each owner.</li>
+  <li>
+  <p class="MsoNormal">Also, none of the condo data is unique. Unique data must 
+  therefore be &quot;invented&quot; for each condo unit. As with owners, this can be done 
+  by assigning a unique code to each condo.</li>
+  <li>
+  <p class="MsoNormal">Because an owner may own more than one rental unit, there 
+  is a &quot;<u><b>one-to-many</b></u>&quot; relationship between owners and condos.</li>
+  <li>
+  <p class="MsoNormal">Because of this one-to-many relationship, the most 
+  efficient way to associate (&quot;join&quot;) the data in the two tables is to repeat 
+  the unique owner code in each of his condo table records. This repeated field 
+  is called a <u>foreign key</u> since it is the primary key of another table. 
+  It <u>must</u> contain contain <u>exactly</u> the same data as the primary 
+  key.</li>
+</ul>
+  <p class="MsoNormal">The second step in database design is to look very 
+  carefully, again, at the list of data that needs to be stored in the database. 
+  Further analysis most often results in a much more detailed list of fields 
+  that must be included in the database tables. For example, because of postal 
+  regulations, one field containing all address data is not suitable. Address 
+  information must be broken down into several entities. Similarly, the original 
+  lists of amenities and restrictions will need to be broken into multiple 
+  fields in the final design of the condo database table.<p class="MsoNormal">&nbsp;<p class="MsoNormal">
+The third step in database design is to assign data attributes to each of the 
+identified fields. We need to determine 4 attributes - field name, data type, 
+field size, and primary key status. Some of the questions that need to be asked 
+are:<ul>
+  <li>
+  <p class="MsoNormal">Will the field contain text? If so, how many characters 
+  will be stored?</li>
+  <li>
+  <p class="MsoNormal">Will the data be used in mathematical calculations? If 
+  so, how large a number must be stored; how many decimal places are required?</li>
+</ul>
+  <p class="MsoNormal">Microsoft Access offers a number of data types. As we 
+  gain experience with different types of data, you will quickly be able to 
+  judge which is best to use. For the initial table structures, we will use the 
+  attributes included in the following two tables:<p class="MsoNormal">&nbsp;<p class="MsoNormal">
+<u><font size="3"><b>Owner Table</b></font></u></p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="535" id="AutoNumber1">
+  <tr>
+    <td width="94" align="center"><font face="Arial">Field Name</font></td>
+    <td width="55" align="center"><font face="Arial">Data Type</font></td>
+    <td width="58" align="center"><font face="Arial">Size</font></td>
+    <td width="69" align="center"><font face="Arial">Primary key?</font></td>
+    <td width="253" align="center"><font face="Arial">Description</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Owner Id</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">4</font></td>
+    <td width="69" align="center"><font face="Arial">Yes</font></td>
+    <td width="253" align="left"><font face="Arial">Unique code assigned to an 
+    owner</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Last Name</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">15</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">Last name of owner</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">First Name</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">10</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">First name of owner</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Address</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">15</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">Street address</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">City</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">15</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">City</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">State</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center">2</td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">State (official USPS code)</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Zip Code</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">5</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">Zip Code (5-character 
+    version)</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Telephone</font></td>
+    <td width="55" align="center"><font face="Arial">Text</font></td>
+    <td width="58" align="center"><font face="Arial">12</font></td>
+    <td width="69" align="center">&nbsp;</td>
+    <td width="253" align="left"><font face="Arial">Phone Number (999-999-9999)</font></td>
+  </tr>
+  </table>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal"><u><font size="3"><b>Condo Table</b></font></u></p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="569" id="AutoNumber1">
+  <tr>
+    <td width="94" align="center"><font face="Arial">Field Name</font></td>
+    <td width="75" align="center"><font face="Arial">Data Type</font></td>
+    <td width="44" align="center"><font face="Arial">Size</font></td>
+    <td width="63" align="center"><font face="Arial">Primary key?</font></td>
+    <td width="287" align="center"><font face="Arial">Description</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Condo Id</font></td>
+    <td width="75" align="center"><font face="Arial">Text</font></td>
+    <td width="44" align="center"><font face="Arial">3</font></td>
+    <td width="63" align="center"><font face="Arial">Yes</font></td>
+    <td width="287" align="left"><font face="Arial">Unique code assigned to a 
+    condo</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Bedrooms</font></td>
+    <td width="75" align="center"><font face="Arial">Number</font></td>
+    <td width="44" align="center">&nbsp;</td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Number of bedrooms</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Bathrooms</font></td>
+    <td width="75" align="center"><font face="Arial">Number</font></td>
+    <td width="44" align="center"><font face="Arial">&nbsp;</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Number of bathrooms</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Sleeps</font></td>
+    <td width="75" align="center"><font face="Arial">Number</font></td>
+    <td width="44" align="center"><font face="Arial">&nbsp;</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Maximum number of people</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Linens</font></td>
+    <td width="75" align="center"><font face="Arial">Yes/No</font></td>
+    <td width="44" align="center"><font face="Arial">&nbsp;</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Are linens furnished?</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Jacuzzi</font></td>
+    <td width="75" align="center"><font face="Arial">Yes/No</font></td>
+    <td width="44" align="center">&nbsp;</td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Jacuzzi included?</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Fireplace</font></td>
+    <td width="75" align="center"><font face="Arial">Yes/No</font></td>
+    <td width="44" align="center"><font face="Arial">&nbsp;</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Is there a fireplace?</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Pets</font></td>
+    <td width="75" align="center"><font face="Arial">Yes/No</font></td>
+    <td width="44" align="center">&nbsp;</td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Are pets allowed?</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Smoking</font></td>
+    <td width="75" align="center"><font face="Arial">Yes/No</font></td>
+    <td width="44" align="center">&nbsp;</td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Is the unit non-smoking?</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Weekly Rate</font></td>
+    <td width="75" align="center"><font face="Arial">Currency</font></td>
+    <td width="44" align="center"><font face="Arial">&nbsp;</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Weekly rental rate</font></td>
+  </tr>
+  <tr>
+    <td width="94" align="left"><font face="Arial">Owner Id</font></td>
+    <td width="75" align="center"><font face="Arial">Text</font></td>
+    <td width="44" align="center"><font face="Arial">4</font></td>
+    <td width="63" align="center">&nbsp;</td>
+    <td width="287" align="left"><font face="Arial">Id of condo owner (foreign 
+    key)</font></td>
+  </tr>
+</table>
+
+<p class="MsoNormal">&nbsp;</p>
+<p><font face="Arial">* Note: It is advantageous to give a foreign key the same field name as 
+its related primary key; Access automatically forms a logical relationship 
+between the tables when it finds identical field names in related tables. </font> </p>
+
+<p><font face="Arial"><u><b>Condo Management Client Information</b></u></font></p>
+<p><u><font face="Arial">Owner Table Data:</font></u></p>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="643" id="AutoNumber3">
+    <tr>
+      <td width="66" style="font-family: Arial" align="center">Owner Id</td>
+      <td width="72" style="font-family: Arial" align="center">Last</td>
+      <td width="61" style="font-family: Arial" align="center">First</td>
+      <td width="98" style="font-family: Arial" align="center">Address</td>
+      <td width="80" style="font-family: Arial" align="center">City</td>
+      <td width="36" style="font-family: Arial" align="center">St</td>
+      <td width="58" style="font-family: Arial" align="center">Zip</td>
+      <td width="163" style="font-family: Arial" align="center">Phone</td>
+    </tr>
+    <tr>
+      <td width="66" style="font-family: Arial">AB10</td>
+      <td width="72" style="font-family: Arial">Alonso</td>
+      <td width="61" style="font-family: Arial">Bonita</td>
+      <td width="98" style="font-family: Arial">281 Robin</td>
+      <td width="80" style="font-family: Arial">Whitehall</td>
+      <td width="36" style="font-family: Arial" align="center">OK</td>
+      <td width="58" style="font-family: Arial">45241</td>
+      <td width="113" style="font-family: Arial">405-555-6543</td>
+    </tr>
+    <tr>
+      <td width="66" style="font-family: Arial">BR18</td>
+      <td width="72" style="font-family: Arial">Beerne</td>
+      <td width="61" style="font-family: Arial">Renee</td>
+      <td width="98" style="font-family: Arial">39 Oak</td>
+      <td width="80" style="font-family: Arial">Pearton</td>
+      <td width="36" style="font-family: Arial" align="center">WE</td>
+      <td width="58" style="font-family: Arial">48326</td>
+      <td width="113" style="font-family: Arial">715-555-7373</td>
+    </tr>
+    <tr>
+      <td width="66" style="font-family: Arial">GM50</td>
+      <td width="72" style="font-family: Arial">Graty</td>
+      <td width="61" style="font-family: Arial">Mark</td>
+      <td width="98" style="font-family: Arial">21 West 8th</td>
+      <td width="80" style="font-family: Arial">Greenview</td>
+      <td width="36" style="font-family: Arial" align="center">KS</td>
+      <td width="58" style="font-family: Arial">31904</td>
+      <td width="113" style="font-family: Arial">913-555-2225</td>
+    </tr>
+    <tr>
+      <td width="66" style="font-family: Arial">HJ05</td>
+      <td width="72" style="font-family: Arial">Heulbert</td>
+      <td width="61" style="font-family: Arial">John</td>
+      <td width="98" style="font-family: Arial">314 Central</td>
+      <td width="80" style="font-family: Arial">Munkton</td>
+      <td width="36" style="font-family: Arial" align="center">MI</td>
+      <td width="58" style="font-family: Arial">49611</td>
+      <td width="113" style="font-family: Arial">616-555-3333</td>
+    </tr>
+  </table>
+<p><font face="Arial"><br>
+<u>Condo Table</u></font><u><font face="Arial"> Data:</font></u></p>
+<table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse; font-family: Arial" bordercolor="#111111" width="87%" id="AutoNumber2">
+  <tr>
+    <td width="9%" align="center">Unit No.</td>
+    <td width="8%" align="center">Bedrms</td>
+    <td width="7%" align="center">Baths</td>
+    <td width="8%" align="center">Sleeps</td>
+    <td width="7%" align="center">Linens</td>
+    <td width="8%" align="center">Jacuzzi</td>
+    <td width="10%" align="center">Fireplace</td>
+    <td width="6%" align="center">Pets</td>
+    <td width="9%" align="center">Smoking</td>
+    <td width="13%" align="center">Rate</td>
+    <td width="10%" align="center">Owner</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">101</td>
+    <td width="8%" align="center">1</td>
+    <td width="7%" align="center">1</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">Y</td>
+    <td width="6%" align="center">&nbsp;</td>
+    <td width="9%" align="center">&nbsp;</td>
+    <td width="13%" align="right">$675.00</td>
+    <td width="10%" align="center">HJ05</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">108</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">1</td>
+    <td width="8%" align="center">3</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">Y</td>
+    <td width="10%" align="center">&nbsp;</td>
+    <td width="6%" align="center">&nbsp;</td>
+    <td width="9%" align="center">&nbsp;</td>
+    <td width="13%" align="right">$1,050.00</td>
+    <td width="10%" align="center">AB10</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">202</td>
+    <td width="8%" align="center">3</td>
+    <td width="7%" align="center">2</td>
+    <td width="8%" align="center">8</td>
+    <td width="7%" align="center">&nbsp;</td>
+    <td width="8%" align="center">Y</td>
+    <td width="10%" align="center">Y</td>
+    <td width="6%" align="center">Y</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$1,400.00</td>
+    <td width="10%" align="center">BR18</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">204</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">2</td>
+    <td width="8%" align="center">6</td>
+    <td width="7%" align="center">&nbsp;</td>
+    <td width="8%" align="center">Y</td>
+    <td width="10%" align="center">Y</td>
+    <td width="6%" align="center">Y</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$1,100.00</td>
+    <td width="10%" align="center">BR18</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">206</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">2</td>
+    <td width="8%" align="center">5</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">&nbsp;</td>
+    <td width="6%" align="center">Y</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$950.00</td>
+    <td width="10%" align="center">GM50</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">308</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">2</td>
+    <td width="8%" align="center">6</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">&nbsp;</td>
+    <td width="6%" align="center">Y</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$950.00</td>
+    <td width="10%" align="center">GM50</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">403</td>
+    <td width="8%" align="center">1</td>
+    <td width="7%" align="center">1</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">&nbsp;</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">&nbsp;</td>
+    <td width="6%" align="center">&nbsp;</td>
+    <td width="9%" align="center">&nbsp;</td>
+    <td width="13%" align="right">$700.00</td>
+    <td width="10%" align="center">HJ05</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">405</td>
+    <td width="8%" align="center">1</td>
+    <td width="7%" align="center">1</td>
+    <td width="8%" align="center">3</td>
+    <td width="7%" align="center">&nbsp;</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">&nbsp;</td>
+    <td width="6%" align="center">&nbsp;</td>
+    <td width="9%" align="center">&nbsp;</td>
+    <td width="13%" align="right">$750.00</td>
+    <td width="10%" align="center">AB10</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">500</td>
+    <td width="8%" align="center">3</td>
+    <td width="7%" align="center">3</td>
+    <td width="8%" align="center">8</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">Y</td>
+    <td width="10%" align="center">Y</td>
+    <td width="6%" align="center">&nbsp;</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$1,100.00</td>
+    <td width="10%" align="center">AB10</td>
+  </tr>
+  <tr>
+    <td width="9%" align="center">510</td>
+    <td width="8%" align="center">2</td>
+    <td width="7%" align="center">1</td>
+    <td width="8%" align="center">4</td>
+    <td width="7%" align="center">Y</td>
+    <td width="8%" align="center">&nbsp;</td>
+    <td width="10%" align="center">Y</td>
+    <td width="6%" align="center">Y</td>
+    <td width="9%" align="center">Y</td>
+    <td width="13%" align="right">$825.00</td>
+    <td width="10%" align="center">BR18</td>
+  </tr>
+</table>
+
+</body>
+
+</html>

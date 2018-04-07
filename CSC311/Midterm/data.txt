@@ -1,0 +1,1080 @@
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25
+miller chris 
+123-4567 
+1930 wood
+40 
+5.25
+miller anita 
+777-1234 
+2245 steele
+35 
+5.35
+clifford james 
+111-2233 
+11245 mansfield
+45 
+6.00
+pavia craig 
+742-7527 
+5120 mott
+42 
+5.75
+bush george 
+145-0098 
+4536 kennebunk-port
+40 
+5.25
+reagan ronald 
+345-9760 
+4567 hollywood
+35 
+5.35
+bush senior 
+212-3456 
+7676 midland
+40 
+5.25
+adams john 
+312-4874 
+8688 mass 
+35 
+5.35
+washington george 
+345-1234 
+8900 vernon
+42 
+5.75
+jefferson thomas 
+333-4567 
+1265 monticello
+40 
+5.25
+wilson woodrow 
+201-2011 
+1985 washington
+35 
+5.35
+roosevelt franklin 
+303-3000 
+78567 hyde-park
+42 
+5.75
+clinton bill 
+424-4256 
+4242 arkansas
+40 
+5.25
+carter jimmy 
+404-3678 
+4000 peanut
+42 
+5.75
+polk james 
+202-4513 
+3378 dunno
+42 
+5.75
+lincoln abraham 
+161-1616 
+1616 springfield
+39 
+16.16
+kennedy john 
+377-7474 
+2222 boston
+16 
+10.75
+kerry john 
+444-1256 
+12678 boston
+35 
+6.00
+clevland grover 
+121-2134 
+161616 ohio
+42 
+5.25
+buckler ebony 
+253-0960 
+417 holly
+35 
+6.00
+fabatz robert 
+750-6108 
+110 tyrone
+42 
+5.25
+kirkon allen 
+732-4879 
+11060 pratt
+35 
+6.00
+thompson donna 
+744-4867 
+2295 miller
+42 
+5.25
+beltz riley 
+733-5791 
+444 church
+35 
+6.00
+goodrichman brad 
+667-0908 
+5270 perry
+42 
+5.25
+o'rourke joseph 
+968-7287 
+360 main
+35 
+6.00
+chevelharan kathrigamu 
+999-9999 
+718 broadway
+42 
+5.25

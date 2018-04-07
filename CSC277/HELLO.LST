@@ -1,0 +1,64 @@
+Turbo Assembler	 Version 4.0	    01/09/08 16:29:09	    Page 1
+hello.ASM
+
+
+
+      1				     ;Cody Adams
+      2				     ;First program written for	CSC277
+      3				     ;
+      4	0000			     .MODEL SMALL
+      5	0000			     .STACK 100H
+      6	0000			     .DATA
+      7
+      8	0000  48 65 6C 6C 6F 20	57+   Greeting db 'Hello World !!', 13,10,'$'
+      9	      6F 72 6C 64 20 21	21+
+     10	      0D 0A 24
+     11
+     12	0011			     .code
+     13	0000			     MAIN PROC
+     14				     ; INitialize DS register
+     15	0000  B8 0000s			     mov ax,@data    ;get data segment address
+     16	0003  8E D8			     mov ds,ax	     ;initialize ds
+     17				     ;display message using dos	function
+     18	0005  B4 09			     mov ah,9	     ;print string function
+     19	0007  BA 0000r			     mov dx,offset Greeting  ;DS:DX points to string
+     20	000A  CD 21			     int 21h
+     21				     ;Exit to DOS
+     22	000C  B4 4C			     mov ah,4ch
+     23	000E  CD 21			     int 21h
+     24	0010			     main endp
+     25					     end MAIN
+Turbo Assembler	 Version 4.0	    01/09/08 16:29:09	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "01/09/08"
+??FILENAME			  Text	 "hello	  "
+??TIME				  Text	 "16:29:09"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 HELLO
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+GREETING			  Byte	 DGROUP:0000
+MAIN				  Near	 _TEXT:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0011 Word	  Public  DATA
+_TEXT				  16  0010 Word	  Public  CODE
+

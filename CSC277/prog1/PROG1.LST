@@ -1,0 +1,137 @@
+Turbo Assembler	 Version 4.0	    01/30/08 16:27:29	    Page 1
+prog1.ASM
+
+
+
+      1				     ;Cody Adams
+      2				     ;CSC277-01
+      3				     ;prog1
+      4				     ;Program that accepts two inputs and outputs the sum.
+      5
+      6
+      7	0000			     .model SMALL
+      8	0000			     .stack 100h
+      9	0000			     .data
+     10
+     11	0000  0A 0D 45 6E 74 65	72+  numprompt db 10,13,'Enter a one digit number: ','$'
+     12	      20 61 20 6F 6E 65	20+
+     13	      64 69 67 69 74 20	6E+
+     14	      75 6D 62 65 72 3A	20+
+     15	      24
+     16	001D  0A 0D 54 68 65 20	72+  results   db 10,13,'The result of the additon is: ','$'
+     17	      65 73 75 6C 74 20	6F+
+     18	      66 20 74 68 65 20	61+
+     19	      64 64 69 74 6F 6E	20+
+     20	      69 73 3A 20 24
+     21	003E  ??		     num1      db ?
+     22	003F  ??		     num2      db ?
+     23	0040  ??		     sum       db ?
+     24
+     25	0041			     .code
+     26	0000			     MAIN PROC
+     27	0000  B8 0000s			  mov ax,@data
+     28	0003  8E D8			  mov ds,ax
+     29
+     30				     ;input prompt for 1st number
+     31	0005  B4 09			     mov ah,9
+     32	0007  BA 0000r			     mov dx,offset numprompt
+     33	000A  CD 21			     int 21h
+     34	000C  B4 01			     mov ah,1
+     35	000E  CD 21			     int 21h				   ;1st	number in al register
+     36	0010  8A D8			     mov bl,al				   ;1st	number -> bl
+     37	0012  A2 003Er			     mov num1, al			   ;store the 1st number -> num1
+     38
+     39				     ;input prompt for 2nd number
+     40	0015  B4 09			     mov ah,9
+     41	0017  BA 0000r			     mov dx,offset numprompt
+     42	001A  CD 21			     int 21h
+     43	001C  B4 01			     mov ah,1
+     44
+     45				     ;storing the second number
+     46	001E  CD 21			     int 21h				   ;2nd	number in al register
+     47	0020  8A D8			     mov bl,al				   ;2nd	number -> bl
+     48	0022  A2 003Fr			     mov num2, al			   ;store the 2nd number -> num2
+     49
+     50				     ;computing	the sum
+     51	0025  8A 0E 003Er		     mov cl,num1
+     52	0029  02 0E 003Fr		     add cl,num2
+     53	002D  88 0E 0040r		     mov sum,cl
+     54
+     55				     ;making the correction for	the ascii values
+     56	0031  80 2E 0040r 30		     sub sum, 30h
+     57
+Turbo Assembler	 Version 4.0	    01/30/08 16:27:29	    Page 2
+prog1.ASM
+
+
+
+     58				     ;display input numbers and	results
+     59	0036  B4 09			     mov ah,9
+     60	0038  BA 001Dr			     mov dx, offset results
+     61	003B  CD 21			     int 21h
+     62	003D  B4 02			     mov ah,2
+     63	003F  8A 16 003Er		     mov dl,num1			     ;1st number to display
+     64	0043  CD 21			     int 21h
+     65	0045  B2 2B			     mov dl,'+'				     ;display the + sign
+     66	0047  CD 21			     int 21h
+     67
+     68				     ;code to display the second number	and the	= sign
+     69
+     70	0049  B4 02			     mov ah,2
+     71	004B  8A 16 003Fr		     mov dl,num2			    ;2nd number	to display
+     72	004F  CD 21			     int 21h
+     73	0051  B2 3D			     mov dl,'='				    ;display the = sign
+     74	0053  CD 21			     int 21h
+     75
+     76
+     77
+     78				     ;code to display the results
+     79
+     80	0055  B4 02			     mov ah,2
+     81	0057  8A 16 0040r		     mov dl,sum
+     82	005B  CD 21			     int 21h
+     83
+     84				     ;return to	command	screen
+     85	005D  B4 4C			     mov ah,4ch
+     86	005F  CD 21			     int 21h
+     87
+     88	0061			     main endp
+     89					end MAIN
+Turbo Assembler	 Version 4.0	    01/30/08 16:27:29	    Page 3
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "01/30/08"
+??FILENAME			  Text	 "prog1	  "
+??TIME				  Text	 "16:27:29"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 PROG1
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+MAIN				  Near	 _TEXT:0000
+NUM1				  Byte	 DGROUP:003E
+NUM2				  Byte	 DGROUP:003F
+NUMPROMPT			  Byte	 DGROUP:0000
+RESULTS				  Byte	 DGROUP:001D
+SUM				  Byte	 DGROUP:0040
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0041 Word	  Public  DATA
+_TEXT				  16  0061 Word	  Public  CODE
+

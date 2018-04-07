@@ -1,0 +1,21 @@
+Problems from Ch. 9, Shaffer (pp. 321-325)
+
+9.6 (6 points, 2 for each strategy), 9.7, 9.8 (4 points), 9.10 (4 points),
+9.13, 9.16 (4 points)
+
+9.9 and 9.10 can be hand-written, as usual.
+
+7) (2 points each)
+ 
+If closed hashing is used, then show the contents of a 13-slot hash
+table using the probing strategies given below and given the following
+hash function and series of inserts:
+ 
+h(k) = k*k mod 13
+ 
+19, 12, 6, 34, 17, 14, 18, 22, 66, 44
+ 
+a) Quadratic probing
+b) Improved linear probing with c = 3
+c) Pseudo-random probing.  p = [1,12,2,9,3,10,4,11,8,7,5,6]
+ 

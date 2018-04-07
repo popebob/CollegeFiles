@@ -1,0 +1,192 @@
+//quicknote.txt
+//
+//Best Viewed with monospaced fonts
+
+
+    /*------------------------------------------------------------------
+     *                  ____  ____    __    __  __                      *
+     *                 (_  _)( ___)  /__\  (  \/  )                     *
+     *                   )(   )__)  /(__)\  )    (                      *
+     *                  (__) (____)(__)(__)(_/\/\_)                     *
+     *         __   ____   __    ____    __    _  _  ____    __         *
+     *        /__\ (_  _) /__\  (  _ \  /__\  ( \/ )(_  _)  /__\        *
+     *       /(__)\  )(  /(__)\  )   / /(__)\  )  (  _)(_  /(__)\       *
+     *      (__)(__)(__)(__)(__)(_)\_)(__)(__)(_/\_)(____)(__)(__)      *
+     *                                                                  *
+     *    Team Information                                              *
+     *                                                                  *
+     *     |      Name        |          Responsibilities  
+        |       *
+     *     |------------------|---------------------------------|       *
+     *     |  Robert Knuuti   |         (main, IndexList)       |       *
+     *     |  Scott Wolforth  |            (SearchList)         |       *
+     *     |  Cody Adams      |              (PageQ)            |       *
+     *                                                                  *
+     *------------------------------------------------------------------*/
+
+
+/*Dependency chart
+ *
+ *    main.cc
+ *    |-indexlist.cc
+ *     |-index.h
+ *     |-pageq.cc
+ *      |-pageq.h
+ *    |-SearchList.cpp
+ *     |-Scott, put your header filename here.
+*/
+
+/*Bugs
+ *
+ *        20070413  Robert Knuuti
+ *              \-
+ *               -|
+ *              |- indexlist.cc
+ *              |-- structure index, used when defining vector, causes a compiler error, also, reference to members
+ *              |--  in the function has been impelmented incorrectly.
+ *
+ *
+ *
+ * SYNTAX: YEARMONTHDATE  NAME
+ *          \-Resolved [ }
+ *           -| Resolution
+ *           -|+ if more lines needed
+ *
+ *          |- item of concern
+ *          |-- reason(s) why
+*/
+
+
+/*Project Updates
+ *
+ *    indexlist.cc    \-20070413   Robert Knuuti
+ *                    \--| indexlist funcitons alpha release.
+ *                    \--|+ take note the bug list.  None of the funcitions work due to 
+ *
+ *         main.cc    \-20070413   Robert Knuuti
+ *                    \--| Main system update
+ *                    \--|+ Boy oh boy...  The main now actually uses ADT funcitons properly,
+ *                    \--|+  and definition of calls have been pointed out.  The holding pointer
+ *                    \--|+  variable only led to problems, thus was removed from system. Theoretically,
+ *                    \--|+  the main system should be bug free at this point, and dependent on just
+ *                    \--|+  function calls.
+ *                    /
+ *
+ *
+ *         main.cc    \-20070411   Robert Knuuti
+ *                    \--| version two of alpha main program released
+ *                    \--|+ Original setup system had glitches on special characters, and was unoptimized.
+ *                    /
+ *
+ *       notes.txt    \-20070411   Robert Knuuti
+ *                    \--| Alpha note system initialized
+ *                    /
+ *
+ *         main.cc    \-20070410   Robert Knuuti
+ *                    \--| Alpha main system initialized
+ *                    /
+ *
+ * SYNTAX: FILENAME   \-yearmonthdate  Revisor name
+ *                    \--| First item changed/added
+ *                    \--|+ and why
+ *                    \--|+  additional lines for explanation
+ *                    \
+ *                    \--| Second item changed/added
+ *                    \--|+ and why
+ *                    /
+ *
+ *         FILENAME   /-yearmonthdate  revisor name
+ *
+*/
+
+
+
+/*Function notes and comments
+ *
+ *
+ *
+ *    indexlist::displayList
+ *               ()
+ *                  Creates a new pointer variable and follows through
+ *                  + the linked list in entirety, calling the function printQ to
+ *                  + print out all pages that a theword appears on.
+ *
+ *                  INCDEP: string, fstream, (iomainp), indexlist.h
+ *                  FUNDEP: insertNode(string, int), pageq::printQ()
+ *                  PRE:  linked list holds at least one entry
+ *                  POST: Onscreen printout of everything held in the linked list
+ *
+ *    indexlist::index_node::index_node
+ *               (string, int, index_node)
+ *                  Constructer which takes in a word, a number and a linked list pointer
+ *                  + that allows the list to increase size by one unit, assigning the
+ *                  + varibles taken in to the varibles set in the current link.  This
+ *                  + is the actual function to make an additional link in the list.
+ *
+ *                  INCDEP: string, indexlist.h, pageq.cc
+ *                  FUNDEP: pageq::add
+ *                  PRE:  legal premitive datatypes taken in
+ *                  POST: linked list increases size by one, and assigned designated values to
+ *                        + the varibles.
+ *
+ *    indexlist::insertNode
+ *               (string, int)
+ *                  insertNode first checks to see if linked list is empty.  If so,
+ *                  + make a new link, and assign it to the head pointer.  If it is not,
+ *                  + then assign the pointer PREVIOUS to the first link in the list, and
+ *                  + progress through the list until the object theword of the currently linked
+ *                  + item is less than the string value word1.  When that is true, test for
+ *                  + the case where the entry one step behind the current pointer position
+ *                  + (previous) if it already exists in the list.  If so, then call that link's
+ *                  + Qinsert (add) function to append the current page number to the pageq's 
+ *                  + linked list.  If the theword does not equal the state of PREVIOUS, then
+ *                  + insert a new link in the list in order.
+ *
+ *                  INCDEP: string, indexlist.h
+ *                  FUNDEP: pageq::add(int)
+ *                  PRE:  inputed values are of proper syntax.
+ *                  POST: insertQ function is called if the string currently exists,
+ *                        + if not, the string item is inserted into list in alphabetical
+ *                        + order, creating a new link.
+ *
+ *
+ *    main::cw
+ *               (const string)
+ *                  returns a string variable that is clean of all punctuation marks, exempt ' and -
+ *
+ *                  INCDEP: string, cctype
+ *                  FUNDEP: none
+ *                  PRE:  Valid string value is passed
+ *                  POST: Return string that lacks punctuation.
+ *
+ *    main::lc
+ *               (const string)
+ *                  returns a string variable that is the full lower case version of the
+ *                  + inputed string value.
+ *
+ *                  INCDEP: string, cctype
+ *                  FUNDEP: none
+ *                  PRE:  Valid string value is passed
+ *                  POST: Inputed string value is returned in lower case
+ *
+ *
+ *
+ *
+ *
+ * SYNTAX: class/function's location::function:
+ *               (call variables)
+ *                 Short explanation as to what the function does
+ *
+ *                 INCDEP: Include dependencies
+ *                 FUNDEP: Function dependencies
+ *                 PRE:  conditions
+ *                 POST: conditions
+ *
+ *               (if function is overloaded, just made another entry)
+ *                 Short explanation as to what the overloaded function does
+ *                 INCDEP: Include dependencies
+ *                 FUNDEP: Function dependencies
+ *                 PRE:  conditions
+ *                 POST: conditions
+ *
+*/

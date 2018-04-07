@@ -1,0 +1,292 @@
+#P
+PREFACE;
+
+This is a little book on the history of computers intended
+for those who enjoy the "quick and dirty" approach to
+knowledge.
+
+
+#P
+UNIT I:  THE HISTORY OF COMPUTERS;
+
+The history of the computer can be traced back to the
+abacus; used by the ancient Romans, Greeks, and Chinese.
+Even today, some folks do computing on the abacus.
+
+#P
+BLAISE PASCAL AND THE PASCALINE;
+
+The first mechanical adding machine was developed by Blaise
+Pascal;, a French mathematician, in 1642.  While still a
+teenager, Pascal developed the machine which could add and
+subtract.  Even today, many microprocessors can really only
+add and subtract.  They handle division and multiplication
+by performing high speed addition and subtraction.
+
+Pascal's father was a tax collector.  As a child Blaise
+watched his father labor over columns of figures.  From that
+experience He developed his mechanical calculating machine
+which was called the Pascaline;.  It was a device with gears
+(numbered 0 through 9) and levers.  The Pascaline never
+really caught on.  Clerks, who might have benefited from its
+use, feared they might lose their jobs if the new device
+became widely accepted.  A favorite quote from Pascal is
+"the last thing one knows in constructing a work is what to
+put first."
+
+#P
+THE BARON AND HIS MACHINE;
+
+Baron Gottfried Wilhelm von Leibnitz; a German philosopher,
+mathematician, and inventor; developed a machine in the late
+1600s which could handle addition, subtraction,
+multiplication and division.  These latter two functions
+used repeated addition and subtraction just like today's
+microprocessors.  The machine was first demonstrated in 1694
+and moved the world closer to an age of mechanical
+computing.
+
+#P
+THE WEAVER IN COMPUTER HISTORY;
+
+The next evolutionary step toward modern computing took
+place in the 1800s.  Joseph Marie Jacquard;, a weaver,
+developed a unique system for storing information on cards.
+Holes in cards determined the thread colors to be used by
+the loom in weaving a pattern.  In essence, the information
+was stored (or coded) on cards similar to the key punch
+cards used in a later age of computing.  By stringing a
+group of cards together, Jacquard Jacquard: programmed
+weaving; established a "program" which resulted in material
+of a certain pattern.
+
+#P
+THE FATHER OF COMPUTERS;
+
+In 1832, Charles Babbage; designed the Babbage Difference
+Machine;.  It was an attempt at developing a machine which
+could handle problems and then generate a printed response.
+Babbage, an English mathematician;,  is considered the
+Babbage  father of modern computing;.
+
+The genesis for the Difference Machine; was a study he
+conducted of mathematical tables used by clerks in making
+calculations.  He discovered that the tables included many
+copying errors from the print shop.  Babbage sought to
+develop a machine which would calculate and then print the
+results.
+
+In 1832, the British government funded the building of the
+Difference Machine. While Babbage was able to build a
+prototype, he failed to build a larger unit because the
+technology required did not yet exist.
+
+#P
+Later Babbage conceived of an Babbage: Analytical Machine;,
+which like the Difference Machine, would have been a
+combination of gears and levers, yet run by steam power.
+The machine would have been similar to the modern computer
+in several ways.  It would
+
+ 1.  be general purpose in nature;
+ 2.  run by instructions on punched cards;
+ 3.  have internal memory for instructions;
+ 4.  automatically print results.
+
+Babbage died before completing the model for the Analytical
+Machine.  He had many good ideas, unfortunately many never
+became reality.  It was a classic case of a man with great
+ideas; that did not work, because he was 150 years ahead of
+his time.  The ideas he developed became the basis for the
+successes of later inventors who had access to technology
+only dreamed of by Babbage.
+
+#P
+Unfortunately, in his later years, Babbage was largely
+unappreciated.  In a passage from the Babbage: LIFE OF A
+PHILOSOPHER; he wrote, "I have sacrificed time, health, and
+fortune, in the desire to complete these Calculating
+Engines.  I have also declined several offers of great
+personal advantage to myself.  But, notwithstanding the
+sacrifice of these advantages...I have received neither an
+acknowledgement of my labors, nor even the offer of those
+honors or rewards which are allowed to fall within the reach
+of men who devote themselves to purely scientific
+investigations....  I think the application of machinery in
+aid of the most complicated and abstruse calculations can no
+longer be deemed unworthy of the attention of the country.
+In fact, there is no reason why mental as well as bodily
+labor should not be economized by the aid of machinery."
+
+#P
+THE FIRST LADY OF COMPUTING;
+
+Much of the information known about Babbage comes from the
+writings of Ada Augusta, Ada Augusta: countess of Lovelace;.
+She first met Babbage when still a child.  Ada was one of a
+group to whom Babbage showed his Difference Machine.
+According to Babbage, she was the only one in the group who
+"understood its workings and saw the great beauty of its
+invention."
+
+Ada is considered the "First Lady" of computing.  Her notes
+are the best indication of what the Analytical Engine was to
+be.  Further, she was the Ada Augusta: first programmer; and
+the first to speculate on whether machines might someday
+"think".
+
+#P
+HOLLERITH AND THE TEDIOUS CENSUS;
+
+Herman Hollerith;, the founder of a company which later
+became IBM;, tackled the task of mechanizing the tabulation
+of the 1890 census.  The 1880 census had taken 7 years to
+tabulate.  The government was afraid that with the influx of
+immigrants and natural population increases, that the 1890
+census; would still not be tabulated (under the old method)
+before the 1900 census came around.   The government
+commissioned Hollerith, an American, to develop a mechanical
+method of performing massive tabulations.  He built a
+machine powered by electricity which used punched cards.
+
+Between 1880 and 1890 the U.S. population had increased from
+50 to 63 million.  With Hollerith's machine the tabulation
+of the 1890 census only took 2.5 years compared to 7 years
+for the 1880 census (under the old manual method).  As an
+interesting historical note, genealogists can tell you that
+an unfortunate 1921 fire in the U.S. Commerce Department
+resulted in the almost total lost of the 1890 census.  Only
+scattered fragments of the censure remain and they fit
+easily on three rolls of 35mm microfilm.
+
+In 1896 Hollerith went on to found the Tabulating Machine
+Company.  It developed punched card machines for the
+government and business.  By 1911 the company merged with
+several other companies to become the Computer-Tabulating-
+Recording Company with Hollerith listed as Chief Engineer.
+In 1924 CTRC changed its name to International Business
+Machines (IBM) Corporation.  By 1930 IBM; held 80% of the
+market share in the manufacture of punched card equipment.
+Even though these machines were used for computing, they
+were only Computers  electromechanical devices;, not
+electronic computers.
+
+#P
+THE MARRIAGE OF IBM, HARVARD, AND THE NAVY;
+
+Harvard University continued in Hollerith's path by building
+an early computer called MARK I in 1944.  Under the guidance
+of Howard Aiken: Howard;, a naval lieutenant assigned to
+Harvard, the work was begun to develop an electromechanical
+punched card machine for use in handling scientific
+calculations.  IBM provided a $500,000 grant, Harvard
+provided the research space, and the Navy provided Aiken.
+Their goal was a general purpose computer which could assist
+with aircraft design, procurement, and weapons development.
+The work began in 1939 and culminated in 1944 with the
+Automatic Controlled Sequence Calculator called MARK I;.  It
+really was a gigantic electrical adding machine with 1
+million parts, 3 million connections, and 500 miles of wire
+housed in an area 55 foot long and 8 foot tall.  This little
+baby weighed 5 tons.
+
+MARK I could complete multiplication functions in 6 seconds
+and division in 12 seconds.  That may seem slow by today's
+standards, but the speed was slowed by the massive distances
+involved, remember the 500 miles of wire.  MARK I was the
+first official Computers: electromechanical devices;computer.
+#P
+THE LOW BUDGET APPROACH IN IOWA;
+
+About the same time John Atanasoff and Clifford Berry were
+building a machine at Iowa State University.  Its purpose
+was to help graduate students with the tedium of solving
+linear equations.  Begun in 1939 on a $650 grant from ISU,
+the Atanasoff-Berry Computer (ABC) included 300 vacuum
+tubes, could solve 29 simultaneous equations with 29
+variables.  Unlike the MARK I, the ABC was a
+Computers: special purpose; computer rather than a general
+purpose one.
+
+#P
+UNIT II:  GENERATIONS OF A COMPUTER'S LIFE;
+
+What is now considered the "Computers: first generation;" of
+computers was born with the appearance of the Electronic
+Numerical Integrator And Calculator (ENIAC) in 1946.  It was
+much faster than MARK I and used 18,000 vacuum tubes.  ENIAC
+is considered the first large scale general purpose
+computer. It heralded in the age of electronic digital
+computers.
+
+#P
+AIMING AT ENIAC;
+
+ENIAC; was birthed by J. Presper Eckert, an electrical
+engineer, and John Mauchly, a physicist.  They submitted a
+proposal to the Army to do calculations in seconds.  The
+anticipated end result was to assist in war time firing and
+ballistics.  Aiming exercises were mechanical and less than
+accurate or efficient.  The Army was looking for a
+computerized approach to the manual process of setting
+ranges, taking aim and firing on enemy positions and
+carriers.
+
+The finished product could perform 300 days of calculations
+in one day.  ENIAC was 100 feet long, 10 feet tall and 3
+feet deep.  It consumed 140 kilowatts of electricity when in
+operation.  Unfortunately, switches had to be thrown for
+each new calculation.  A single calculation could take hours
+to setup.  ENIAC has long since been retired to the
+Smithsonian Institute.
+
+#P
+THOSE COOL TRANSISTORS;
+
+Remember those 18,000 vacuum tubes which kept ENIAC humming?
+They were replaced in the "Computers: second generation;" of
+computers by smaller, cooler running, more reliable
+transistors (which also heralded the introduction of the
+transistor radio).  The second generation of computers were
+produced between 1959 and 1964.
+
+#P
+THE THIRD GENERATION; ON A BOARD;
+
+"Computers: Third generation;" computers (1965-1970) began to
+use integrated circuits where the electronic circuitry
+contained in earlier transistor and vacuum tube technology
+was placed on a piece of material (board) without wires.
+
+#P
+CHIPS ON SAND;
+
+"Computers: Fourth generation;" computers took the integrated
+circuit concept to the extreme by reducing the circuitry in
+size, placing it on a tiny silicon chip and thus introducing
+the microchip.  This became the age of miniaturization and
+began around 1971.  Each of those tiny silicon chips
+developed the capacity to store tens of thousands of
+circuits.  This etched circuitry became prevalent in
+watches, toys, automobiles, microwaves and appliances.
+
+#P
+THE THINKING MACHINE;
+
+"Computers: Fifth generation;" computers have only partially
+arrived.  They incorporate artificial intelligence into
+computing.
+
+One of the first efforts at the development of artificial
+intelligence software was an interactive program called
+Eliza;.  Eliza played the role of psychologist.  When you
+entered a comment she responded with a nebulous, yet
+concerned question picking up on key words in your
+statement.   After a few sessions with Eliza, your mental
+health remained unimproved.  However,  your mental state was
+boredom; with Eliza.
+
+More recent advances have computers evaluating items (using
+visual sensors) and computers designing other more efficient
+computers.  The sky is the limit as this technology
+advances.

@@ -1,0 +1,60 @@
+
+1. Goals
+	a. Use parallel to convert images to ascii art.
+	b. Use parallel to increase or decrease the pixel size of images.
+	c. Intially use C++ .NET and then convert to CUDA
+		
+2. implementation		
+	a bit about bmp
+		0. aka DIB file format (for device-independent bitmap
+		1. using 24 bit 
+		2. uncompresses format 
+		3. easy to work with
+		4. file structure - contains following blocks of data
+			BMP File Header --	Stores general information about the BMP file.
+			Bitmap Information (DIB header) --	Stores detailed information about the bitmap image.
+			Color Palette --	Stores the definition of the colors being used for indexed color bitmaps.
+			Bitmap Data --	Stores the actual image, pixel by pixel.
+		1. use BMP because of it ease of manipulation.
+		2. lossy images require un/compression
+			
+	a Jpegs, gifs, png use compression.
+	
+	a. Use parallel to convert images to ascii art.
+		1. method
+		2. example
+		1. algorithm is to fast
+			no flops
+		2. disk write is the problem.
+		
+	a2. Use ascii art method to convert the image to YUV
+		YUV take human perception in account to reduce bandwidth.
+		
+	b. Use parallel to increase the size of images.
+		use graphs to demo
+		algorithm/pseudocode.
+			create thread to load oldpixels into new image.
+				numcores/(scaler*scaler - 1) spawners created
+				thread spawns scaler^2 - 1 threads
+				calculations done in the spawner will depend on data structures used.
+			spawned threads calculate one pixel 
+				calculate distance from pixel to know pixels from old
+				calculate ratios distance to old
+				use ratio to find average weighted R G and B
+				Load into new image.
+		
+		this is likely to create blurry lines.  lose sharpness.
+		done in blocks.  	
+			could recalculate pixels based on new data arriving.
+			could determine if 2 original blocks are very disparate.  
+				if they are recalculate pixels excluding disparate pixel.
+				may improve sharpness
+		
+		
+		
+	
+	c. Use parallel to create an image mosaic	
+	
+	techniques could be used to implement the above on compresses images.
+	
+	

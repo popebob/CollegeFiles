@@ -1,0 +1,14 @@
+Problems from Ch. 6, Shaffer (pp. 211-213):
+
+6.9, 6.12, 6.14, 6.15
+
+(Problems 6.9 and 6.12 are 4 points)
+ 
+Notes:
+
+For 6.9:  use the "Turner linked lists of child pointers" implementation from the
+notes, as opposed to Shaffer's implementation.
+
+I'll give 6 points extra credit if you can do problem 6.13
+correctly.  If you do it, please indicate so on your homework.
+

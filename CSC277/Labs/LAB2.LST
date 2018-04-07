@@ -1,0 +1,144 @@
+Turbo Assembler	 Version 4.0	    01/30/08 16:47:34	    Page 1
+lab2.ASM
+
+
+
+      1				     ;;	 Debugger Lab2--looking	at simple instructions using the debugger
+      2				     ;;
+      3				     ;;	 Assemble and link for use with	the turbo debugger:
+      4				     ;;
+      5				     ;;	 tasm /zi lab2
+      6				     ;;	 tlink /v lab2
+      7				     ;;	 td lab2
+      8				     ;;
+      9				     ;;	 and trace through the program,	filling	in the blanks in comments.
+     10				     ;;
+     11	0000			       .MODEL  SMALL
+     12	0000			       .STACK  100h
+     13	0000			       .DATA
+     14								       ; Contents of memory
+     15	      =0006		     SIX      EQU   6
+     16	0000  000F		     AVAL     DW    15	       ;______________
+     17	0002  FFFB		     BVAL     DW    -5	       ;______________
+     18	0004  31 32 33 34 35	     MESSAGE  DB    '12345'    ;________________________________
+     19	0009  0001 0002	0003 0004 +  LIST     DW    1,2,3,4,5  ;________________________________
+     20	      0005
+     21	0013  ??		     STUFF    DB    ?	       ;______
+     22
+     23	0014			       .CODE
+     24	0000			     Lab2 PROC
+     25	0000  B8 0000s		       mov  ax,	@data ;	 The standard prolog
+     26	0003  8E D8		       mov  ds,	ax
+     27				       ; Fill in the specified register	contents before	execution of the
+     28				       ; instruction then after	execution.  Also indicate any flags that
+     29				       ; were modified by an instruction.
+     30				       ;						       FLAGS
+     31								     ;BEFORE	    AFTER      MODIFIED
+     32
+     33	0005  A1 0000r		       mov  ax,	AVAL	       ;ax = _______  ax = _______    ________
+     34
+     35	0008  03 06 0002r	       add  ax,	BVAL	       ;ax = _______  ax = _______    ________
+     36
+     37	000C  8B 1E 0002r	       mov  bx,	BVAL	       ;bx = _______  bx = _______    ________
+     38
+     39	0010  B9 0006		       mov  cx,	SIX	       ;bx = _______  bx = _______    ________
+     40
+     41	0013  F7 DB		       neg  bx		       ;bx = _______  bx = _______    ________
+     42
+     43	0015  43		       inc  bx		       ;bx = _______  bx = _______    ________
+     44
+     45
+     46					  ;							  FLAGS
+     47								     ;BEFORE	    AFTER      MODIFIED
+     48	0016  B8 AAAA		       mov  ax,	0aaaah
+     49	0019  B0 2B		       mov  al,	'+'	       ;ax = _______  ax = _______    ________
+     50	001B  FF 0E 0000r	       dec  AVAL
+     51	001F  A1 0000r		       mov  ax,aval	       ;ax = _______  ax = _______    ________
+     52
+     53	0022  2D 0003		       sub  ax,3	       ;ax = _______  ax = _______    ________
+     54
+     55	0025  B8 AAAA		       mov  ax,	0aaaah
+     56	0028  A0 0004r		       mov  al,	Message	       ;ax = _______  ax = _______    ________
+     57
+Turbo Assembler	 Version 4.0	    01/30/08 16:47:34	    Page 2
+lab2.ASM
+
+
+
+     58	002B  8A 26 0005r	       mov  ah,	Message+1      ;ax = _______  ax = _______    ________
+     59	002F  B8 AAAA		       mov  ax,	0aaaah
+     60	0032  B8 0002r		       lea  ax,	BVAL	       ;ax = _______  ax = _______    ________
+     61
+     62	0035  BB 0002r		       mov  bx,	OFFSET BVAL    ;bx = _______  bx = _______    ________
+     63	0038  B8 1234		       mov  ax,	1234h
+     64	003B  B0 EA		       mov  al,	-22	       ;ax = _______  ax = _______    ________
+     65	003D  C7 06 0000r FFEA	       mov  AVAL, -22
+     66	0043  8B 1E 0000r	       mov  bx,	AVAL	       ;bx = _______  bx = _______    ________
+     67
+     68	0047  B8 FFFF		       mov  ax,0ffffh
+     69	004A  BB 0001		       mov  bx,1
+     70	004D  03 C3		       add  ax,bx	       ;ax = _______  ax = _______    ________
+     71	004F  B8 8000		       mov  ax,-32768
+     72	0052  2B C3		       sub  ax,bx	       ;ax = _______  ax = _______    ________
+     73	0054  B8 7FFF		       mov  ax,32767
+     74	0057  40		       inc  ax		       ;ax = _______  ax = _______    ________
+     75
+     76	0058  C6 06 0013r F3	       mov  STUFF,11110011B    ;stuff=______  stuff=_______   ________
+     77
+     78	005D  A1 0009r		       mov  ax,	LIST	       ;ax = _______  ax = _______    ________
+     79
+     80	0060  8B 1E 000Br	       mov  bx,	LIST+2	       ;bx = _______  bx = _______    ________
+     81
+     82	0064  8B 0E 000Dr	       mov  cx,	LIST+4	       ;cx = _______  cx = _______    ________
+     83
+     84	0068  8B 16 000Fr	       mov  dx,	LIST+SIX       ;dx = _______  dx = _______    ________
+     85
+     86	006C  8B 36 000Ar	       mov  si,	LIST+1	       ;si = _______  si = _______    ________
+     87
+     88	0070  BF 4142		       mov  di,'AB'	       ;di = _______  di = _______    ________
+     89
+     90
+     91				     ; End program
+     92	0073  B4 4C		       mov     ah,4Ch
+     93	0075  CD 21		       int  21h
+     94	0077			     Lab2 ENDP
+     95				       END  Lab2
+Turbo Assembler	 Version 4.0	    01/30/08 16:47:34	    Page 3
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "01/30/08"
+??FILENAME			  Text	 "lab2	  "
+??TIME				  Text	 "16:47:34"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 LAB2
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+AVAL				  Word	 DGROUP:0000
+BVAL				  Word	 DGROUP:0002
+LAB2				  Near	 _TEXT:0000
+LIST				  Word	 DGROUP:0009
+MESSAGE				  Byte	 DGROUP:0004
+SIX				  Number 0006
+STUFF				  Byte	 DGROUP:0013
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0014 Word	  Public  DATA
+_TEXT				  16  0077 Word	  Public  CODE
+

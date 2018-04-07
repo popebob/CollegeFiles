@@ -1,0 +1,60 @@
+CSC 311 hw#6 due Wednesday March 17, 2010 
+
+1,9310,11630,10700		//id, size, 48states,AK, HI
+2,12490,15610,14360
+for each additional person add:,3180,3980,3660  //for 48states,AK, HI 
+ (you can keep the above info in global variables – instead of in the data file)
+
+id,# persons,income,residence
+2497,2,32500,NV
+3323,5,23000,IL
+4521,4,38210,AZ
+6789,2,38000,ME
+5476,1,26000,ND
+4423,3,16400,CA
+6587,4,25000,AK
+3221,4,20500,HI
+5555,8,18000,AK
+85,3,19700,HI
+3097,8,30000,WA
+4480,5,23400,FL
+1265,2,19700,TX
+8901,3,13000,MI
+
+create a project to analyze this income survey
+
+when project starts, form load should read the data from the data file and hold them info in an array of structures; make max array size = 100
+(first make a proper data file by editing out all unnecessary characters)
+
+there should be a button “reports”
+when you click it should generate the following reports:
+1	four column report showing the input data as it is given (in 4 list boxes)
+2	a listing of the ID number and income for those households that exceed average
+ 	income of all families (you need to compute this average income before you can do 	step 2). Show this in 2 list boxes
+3	a listing of only households (by ID) with incomes below the poverty level – do
+   this in another list box
+
+sample report (these are dummy numbers, they may not be correct)
+
+id	size	income	state		id	income	id
+LB1  	LB2  	LB3  		LB4		LB5	LB6		LB7
+
+2497	2	32500		NV		6789	38210		4480
+3323	5	23000		IL		5476	16400		6789 
+4521	4	38210		AZ		4423	23400		5555
+6789	2	38000		ME		6587	1970		3097
+5476	1	26000		ND		3221	13000
+4423	3	16400		CA		
+6587	4	25000		AK		average income 
+3221	4	20500		HI		$27659.89
+5555	8	18000		AK		
+85	3	19700		HI		
+3097	8	30000		WA		
+4480	5	23400		FL		
+1265	2	19700		TX		
+8901	3	13000		MI		
+
+NOTE: 3 extra points if all reports are sorted by id in increasing order
+NOTE: I wouldn’t worry about this until after finishing the project
+
+

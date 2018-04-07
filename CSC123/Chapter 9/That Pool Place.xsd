@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Schema Name: That Pool Place.xsd -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            
+    <!-- Define the elements (fields) in the form -->
+
+    <xsd:element name="ThatPoolPlace" type="ThatPoolPlace"/>
+    <xsd:complexType name="ThatPoolPlace" mixed="true">
+ 	<xsd:all>
+  	        <xsd:element name="FirstName" type="xsd:string"/>
+  		<xsd:element name="LastName" type="xsd:string"/>
+		<xsd:element name="TodaysDate" type="xsd:string"/>
+                <xsd:element name="EmailAddress" type="xsd:string"/>
+                <xsd:element name="PoolSize" type="xsd:string"/>
+                <xsd:element name="TypeOfPool" type="xsd:string"/>
+                <xsd:element name="TypeOfSupplies" type="xsd:string"/>
+  	</xsd:all>
+    </xsd:complexType>
+    
+</xsd:schema>

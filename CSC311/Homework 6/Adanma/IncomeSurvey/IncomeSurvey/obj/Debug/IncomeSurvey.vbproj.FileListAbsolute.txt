@@ -1,0 +1,10 @@
+E:\CSC 311\IncomeSurvey\IncomeSurvey\bin\Debug\IncomeSurvey.exe
+E:\CSC 311\IncomeSurvey\IncomeSurvey\bin\Debug\IncomeSurvey.pdb
+E:\CSC 311\IncomeSurvey\IncomeSurvey\bin\Debug\IncomeSurvey.xml
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\ResolveAssemblyReference.cache
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.IncomeForm.resources
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.Resources.resources
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.vbproj.GenerateResource.Cache
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.exe
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.xml
+E:\CSC 311\IncomeSurvey\IncomeSurvey\obj\Debug\IncomeSurvey.pdb

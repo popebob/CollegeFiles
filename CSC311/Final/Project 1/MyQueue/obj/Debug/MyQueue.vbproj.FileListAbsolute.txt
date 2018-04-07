@@ -1,0 +1,10 @@
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\bin\Debug\MyQueue.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\bin\Debug\MyQueue.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\bin\Debug\MyQueue.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.MyQueueForm.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Final\Project 1\MyQueue\obj\Debug\MyQueue.pdb

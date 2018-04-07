@@ -1,0 +1,15 @@
+Problems from Ch. 11, Shaffer (pp. 388-391):
+
+These are all extra credit.
+
+Do problems 1 (4 points), 2 (8 points), 3 (4 points), 4
+
+Hint on problem 1:  I mentioned that in class...
+
+Hints on problem 2:
+  a) This one is basically just straightforward reasoning.  Use the
+     definitions given.
+
+  b) Consider proof by contradiction.  Use the pigeonhole principle.
+     Also use the definitions - e.g. if the graph is not connected, then
+     by definition there are at least 2 components...

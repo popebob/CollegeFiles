@@ -1,0 +1,238 @@
+/****************************************************************************
+ 
+ *
+ * BMP-related data types based on Microsoft's own.
+ ***************************************************************************/
+ 
+ 
+/* 
+ * Common Data Types 
+ *
+ * The data types in this section are essentially aliases for C/C++ 
+ * primitive data types.
+ *
+ * Adapted from http://msdn.microsoft.com/en-us/library/cc230309.aspx.
+ */
+ 
+typedef unsigned char   BYTE;
+typedef unsigned long   DWORD;
+typedef long            LONG;
+typedef unsigned short  WORD;
+ 
+ 
+/*
+ * BITMAPFILEHEADER
+ *
+ * The BITMAPFILEHEADER structure contains information about the type, size,
+ * and layout of a file that contains a DIB [device-independent bitmap].
+ *
+ * Adapted from http://msdn2.microsoft.com/en-us/library/ms532321.aspx.
+ */
+ 
+typedef struct 
+{ 
+    WORD   bfType; 
+    DWORD  bfSize; 
+    WORD   bfReserved1; 
+    WORD   bfReserved2; 
+    DWORD  bfOffBits; 
+} __attribute__((__packed__)) 
+BITMAPFILEHEADER; 
+ 
+ 
+/*
+ * BITMAPINFOHEADER
+ *
+ * The BITMAPINFOHEADER structure contains information about the 
+ * dimensions and color format of a DIB [device-independent bitmap].
+ *
+ * Adapted from http://msdn2.microsoft.com/en-us/library/ms532290.aspx.
+ */
+       
+typedef struct
+{
+    DWORD  biSize; 
+    LONG   biWidth; 
+    LONG   biHeight; 
+    WORD   biPlanes; 
+    WORD   biBitCount; 
+    DWORD  biCompression; 
+    DWORD  biSizeImage; 
+    LONG   biXPelsPerMeter; 
+    LONG   biYPelsPerMeter; 
+    DWORD  biClrUsed; 
+    DWORD  biClrImportant; 
+} __attribute__((__packed__))
+BITMAPINFOHEADER; 
+ 
+ 
+/* 
+ * RGBTRIPLE
+ *
+ * This structure describes a color consisting of relative intensities of
+ * red, green, and blue.
+ *
+ * Adapted from http://msdn.microsoft.com/en-us/library/aa922590.aspx.
+ */
+ 
+typedef struct
+{
+    BYTE  rgbtBlue;
+    BYTE  rgbtGreen;
+    BYTE  rgbtRed;
+} __attribute__((__packed__))
+RGBTRIPLE;
+/****************************************************************************
+ 
+ *
+ 
+ * Copies a BMP piece by piece
+ ***************************************************************************/
+       
+#include <stdio.h>
+#include <stdlib.h>
+ 
+#include "bmp.h"
+ 
+ 
+int
+main(int argc, char *argv[])
+{
+    // ensure proper usage
+    if (argc != 4)
+    {
+        printf("Usage: resize number infile outfile\n");
+        return 1;
+    }
+ 
+    // remember filenames
+    int number = atoi(argv[1]);
+    char *infile = argv[2];
+    char *outfile = argv[3];
+ 
+    // make sure it's postive number
+    if (number < 0)
+    {
+        printf("Please enter a postive number\n");
+        return 1;
+    }
+    // open input file 
+    FILE *inptr = fopen(infile, "r");
+    if (inptr == NULL)
+    {
+        printf("Could not open %s.\n", infile);
+        return 2;
+    }
+ 
+    // open output file
+    FILE *outptr = fopen(outfile, "w");
+    if (outptr == NULL)
+    {
+        fprintf(stderr, "Could not create %s.\n", outfile);
+        return 3;
+    }
+ 
+    // read infile's BITMAPFILEHEADER
+    BITMAPFILEHEADER bf;
+    fread(&bf, sizeof(BITMAPFILEHEADER), 1, inptr);
+ 
+    // read infile's BITMAPINFOHEADER
+    BITMAPINFOHEADER bi;
+    fread(&bi, sizeof(BITMAPINFOHEADER), 1, inptr);
+ 
+    // ensure infile is (likely) a 24-bit uncompressed BMP 4.0
+    if (bf.bfType != 0x4d42 || bf.bfOffBits != 54 || bi.biSize != 40 || 
+        bi.biBitCount != 24 || bi.biCompression != 0)
+    {
+        fprintf(stderr, "Unsupported file format.\n");
+        return 4;
+    }
+ 
+    // write outfile's BITMAPFILEHEADER
+    fwrite(&bf, sizeof(BITMAPFILEHEADER), 1, outptr);
+    printf("before bi.biWidth=%ld\n", bi.biWidth);
+    bi.biWidth=bi.biWidth * number;     
+    printf("after bi.biWidth=%ld\n", bi.biWidth);
+    printf("before bi.biHeight=%ld\n", bi.biHeight);
+    bi.biHeight=bi.biHeight * number; 
+    printf("after bi.biHeight=%ld\n", bi.biHeight);
+    printf("before bi.biSizeImage=%ld\n", bi.biSizeImage);
+    bi.biSizeImage=bi.biSizeImage * number * number;
+    printf("after bi.biSizeImage=%ld\n", bi.biSizeImage);
+    // write outfile's BITMAPINFOHEADER
+    fwrite(&bi, sizeof(BITMAPINFOHEADER), 1, outptr);
+    
+    unsigned char * buffer[1048576]={' '};
+//    fread(&buffer, sizeof(RGBTRIPLE), 1, inptr);
+   
+ 
+         
+    // determine padding for scanlines
+    int padding =  ((4  - (bi.biWidth * sizeof(RGBTRIPLE)/number) % 4) * 
+    (4  - (bi.biHeight * sizeof(RGBTRIPLE)/number) % 4)) % 4 ;
+    printf("padding=%d\n", padding);
+ 
+    printf("before bi.biHeight=%ld\n", bi.biHeight);
+    //    bi.biHeight=bi.biHeight * number;
+    //        printf("after bi.biHeight=%ld\n", bi.biHeight);
+    
+    // iterate over infile's scanlines
+    for (int i = 0, biHeight = abs(bi.biHeight); i < biHeight/number; i++)
+    {
+        RGBTRIPLE triple;
+ 
+        printf("i=%d\n",i);
+//        printf("j=%d\n",j);
+        fread(&triple, sizeof(RGBTRIPLE), 1, inptr);
+        for (int m=0; m < number; m++)
+        {
+            fwrite(&triple, sizeof(RGBTRIPLE), 1, outptr);
+            printf("outside triple.rgbtBlue=%x\n",triple.rgbtBlue);
+            printf("outside triple.rgbtGreen=%x\n",triple.rgbtGreen);
+            printf("outside triple.rgbtRed=%x\n",triple.rgbtRed);
+        }
+        // iterate over pixels in scanline
+        for (int j = 0; j < bi.biWidth/number; j++)
+        {
+        //    printf("i=%d\n",i);
+            printf("j=%d\n",j);
+            // temporary storage
+          //  RGBTRIPLE triple;
+ 
+            // read RGB triple from infile
+            fread(&triple, sizeof(RGBTRIPLE), 1, inptr);
+    //        buffer=triple;
+      //      printf("buffer=%x\n",buffer);
+            // write RGB triple to outfile
+            for (int l=0; l < number; l++)
+            {
+               fwrite(&triple, sizeof(RGBTRIPLE), 1, outptr);
+               printf("inside triple.rgbtBlue=%x\n",triple.rgbtBlue);
+               printf("inside triple.rgbtGreen=%x\n",triple.rgbtGreen);
+               printf("inside triple.rgbtRed=%x\n",triple.rgbtRed);
+            }
+        }
+      //  for (int m=0; m < number; m++)
+      //  {
+      //      fwrite(&triple, sizeof(RGBTRIPLE), 1, outptr);
+       //     printf("outside triple.rgbtBlue=%x\n",triple.rgbtBlue);
+       //     printf("outside triple.rgbtGreen=%x\n",triple.rgbtGreen);
+       //     printf("outside triple.rgbtRed=%x\n",triple.rgbtRed);
+      //  }
+        // skip over padding, if any
+        fseek(inptr, padding, SEEK_CUR);
+ 
+        // write padding to outfile
+        for (int k = 0; k < padding; k++)
+            fputc(0x00, outptr);
+    }
+ 
+    // close infile
+    fclose(inptr);
+ 
+    // close outfile
+    fclose(outptr);
+ 
+    // that's all folks
+    return 0;
+}

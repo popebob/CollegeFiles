@@ -1,0 +1,84 @@
+Note: before you submit this assignment to me, be sure you have made all necessary corrections to your database as a result of problems found in previous assignments.
+ 
+
+Make the following changes or additions to your Condo Management homework database:
+
+In the table used to store owner information:
+
+   1. Data must be entered into every field of this table. Set the appropriate field parameters that make each a required field.
+       
+   2. The Owner Id field must be entered in a specific format. All 4 characters of this field must contain data. Add an input mask to this field that:
+       
+          * forces the first two characters to be two capitalized letters, entry required
+             
+          * forces the last two characters to be two numbers, entry required
+              
+   3. The State field must always contain two capitalized letters. Add an input mask to this field that enforces this requirement.
+       
+   4. The Zip Code field must always contain a 5-digit number. Add an input mask to this field that enforces this requirement.
+       
+   5. The phone number stored in the Telephone field is to be of the format 999-999-9999: 3 digit area code followed by 7-digit phone number with dashes as shown. Each character of this field is required. Add an input mask that forces entry of all 10 digits with dashes after the 3rd and 6th digits.
+        
+
+In the table used to store condo information:
+
+   6. Data must always be entered into the Condo Id, Weekly Rate, and Owner Id fields of this table. Set the appropriate field parameters that make each a required field.
+       
+   7. The Condo Id field must be entered in a specific format. All 3 characters of this field must contain numeric data. Add an input mask to this field that ensures this requirement.
+       
+   8. Each condo must have at least one bedroom and one bathroom. Assign a default value of 1 to the Bedrooms and Bathrooms fields. Add Validation Rules to these fields to ensure that only valid values are entered. Add Validation Text (error message) that will display if an invalid value is entered.
+       
+   9. Each condo must sleep at least 2 persons. Assign a default value of 2 to the Sleeps field. Add a Validation Rule to this field to check this requirement. Add Validation Text that will display if an invalid value is entered.
+       
+  10. The Weekly Rate must be an amount between $600 and $2500. Add a Validation Rule to this field to check this requirement. Add Validation Text that will display if an invalid value is entered.
+       
+  11. The Owner Id field must be entered in exactly the same format as it was in the owner table. Apply the same input mask to this field.
+       
+  12. Add two new fields to the condo table. Add them between the Weekly Rate Field and the Owner Id field.
+       
+         1. Field Name: For Sale    Data Type: Yes/No
+             
+         2. Field Name: Sale Price     Data Type: Currency
+             
+         3. Condos 101, 108, and 403 are for sale. Set the For Sale field to Yes for these condos. The Sale Prices are $75,000, $125,000, and $100,000 respectively.
+             
+  13. The management office has just received a new listing from Mark Graty. Condo Id 300 has been assigned to the rental unit. It sleeps 10, has 3 bedrooms, 2 bathrooms, and linens are provided. The Weekly Rate is $2300. The owner is interested in selling the condo for $250,000. Add this record to the database.
+
+Other:
+
+  14. Specify Referential Integrity between the tables in your database. At this point, the primary key field of your owner table is repeated as a foreign key in the condo table. This associates a condo with its owner. However, for Access to make the association, the values of the foreign key field in the condo table must exactly match the corresponding values of the primary key field of the owner table (note: Access is not case-sensitive). At this point in our database development, the contents of the foreign key fields have been hand typed - a great opportunity for typographical errors. Access includes a wizard that will identify mismatches between primary keys and foreign keys. Mismatches must be corrected before you can proceed with the next step.
+
+      Follow this procedure to verify that key data already entered into your tables is valid:
+       
+          * Click Queries/New/Find Unmatched Query Wizard. Respond to the wizard's questions and instructions. To identify differences between the condo and owner tables:
+                step 1 - choose the condo table
+                step 2 - choose the owner table
+                step 3 - select the Owner Id field in the left and right portions of the screen and click <=>
+                step 4 - select some identifying data (e.g. Condo Id, Owner Id, etc.)
+                step 5 - click Next and then Finish to run the query.
+                step 6 - if no records are selected, move on to the next step.
+                step 7 - change the condo data (Owner Id) so that the fields match the correct Owner Id.
+                step 8 - repeat steps 1 through 7 until the query returns no records
+             
+  15. After completing the previous step, add Referential Integrity to the relationships between your database tables (refer to page 150). Once referential Integrity is established, all subsequent entries to your tables will be guaranteed a match between primary and foreign keys.
+       
+  16. The forms and reports created in assignment 1 are no longer valid due to the many changes made in this assignment. Delete the forms and reports you created in assignment 1 (keep the report created in assignment 2).
+       
+  17. Create a new form for each of your database tables. Use AutoForm for this; it's very quick and the results are usually very satisfactory.
+       
+  18. Create a new report for each of your database tables showing all fields in each table. Hint: use landscape page orientation for best results. 
+
+What I will be looking for:
+
+    * Problems from the first two assignments resolved.  (2.5points)
+    * The requested changes to the Owner table. (2.5 points)
+    * The requested changes to the Condo table. (2.5 points)
+    * Referential Integrity relationships established between the database tables. (2.5 points)
+    * Assignment 1 forms and reports deleted, new forms and reports created for each of your tables. (10 points)
+
+Recap: your database should now contain:
+
+    * Two tables, updated through assignment 3 (including 2 new fields and one additional condo in the Condo table)
+    * Six queries (assignment 2)
+    * Two rebuilt forms: one for each of the tables
+    * Three reports: one rebuilt report for each of the tables plus the query report from assignment 2 

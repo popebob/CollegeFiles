@@ -1,0 +1,247 @@
+;Cody Adams
+;CSC277-01
+;W08
+;Program 4
+
+.MODEL SMALL
+.STACK 100H
+
+EXTRN indec: PROC
+EXTRN outdec: PROC
+
+.DATA
+	Quarters dw 0h
+	Dimes dw 0h
+	Nickels dw 0h
+	Pennies dw 0h
+	NumberOfCoins dw 0h
+	CoinTotal dw 0h
+	
+	ChangeAmount db 'The input change ammounts to $'
+	ChangeAmount2 db ' cents using $'
+	ChangeAmount3 db ' coins.$'
+	ChangeAmount4 db 'The same change could be made with:$'
+	
+	QuartersAfter db 'Quarters = $'
+	DimesAfter db 'Dimes = $'
+	NickelsAfter db 'Nickels = $'
+	PenniesAfter db 'Pennies = $'
+	
+	CoinsAfter db 'Total Coins = $'
+.CODE
+
+MAIN PROC
+
+	MOV AX,@DATA
+	MOV DS,AX
+
+	CALL indec		
+	MOV Quarters,AX
+	
+	CALL indec		
+	MOV Dimes,AX
+
+	CALL indec		
+	MOV Nickels,AX
+	
+	CALL indec		
+	MOV Pennies,AX
+
+	lea dx,ChangeAmount
+	MOV AH,9
+	int 21h
+	
+	lea BX,Quarters		;total change
+	MOV AX,[BX]
+	lea BX,CoinTotal
+	MOV cx,19h
+	mul cx
+	add [BX],AX
+	
+	lea BX,Dimes
+	MOV AX,[BX]
+	lea BX,CoinTotal
+	MOV cx,10h
+	inc cx
+	mul cx
+	add [BX],AX
+	
+	lea BX,Nickels
+	MOV AX,[BX]
+	lea BX,CoinTotal
+	MOV cx,5h
+	mul cx
+	add [BX],AX
+	
+	lea BX,Pennies
+	MOV AX,[BX]
+	lea BX,CoinTotal
+	MOV cx,1h
+	mul cx
+	add [BX],AX
+	
+	lea BX,CoinTotal
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	lea dx,ChangeAmount2
+	MOV AH,9
+	int 21h
+	
+	lea BX,Quarters		;total input coins
+	MOV AX,[BX]
+	add NumberOfCoins,AX
+	
+	lea BX,Dimes
+	MOV AX,[BX]
+	add NumberOfCoins,AX
+	
+	lea BX,Nickels
+	MOV AX,[BX]
+	add NumberOfCoins,AX
+	
+	lea BX,Pennies
+	MOV AX,[BX]
+	add NumberOfCoins,AX
+	
+	MOV NumberOfCoins,[BX]
+	CALL OUTDEC
+	
+	lea dx,ChangeAmount3
+	MOV AH,9
+	int 21h
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea dx,ChangeAmount4
+	MOV AH,9
+	int 21h
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea BX,CoinTotal	;find least number of coins
+	MOV AX,[BX]
+	MOV cx,19h	;Quarterss
+	MOV dx,0
+	div cx
+	lea BX,Quarters
+	MOV [BX],AX
+	MOV AX,dx
+	
+	MOV cx,9h	;Dimes
+	inc cx
+	MOV dx,0
+	div cx
+	lea BX,Dimes
+	MOV [BX],AX
+	MOV AX,dx
+	
+	MOV cx,5h	;Nickels
+	MOV dx,0
+	div cx
+	lea BX,Nickels
+	MOV [BX],AX
+	MOV AX,dx
+	
+	lea BX,Pennies ;Pennies
+	MOV [BX],AX
+	MOV AX,dx
+	
+	lea dx,QuartersAfter
+	MOV AH,9
+	int 21h
+	
+	lea BX,Quarters		;print Quarters
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea dx,DimesAfter
+	MOV AH,9
+	int 21h
+	
+	lea BX,Dimes		;print Dimes
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea dx,NickelsAfter
+	MOV AH,9
+	int 21h
+	
+	lea BX,Nickels		;print Nickels
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea dx,PenniesAfter
+	MOV AH,9
+	int 21h
+	
+	lea BX,Pennies		;print Pennies
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	MOV AH,2		;return
+	MOV DL,0DH
+	int 21h
+	MOV DL,0AH
+	int 21h
+	
+	lea dx,CoinsAfter
+	MOV AH,9
+	int 21h
+	
+	mov bx,0
+
+	lea BX,Quarters		;total output coins
+	MOV AX,[BX]
+	lea BX,NumberOfCoins
+	add [BX],AX
+	
+	lea BX,Dimes
+	MOV AX,[BX]
+	lea BX,NumberOfCoins
+	add [BX],AX
+	
+	lea BX,Nickels
+	MOV AX,[BX]
+	lea BX,NumberOfCoins
+	add [BX],AX
+	
+	lea BX,Pennies
+	MOV AX,[BX]
+	lea BX,NumberOfCoins
+	add [BX],AX
+	
+	lea BX,NumberOfCoins
+	MOV AX,[BX]
+	CALL OUTDEC
+	
+	MOV AH,4ch
+	int 21h
+
+main endp

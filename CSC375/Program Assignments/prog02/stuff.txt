@@ -1,0 +1,18 @@
+
+Processing input file: test.txt.  Please wait...
+
+$1.01 is: $1(1)+$0.01(1)
+
+Total pieces of change: 2
+
+Change usage:
+0 x $100
+0 x $50
+0 x $20
+0 x $10
+1 x $1
+0 x $0.50
+0 x $0.25
+0 x $0.10
+0 x $0.05
+1 x .$01

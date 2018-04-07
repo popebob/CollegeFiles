@@ -1,0 +1,241 @@
+<html>
+<head>
+<title> Program 4, Due Monday April 6, 2009</title>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#3366CC" vlink="#666666" alink="#FF3300">
+<h2> Program 4, Due Monday April 6, 2009 (70 points)</h2>
+
+<p>
+In this assignment, you will generate and print a graphical
+representation of a maze.  You will use the UNION/FIND algorithm
+together with a parent-pointer general tree representation to implement
+a solution to the problem specified as follows:  given a rectangular
+array with two cells specified as starting and ending locations, each
+array cell initially represents a walled-off box (with 4 walls, each
+wall separating it from its neighbors to the top, bottom, left, and
+right).  You are to use UNION/FIND to generate the maze according to
+the following simple general algorithm:
+
+<ul>
+<li> Start with walls everywhere except at the entrance and exit (for algorithmic
+purposes, the 'non-walls' at the entrance/exit don't really matter).
+<li> While the starting and ending cells remain disconnected:
+<ol>
+<li>Choose a wall (at random)
+<li>Knock it down if the cells it separates are not already connected.
+</ol>
+</ul>
+
+It is actually better to continue knocking cell walls down until all cells are
+connected (as opposed to just the starting and ending cells), which will generate
+more false leads in the maze.
+</p>
+
+<p>Of course, the UNION/FIND algorithm is used to determine whether two
+cells are connected when checking a wall between them.  Each location in
+the 2-D array will be a node in a general tree.  Your
+program should represent each location initially as being
+the only member of a single-element set (thus, for an N x M array, there will
+initially be N*M sets, that is, N*M single-node trees).  Knocking down the wall
+between two cells connects them, which makes the two cells part of the same
+tree (and same equivalence class).  The algorithm halts either when the starting and
+ending cells are members of the same class or when there is only one
+equivalence class because all cells are connected.
+
+<h3>Specific requirements for program 4 are as follows:</h3>
+
+<dl>
+<dt> <b>Maze parameters from command line</b>
+<dd>In the order given here, your program should obtain a random number seed, the number of rows,
+and the number of columns in the array (thus, the size of the maze), from the
+command line.  This does not
+mean you are to give the user a prompt.  It means that on running the program in a DOS or unix
+shell, you type it on the same line as the program's execution, as in the following example, 
+which shows the seed, the rows, and the columns, in that order:<br><br>
+DOS:<br>
+<b><pre>
+C:\> prog04.exe 432 50 30
+</pre></b>
+or Unix:
+<b><pre>
+[aloysius@regal]$ ./prog04.exe 432 50 30
+</pre></b>
+
+There are two things related to this:
+<ol>
+<li>Arrays should be dynamically allocated.
+<li>Label your output top to bottom and left to right.  That is, the first row
+displayed is row zero, the first column displayed is column zero (see the
+section on output format below). 
+</ol>
+<br>
+
+<dt><b>Problem Size</b>
+<dd>There is probably not a limit on the dimensions of the
+array (other than what your C++ compiler might impose), but practically your
+programs won't be tested with dimensions larger than what can be printed on
+a sheet of paper.  This will
+probably limit it to about 80 columns by 60 rows (or possibly less,
+see the section on output format).
+<br>
+<br>
+
+<dt><b>Starting and Ending Points</b>
+<dd>Make the starting and ending points be the
+upper left and lower right corners of the maze (for example, in a 5x14 array, this would
+be locations (0,0) and (4,13) in a row-major format).
+
+<br>
+<br>
+<dt><b>Specific Processing</b>
+<dd> Implement weighted union and path compression in one version of the program and neither in a second version.  How you represent
+the walls and even the cells is up to you, although I will have a
+couple of suggestions in class.  <b>Make sure that the algorithm runs until
+all cells are connected, rather than stopping when just the starting/ending
+cells are connected.</b>
+
+<br>
+<br>
+<dt><b>Output format:</b>
+<dd>If you are good at graphical programming, whether it's Java in a
+browser window or some C++ interface with Windows, then by all means do
+it graphically if you have the time and energy.  Otherwise, your maze
+should be printed using "crude ASCII format" as the following example
+illustrates:
+
+<p>Each maze cell takes up 4 display cells on the screen, except
+for certain boundary cells (the last column and the last row).  For
+example, if you have a 5x14 array, then its initial state might be
+displayed as follows (you won't be displaying its initial state; this
+is just to illustrate the example):
+
+<b><pre>
+    0                   1
+    0 1 2 3 4 5 6 7 8 9 0 1 2 3
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 0 | | | | | | | | | | | | | | |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 1 | | | | | | | | | | | | | | |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 2 | | | | | | | | | | | | | | |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 3 | | | | | | | | | | | | | | |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+ 4 | | | | | | | | | | | | | | |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+</pre></b>
+After the algorithm is run, then the maze might potentially look like this, which
+illustrates the actual output format (the numbered labels for row/column aren't necessary):
+<b><pre>
+   + +-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |   |     |                 |
+   +-+ +-+-+ +-+-+-+-+ +-+-+-+ +
+   | |     |         | | |   | |
+   + +-+-+ + +-+-+-+ + + + + + +
+   |         |     | |   | |   |
+   + + +-+-+ + + + + +-+-+ + +-+
+   | |   |     | | |     | |   |
+   + +-+ +-+-+ +-+ +-+ +-+ +-+ +
+   |   |     | |     |     |   |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+ +
+</pre></b>
+Because each cell shares common wall locations with 4 neighbors, it
+should be obvious that you need to print them out in a very regular
+fashion. For example, while iterating through rows/columns, each cell
+location should be responsible for printing out its upper and left
+wall region.  The boundary cells that have special conditions are then the
+last column and the last row (the last column also needs to print its
+right wall, and the last row needs to print its lower wall).
+
+<dt><b>Report</b>
+<dd>Write a short report (office format or PDF) that gives a comparison of the number
+of steps required (on average) for "several" mazes of varying sizes (i.e.,
+run your program with several mazes that have the same number of cells
+then average the counts; repeat for several different cell counts).  In
+this case, "steps" involves the number of general tree links you must
+traverse when doing a FIND operation to determine set membership.
+The comparison should be of these two implementations:
+<ul>
+<li>General tree using weighted union and path compression
+<li>General tree using neither of the above
+</ul>
+
+Please try not to make this too difficult.  You should be able
+to use the code on the web page, although you might have to modify it a
+little bit to remove the weighted union rule.
+</dl>
+
+<h3>Other Requirements</h3>
+
+<p>Name your program <b>prog04.cpp</b>.  Any programs named otherwise will
+not be examined.  Make sure you separate the interface and implementation.
+That means that I <em>require</em>, in addition to <b>prog04.cpp</b>,
+for you to turn in "<b>.h</b>" and "<b>.cpp</b>" files (representing the
+class header with only the declarations and the implementation file of
+that class).  Not doing so is a 5-point deduction.
+There will be a 1-point deduction for combinations of
+the following:  including a compiled version of your program; including
+any Visual Studio project or solution (or similar) files.
+</p>
+
+<p>
+Paper copies are unnecessary. Using the file upload on my web page
+or sending in email are the acceptable methods of hand-in.
+</p>
+
+<p>In your comment block to begin your main program, other than the
+function of the program and the variable dictionary, include a comment
+of the following format. The most important things are your name and
+the compiler you used:
+</p>
+<pre>
+// Name:         Joe M. Student
+// Program:      CSC 375 Program 4
+// Due Date:     Friday April 3, 2009
+// Compiler:     (whatever one you used.)
+</pre>
+   
+<p>
+Your program must follow "reasonable" rules of style.  Make sure that
+there is a variable dictionary or that you illustrate the purpose of all
+variables with comments. Make sure that your code is properly indented to
+indicate blocks, etc.
+</p>
+
+<h3> Additional Information </h3>
+
+<p>From the Unix man page on generating random numbers:</p>
+<pre><b>
+      "If  you want to generate a random integer between 1 and 10, you
+      should always do it by using high-order bits, as in
+ 
+             j=1+(int) (10.0*rand()/(RAND_MAX+1.0));
+ 
+      and never by anything resembling
+ 
+             j=1+(rand() % 10);
+</b></pre>
+
+
+<p>So for example, if you have n rows, you want to generate a random number
+between 0 and (n-1):</p>
+<b><pre>
+             j=0+(int) (((float) (n-1)) *rand()/(RAND_MAX+1.0));
+</b></pre>
+
+<p>The other part is seed, which is srand:</p>
+
+<b><pre>
+  srand(atoi(argv[1]));
+</b></pre>
+
+<p>As far as the include file:</p>
+<b><pre>
+#include &lt;cstdlib&gt;
+</b></pre>
+should work.
+
+
+</body>
+</html>

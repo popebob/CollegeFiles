@@ -1,0 +1,21 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+A DW	2
+B DW	5
+SUM DW	?
+
+.CODE
+MAIN	PROC
+;initialize DS
+	MOV AX,@DATA
+	MOV DS,AX
+;add the number
+	MOV AX,A	;AX has A
+	ADD AX,B	;AX has A+B
+	MOV SUM,AX	;Sum=A+B
+;exit to DOS
+	MOV AX, 4C00H
+	INT 21H
+MAIN ENDP
+END MAIN

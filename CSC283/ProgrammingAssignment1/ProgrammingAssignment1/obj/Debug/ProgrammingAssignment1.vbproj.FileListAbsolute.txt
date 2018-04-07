@@ -1,0 +1,10 @@
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ResolveAssemblyReference.cache
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.Resources.resources
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.vbproj.GenerateResource.Cache
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.exe
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.pdb
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\bin\Debug\ProgrammingAssignment1.xml
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.exe
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.xml
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.pdb
+E:\Backup\My Documents\Documents\College Files\CSC283\ProgrammingAssignment1\ProgrammingAssignment1\obj\Debug\ProgrammingAssignment1.frmAssignment1.resources

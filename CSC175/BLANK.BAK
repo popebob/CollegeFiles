@@ -1,0 +1,28 @@
+//Cody Adams Exercise #15
+
+#include <iostream.h>;		//include files
+#include <conio.h>;
+#include <iomanip.h>;
+#include <fstream.h>;
+#include <math.h>;
+#include <stdlib.h>;
+#include <time.h>;
+
+int main()	//main function
+	{
+	clrscr();
+	int die1, die2, sum, frequency[12] = {0};
+	srand(time(NULL));
+	for (int x = 0; x!=36; x++)
+	{       sum = 0;
+		die1 = 1 + rand() % 6;
+		die2 = 1 + rand() % 6;
+		sum = die1 + die2;
+		frequency[sum]++;
+	}
+	for (x=2; x!=12; x++)
+		cout << x<<"  "<<frequency[x]<<endl;
+
+	return 0;
+	};
+

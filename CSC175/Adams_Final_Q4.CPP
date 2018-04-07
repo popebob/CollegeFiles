@@ -1,0 +1,71 @@
+//Cody Adams Final Q.No. 4
+
+#include <iostream.h>;		//include files
+#include <conio.h>;
+#include <iomanip.h>;
+#include <fstream.h>;
+#include <math.h>;
+#include <stdlib.h>;
+#include <time.h>;
+
+int celsius(int);   //function prototype
+int fahrenheit(int);	//function prototype
+
+int main()	//main function
+	{
+	clrscr();    //clear any previous output
+	int col1[9], col2[9], col3[9], col4[9];
+	for (int x=32; x != 72; x++)
+	{	if (x > 31 && x < 42)
+			col1[x-32] = celsius(x);
+		if (x > 42 && x < 52)
+			col2[x-42] = celsius(x);
+		if (x > 52 && x < 62)
+			col3[x-52] = celsius(x);
+		if (x > 62 && x < 72)
+			col4[x-62] = celsius(x);
+	}
+	cout << "Fahrenheit:Celsius Fahrenheit:Celsius ";
+	cout << "Fahrenheit:Celsuis Fahrenheit:Celsius" << endl;
+	for (x = 0; x != 10; x++)
+	{	cout << "     " << x+32 << ":" << col1[x] << "             " << x+42 << ":" << col2[x];
+		cout << "             " << x+52 << ":" << col3[x] << "              " << x+62 << ":" << col4[x] << endl;
+	}
+	for (x=0; x != 40; x++)
+	{	if (x > 0 && x < 11)
+			col1[x-32] = fahrenheit(x);
+		if (x > 10 && x < 21)
+			col2[x-42] = fahrenheit(x);
+		if (x > 20 && x < 31)
+			col3[x-52] = fahrenheit(x);
+		if (x > 30 && x < 41)
+			col4[x-62] = fahrenheit(x);
+	}
+	cout << "Celsius:Fahrenheit Celsius:Fahrenheit ";
+	cout << "Celsuis:Fahrenheit Celsius:Fahrenheit" << endl;
+	for (x = 0; x != 10; x++)
+	{	cout << "     " << x << ":" << col1[x] << "             " << x+10 << ":" << col2[x];
+		cout << "             " << x+20 << ":" << col3[x] << "              " << x+30 << ":" << col4[x] << endl;
+	}
+	return 0; //successful termination
+	};
+
+int celsius(int x)
+{	int TempInCelsius;
+	TempInCelsius = (5/9)*(x-32);
+	cout << x << " = " << TempInCelsius;
+	getch();
+	return TempInCelsius;
+}
+
+int fahrenheit(int x)
+{       int TempInFahrenheit;
+	TempInFahrenheit = (9 * x / 5) +32;
+	return TempInFahrenheit;
+}
+
+
+
+
+
+

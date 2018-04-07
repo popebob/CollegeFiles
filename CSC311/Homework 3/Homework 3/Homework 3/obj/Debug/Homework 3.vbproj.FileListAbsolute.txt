@@ -1,0 +1,20 @@
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework_3.Homework3Form.resources
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework_3.Resources.resources
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework 3.vbproj.GenerateResource.Cache
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\bin\Debug\Homework 3.exe
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\bin\Debug\Homework 3.pdb
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\bin\Debug\Homework 3.xml
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework 3.exe
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework 3.xml
+C:\Users\Popebob\AppData\Local\Temporary Projects\Homework 3\obj\Debug\Homework 3.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework 3.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework 3.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework 3.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework_3.Homework3Form.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework_3.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\obj\Debug\Homework 3.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\bin\Debug\Homework 3.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\bin\Debug\Homework 3.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 3\Homework 3\Homework 3\bin\Debug\Homework 3.xml

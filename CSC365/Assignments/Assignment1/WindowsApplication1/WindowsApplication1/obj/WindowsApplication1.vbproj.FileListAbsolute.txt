@@ -1,0 +1,12 @@
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frmChoose.resources
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm10.resources
+H:\CSC365\Assignments\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.frm8.resources

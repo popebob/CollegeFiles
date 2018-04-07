@@ -1,0 +1,80 @@
+<?xhtml = "1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Lab 5 Javascript # 1</title>
+
+
+
+
+<script type = "text/javascript">
+
+
+function convertercels() 
+{
+
+document.converter.inCels.value = ((5.0/9.0) * (document.converter.inFahren.value - 32));
+
+}
+
+
+function converterfahren()
+ {
+
+document.converter.inFahren.value = ((9.0/5.0) * document.converter.inCels.value + 32);
+
+ }
+
+function clearall()
+{
+document.converter.inCels.value = null;
+document.converter.inFahren.value = null;
+}
+
+</script>
+
+<style = "text/css">
+.center {text-align: center}
+</style>
+
+</head>
+<body>
+
+<div class = "center">
+<h1>CSC 363 Javascript Lab</h1>
+<h2>Temperature Conversion Functions</h2>
+</div>
+
+&nbsp;
+
+
+<form name = "converter" action = "">
+
+<table border = "1" cellspacing = "3" cellpadding = "2" align = "center" width = "50%">
+  <tr bgcolor = "gold">
+   <td> Farenheit </td>
+   <td><input type = "text" name = "inFahren" /></td>
+   <td align = "center"><input type = "button" 	    
+        value = "Convert to Celsius" onclick = "convertercels()" />
+	</td>
+  </tr>
+  <tr bgcolor = "aqua">
+   <td> Celsius</td>
+   <td><input type = "text" name = "inCels" /></td>
+   <td align = "center"><input type = "button"
+       value = "Convert to Fahrenheit" onclick = "converterfahren()" />
+	</td>
+  </tr>
+  <tr>
+   <td colspan = "3" align = "center"><input type = "button"
+       value = "Reset" onclick = "clearall()" />
+   </td>
+  </tr>
+</table>   
+</form>
+
+
+</body>
+</html>

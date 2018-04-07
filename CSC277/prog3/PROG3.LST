@@ -1,0 +1,160 @@
+Turbo Assembler	 Version 4.0	    04/21/08 16:02:44	    Page 1
+prog3.ASM
+
+
+
+      1				     ;Cody Adams
+      2				     ;CSC277-01
+      3				     ;Program Three
+      4
+      5				     ;Program to display the ascii vALue in binary
+      6
+      7
+      8	0000			     .MODEL SMALL
+      9	0000			     .STACK 100H
+     10	0000			     .DATA
+     11
+     12	0000  0A 0D 45 6E 74 65	72+  ASCIIInput	db 0AH,0dh,"Enter a character: ",'$'
+     13	      20 61 20 63 68 61	72+
+     14	      61 63 74 65 72 3A	20+
+     15	      24
+     16	0016  0A 0D 54 68 65 20	41+  ASCIICode db 0AH,0dh, "The	ASCII code of ",'$'
+     17	      53 43 49 49 20 63	6F+
+     18	      64 65 20 6F 66 20	24
+     19	002B  20 69 6E 20 62 69	6E+  Binary db " in binary is: ",'$'
+     20	      61 72 79 20 69 73	3A+
+     21	      20 24
+     22	003B  0A 0D 54 68 65 20	6E+  EvenParity	db 0AH,	0dh,"The number	of 1 bits is ",'$'
+     23	      75 6D 62 65 72 20	6F+
+     24	      66 20 31 20 62 69	74+
+     25	      73 20 69 73 20 24
+     26	0056  00		     Storage db	0
+     27
+     28	0057			     .CODE
+     29	0000			     MAIN PROC
+     30
+     31	0000  B8 0000s		     MOV AX,@DATA
+     32	0003  8E D8		     MOV DS,AX
+     33
+     34
+     35	0005  B3 00		     MOV BL,0
+     36
+     37	0007  BA 0000r		     LEA DX, ASCIIInput
+     38	000A  B4 09		     MOV AH,9
+     39	000C  CD 21		     INT 21H
+     40				     ;get input
+     41	000E  B4 01		     MOV AH,1
+     42	0010  CD 21		     INT 21H
+     43
+     44	0012  A2 0056r		     MOV Storage,AL
+     45	0015  B9 0008		      MOV cx,8
+     46
+     47	0018  BA 002Br		     LEA DX, Binary
+     48	001B  B4 09		     MOV AH,9
+     49	001D  CD 21		     INT 21H
+     50
+     51	001F  8A 16 0056r	     MOV dl,Storage
+     52	0023  B4 02		     MOV AH,2
+     53	0025  CD 21		     INT 21H
+     54
+     55	0027  BA 003Br		     LEA DX,EvenParity
+     56	002A  B4 09		     MOV AH,9
+     57	002C  CD 21		     INT 21H
+Turbo Assembler	 Version 4.0	    04/21/08 16:02:44	    Page 2
+prog3.ASM
+
+
+
+     58
+     59
+     60	002E			     loopnumber:
+     61
+     62	002E  24 80		     and AL,10000000b
+     63
+     64				     ;convert AL INTo a	working	ascii 1	or 0
+     65				     ;we add 30h if it's a 0 and subtract 50h if it's a	1
+     66	0030  3C 00		     CMP AL,0
+     67	0032  74 05		     JE	ClearBits
+     68	0034  B0 31		     MOV AL,31h
+     69	0036  EB 03 90		     JMP AllDone
+     70	0039			     ClearBits:
+     71	0039  B0 30		     MOV AL,30h
+     72	003B			     AllDone:
+     73
+     74
+     75	003B  8A D0		     MOV dl,AL
+     76	003D  B4 02		     MOV AH,2
+     77	003F  CD 21		     INT 21H
+     78
+     79	0041  3C 31		     CMP AL,'1'
+     80	0043  75 02		     JNE CarryOn
+     81	0045  FE C3		     INC BL
+     82
+     83	0047			     CarryOn:
+     84
+     85	0047  D0 26 0056r	     SHL Storage,1
+     86
+     87	004B  A0 0056r		     MOV AL, Storage
+     88
+     89	004E  E2 DE		     LOOP loopnumber
+     90
+     91	0050  BA 003Br		     LEA DX,EvenParity
+     92	0053  B4 09		     MOV AH,9
+     93	0055  CD 21		     INT 21H
+     94
+     95				     ;change to	ascii vALue
+     96	0057  80 C3 30		     ADD BL,30h
+     97
+     98	005A  8A D3		     MOV dl,BL
+     99	005C  B4 02		     MOV AH,2
+    100	005E  CD 21		     INT 21H
+    101
+    102				     ;exit to dos
+    103
+    104	0060  B4 4C		     MOV AH,4ch
+    105	0062  CD 21		     INT 21H
+    106
+    107	0064			     main endp
+    108				     end main
+Turbo Assembler	 Version 4.0	    04/21/08 16:02:44	    Page 3
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/21/08"
+??FILENAME			  Text	 "prog3	  "
+??TIME				  Text	 "16:02:44"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 PROG3
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+ALLDONE				  Near	 _TEXT:003B
+ASCIICODE			  Byte	 DGROUP:0016
+ASCIIINPUT			  Byte	 DGROUP:0000
+BINARY				  Byte	 DGROUP:002B
+CARRYON				  Near	 _TEXT:0047
+CLEARBITS			  Near	 _TEXT:0039
+EVENPARITY			  Byte	 DGROUP:003B
+LOOPNUMBER			  Near	 _TEXT:002E
+MAIN				  Near	 _TEXT:0000
+STORAGE				  Byte	 DGROUP:0056
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0057 Word	  Public  DATA
+_TEXT				  16  0064 Word	  Public  CODE
+

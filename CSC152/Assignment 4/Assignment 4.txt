@@ -1,0 +1,64 @@
+Make the following changes or additions to your Condo Management database:
+
+   1. Create a Unit Rental Report showing the following information:
+       
+         1. Condo Id
+         2. Bedrooms
+         3. Bathrooms
+         4. Sleeps
+         5. Weekly Rate
+
+      Use Portrait page orientation. Be sure none of the information on the report is truncated.
+       
+   2. Create a Owner/Rental Units Report showing the following information:
+       
+         1. Owner Id
+         2. Owner's first and last names
+         3. Condo Id
+         4. Weekly Rate
+         5. For Sale
+         6. Sale Price
+
+      Use Portrait page orientation. Group the report by Owner Id. Be sure none of the information on the report is truncated.
+       
+   3. Create a new table by importing data from another Access Database:
+       
+         1. Click the link at the top of this page to download a database named US State Information. Remember the location of the downloaded database.
+             
+         2. Import the US States table from the downloaded database
+            (note: the downloaded database must be closed throughout the following steps):
+             
+               1. Click File/Get External Data/Import
+                   
+               2. Navigate to the location of the downloaded US State Information database and click Import
+                   
+               3. On the Import Objects dialogue screen, make sure the Tables tab is the active tab; select the US States table and click OK
+                   
+               4. The table will be copied from the US State Information database to your Condo Management database; it is now a permanent table in your database.
+                   
+               5. You can delete the downloaded database if you wish; it is no longer needed.
+                   
+   4. Update your database table relationships by adding a referential integrity relationship between the State field in the Owner table and the USPS field in the US States table. Note: to add the table to the relationship dialog screen, right-click and choose Show Table.
+
+      You will receive an error message when you try to establish this relationship. The error is telling you that some data, already existing in the Owner table/State field, is invalid. The relationship cannot be made until the erroneous State data is identified and corrected. Study the Owner data, find the invalid state code and correct it. Then, try to establish the relationship again.
+   5. Create a customized Condo Update Form as shown (click the link below). Include the form header as shown (green background, shadow effect). Note that the Owner Id control has been replaced by a combo box named Last Name. This allows a user of the form to choose an owner from a list of valid owners retrieved from the Owner table. The combo box should show owner last names and store the user selection in the Owner Id field (next-to-last step of the Combo Box Wizard, specify the field in which Access is to store the selection.
+       
+       Condo Update Form.mht 
+       
+   6. Create a customized Owner Update Form as shown (click the link below). Include the form header as shown (green background, shadow effect). Note that State on the form is a combo box that displays valid states from the US States table.
+
+       Owner Update Form.mht 
+
+What I will be looking for:
+
+   1. An Unit Rental Report, as described in part 1 above. (2 points)
+       
+   2. An Owner/Rental Units Report , as described in part 2 above. (2 points)
+       
+   3. A new table, US States, added to your database (2 points)
+       
+   4. Referential Integrity relationship between the Owner and US States tables (4 points)
+       
+   5. A customized form, as described in part 5 above, including the owner combo box. (5 points)
+       
+   6. A customized form, as described in part 6 above, including the State combo box. (5 points)

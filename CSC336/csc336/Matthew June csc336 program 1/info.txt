@@ -1,0 +1,5 @@
+Matthew June
+csc336 Program #1
+Due 11-25-2008
+
+I was not able to get this to compile, hoping I can at least get partial credit for my code.

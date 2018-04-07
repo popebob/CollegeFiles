@@ -1,0 +1,4 @@
+--Define all classes
+--Use cases and CRC Cards almost done
+--Preliminary CRC for all classes
+--Begin to consider aggregation, inheritences, and sequences.

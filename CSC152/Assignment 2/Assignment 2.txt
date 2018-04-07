@@ -1,0 +1,53 @@
+You created a database containing two tables in the first assignment.
+
+The reports you created display all of the data stored in a table. In a typical business database, it is more likely that you would want to view a subset of the data in a database, not everything. We use queries to view and/or print selected data from database tables.
+
+Create, and save, the following queries in the Condo Management database.
+
+   1. Selecting some data from all records in a table:
+
+      Create a query that will display, from the Condo table, Condo Id, Bedrooms, Bathrooms, Sleeps, and Weekly Rate for all records in the table. Name the query Condo Info Query.
+       
+   2. Selecting some data from some records in a table using a selection criteria:
+
+      Create a query that will select and display, from the Condo table, Condo Id, Weekly Rate, and Owner Id for all records in the table where Weekly Rate is less than $1,000.00. Name the query Cheap Condos Query.
+       
+   3. Selecting data from multiple tables:
+
+      Create a query that will select and display Owner Id, Last Name, and Telephone from the Owner table, and Condo Id and Weekly Rate from the Condo table for all records. Name the query Available Condos Query.
+       
+   4. Selecting data using variable selection criteria:
+
+      A client will often select a condo based upon the amount charged per week. Clients will have differing financial constraints so selection by weekly rate is dependent upon the client.
+
+      Create a parameter query that will select condos where Weekly Rate is less than a specified amount, the amount to be determined by the client at the time the query is run. Display Owner Id, Last Name, and Telephone from the Owner table, and Condo Id and Weekly Rate from the Condo table. Name the query Weekly Rate Query.
+       
+   5. Selecting data using multiple, variable, selection criteria:
+
+      Some clients may want to select a condo based on the number of people it sleeps in addition to its price. The Weekly Rate Query created in the previous exercise can be enhanced to satisfy this additional criteria.
+
+      Make a copy of the Weekly Rate Query (from part 4 above) by right-clicking the query and choosing Save As...; make the name of the new query Weekly Rate and Sleeps Query. Add the appropriate criteria that will ask a second question regarding the number of people the condo needs to accommodate; the criteria should look for Sleeps greater-than or equal to the parameter value entered. Display all condos that satisfy both the weekly rate requirement and the sleeps requirement.
+       
+   6. Using a query to calculate statistics:
+
+      The Condo Management Company charges a fee of 15% of the Weekly Rate as payment for their services. Create a query that will calculate the amount the company will receive weekly for each condo rented. Have the query display Owner Id, Last Name, Condo Id, Weekly Rate, and Fee Charged. Name the query Weekly Income Query.
+       
+   7. Using a query to produce a report:
+
+      Use the Report Wizard to create a report from the query created in part 6. Name the report Weekly Income Report. 
+
+Send me your modified database via the assignment link.  If you send it, then you are unable to send again.  If you need to re-send then you'll have to email me to clear your attempt.
+
+What I will be looking for:
+
+   1. Three basic select queries  - 2.5 points each
+   2. Two parameter queries  - 7.5 points each
+   3. One query containing a calculated field - 7.5  points
+   4. One report showing the information from a query - 2.5 points
+
+Your database should now have:
+
+    * Two tables
+    * Six queries
+    * Two forms
+    * Three reports

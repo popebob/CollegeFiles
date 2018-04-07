@@ -1,0 +1,10 @@
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\bin\Debug\Cody Adams - Homework 1.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\bin\Debug\Cody Adams - Homework 1.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\bin\Debug\Cody Adams - Homework 1.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\WindowsApplication1.Homework1Form.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\Cody Adams - Homework 1.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\Cody Adams - Homework 1.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\Cody Adams - Homework 1.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 1\Cody Adams - Homework 1\obj\Debug\Cody Adams - Homework 1.pdb

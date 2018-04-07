@@ -1,0 +1,10 @@
+wrap-up checklist
+--x--fix 2nd/3rd dfds--x--
+make more 2nd/3rd dfds
+--x--text use case into visio--x--
+--x--insert sequence charts--x--
+write srs
+make powerpoint
+architecture diagram
+--x--pseudocode some dfds--x--
+--x--locate/insert cleaner top-level use case--x--

@@ -1,0 +1,68 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: RC2, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\Backup\My Documents\College Files\Csc275\Team Project\Rc2\Debug\RSP000001.rsp" with contents
+[
+/Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Gm /EHsc /RTC1 /MLd /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Wp64 /ZI /TP
+"\Backup\My Documents\College Files\Csc275\Team Project\AtaraxiaRC2\src\searchlist.cc"
+"\Backup\My Documents\College Files\Csc275\Team Project\AtaraxiaRC2\src\pageq.cc"
+"\Backup\My Documents\College Files\Csc275\Team Project\AtaraxiaRC2\src\indexlist.cc"
+"\Backup\My Documents\College Files\Csc275\Team Project\AtaraxiaRC2\main.cc"
+]
+Creating command line "cl.exe @"e:\Backup\My Documents\College Files\Csc275\Team Project\Rc2\Debug\RSP000001.rsp" /nologo"
+Creating temporary file "e:\Backup\My Documents\College Files\Csc275\Team Project\Rc2\Debug\RSP000002.rsp" with contents
+[
+/OUT:"Debug/RC2.exe" /INCREMENTAL /NOLOGO /DEBUG /PDB:"Debug/RC2.pdb" /SUBSYSTEM:CONSOLE /MACHINE:X86  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+".\debug\main.obj"
+".\debug\indexlist.obj"
+".\debug\pageq.obj"
+".\debug\searchlist.obj"
+]
+Creating command line "link.exe @"e:\Backup\My Documents\College Files\Csc275\Team Project\Rc2\Debug\RSP000002.rsp""
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+searchlist.cc
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\searchlist.cc(78) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+pageq.cc
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\pageq.cc(37) : warning C4018: '<' : signed/unsigned mismatch
+indexlist.cc
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\pageq.cc(37) : warning C4018: '<' : signed/unsigned mismatch
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\indexlist.cc(33) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\indexlist.cc(49) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+main.cc
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\pageq.cc(37) : warning C4018: '<' : signed/unsigned mismatch
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\indexlist.cc(33) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\indexlist.cc(49) : warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+e:\Backup\My Documents\College Files\CSC275\Team Project\AtaraxiaRC2\src\searchlist.cc(78) : warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+Generating Code...
+Linking...
+indexlist.obj : error LNK2005: "public: void __thiscall pageq::add(int)" (?add@pageq@@QAEXH@Z) already defined in main.obj
+indexlist.obj : error LNK2005: "public: void __thiscall pageq::printQ(class std::basic_ostream<char,struct std::char_traits<char> > &)" (?printQ@pageq@@QAEXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z) already defined in main.obj
+indexlist.obj : error LNK2005: "public: void __thiscall indexlist::insertNode(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?insertNode@indexlist@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z) already defined in main.obj
+indexlist.obj : error LNK2005: "public: void __thiscall indexlist::displayList(class std::basic_ostream<char,struct std::char_traits<char> > &)" (?displayList@indexlist@@QAEXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z) already defined in main.obj
+indexlist.obj : error LNK2005: "bool DEBUG" (?DEBUG@@3_NA) already defined in main.obj
+pageq.obj : error LNK2005: "public: void __thiscall pageq::add(int)" (?add@pageq@@QAEXH@Z) already defined in main.obj
+pageq.obj : error LNK2005: "public: void __thiscall pageq::printQ(class std::basic_ostream<char,struct std::char_traits<char> > &)" (?printQ@pageq@@QAEXAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@@Z) already defined in main.obj
+searchlist.obj : error LNK2005: "public: __thiscall SearchList::SearchList(void)" (??0SearchList@@QAE@XZ) already defined in main.obj
+searchlist.obj : error LNK2005: "public: __thiscall SearchList::SearchList(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0SearchList@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in main.obj
+searchlist.obj : error LNK2005: "private: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall SearchList::returntolower(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?returntolower@SearchList@@AAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V23@@Z) already defined in main.obj
+searchlist.obj : error LNK2005: "public: bool __thiscall SearchList::is_entry(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?is_entry@SearchList@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in main.obj
+searchlist.obj : error LNK2005: "private: bool __thiscall SearchList::search(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?search@SearchList@@AAE_NHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) already defined in main.obj
+Debug/RC2.exe : fatal error LNK1169: one or more multiply defined symbols found
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\Backup\My Documents\College Files\Csc275\Team Project\Rc2\Debug\BuildLog.htm"
+RC2 - 13 error(s), 9 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

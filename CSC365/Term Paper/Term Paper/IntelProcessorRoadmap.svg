@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="746"
+   height="126.84326"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docbase="D:\Dokumente und Einstellungen\Ondra\Desktop"
+   sodipodi:docname="IntelProcessorRoadmap.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 63.421631 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="746 : 63.421631 : 1"
+       inkscape:persp3d-origin="373 : 42.281087 : 1"
+       id="perspective113" />
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInM"
+       style="overflow:visible">
+      <path
+         id="path3348"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(-0.4,-0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM"
+       style="overflow:visible">
+      <path
+         id="path3357"
+         d="M 5.77,0 L -2.88,5 L -2.88,-5 L 5.77,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path3277"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3256"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="416.84125"
+     inkscape:cy="36.414338"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="933"
+     inkscape:window-height="669"
+     inkscape:window-x="356"
+     inkscape:window-y="403"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4.5,-917.84515)">
+    <rect
+       style="fill:#ffff81;fill-opacity:1;stroke:#4d4d4d;stroke-width:1"
+       id="rect3633"
+       width="351.68631"
+       height="80.393394"
+       x="-4"
+       y="918.34515"
+       rx="5"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="-0.3984375"
+       y="932.19232"
+       id="text2246"><tspan
+         sodipodi:role="line"
+         id="tspan2248"
+         x="-0.3984375"
+         y="932.19232">Willamette</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="82.871262"
+       y="932.19232"
+       id="text2250"><tspan
+         sodipodi:role="line"
+         id="tspan2252"
+         x="82.871262"
+         y="932.19232">Northwood</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="166.29927"
+       y="932.19232"
+       id="text2254"><tspan
+         sodipodi:role="line"
+         id="tspan2256"
+         x="166.29927"
+         y="932.19232">Prescott</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="235.23715"
+       y="932.19232"
+       id="text2264"><tspan
+         sodipodi:role="line"
+         id="tspan2266"
+         x="235.23715"
+         y="932.19232">Tejas</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="285.13126"
+       y="932.19232"
+       id="text2268"><tspan
+         sodipodi:role="line"
+         id="tspan2270"
+         x="285.13126"
+         y="932.19232">Nehalem</tspan></text>
+    <g
+       id="g3485"
+       transform="translate(0,-40)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 78.0625,966.3125 L 78.0625,967.8125 L 67.21875,967.8125 L 67.21875,968.8125 L 78.0625,968.8125 L 78.0625,970.3125 L 81.5,968.3125 L 78.0625,966.3125 z "
+         id="path2274" />
+    </g>
+    <g
+       id="g3494"
+       transform="translate(0,-40)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 161.28125,966.3125 L 161.28125,967.8125 L 150.4375,967.8125 L 150.4375,968.8125 L 161.28125,968.8125 L 161.28125,970.3125 L 164.75,968.3125 L 161.28125,966.3125 z "
+         id="path3455" />
+    </g>
+    <g
+       id="g3469"
+       style="fill:#ff0000"
+       transform="translate(0,-40)">
+      <path
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 229.03125,966.3125 L 229.03125,967.8125 L 218.1875,967.8125 L 218.1875,968.8125 L 229.03125,968.8125 L 229.03125,970.3125 L 232.46875,968.3125 L 229.03125,966.3125 z "
+         id="path3457" />
+    </g>
+    <g
+       id="g3503"
+       style="fill:#ff0000"
+       transform="translate(0,-40)">
+      <path
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 280.125,966.3125 L 280.125,967.8125 L 269.28125,967.8125 L 269.28125,968.8125 L 280.125,968.8125 L 280.125,970.3125 L 283.59375,968.3125 L 280.125,966.3125 z "
+         id="path3459" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="255.8558"
+       y="952.19232"
+       id="text3461"><tspan
+         sodipodi:role="line"
+         id="tspan3463"
+         x="255.8558"
+         y="952.19232">Cedarmill</tspan></text>
+    <g
+       id="g3512"
+       style="fill:#ff0000"
+       transform="translate(0,-40)">
+      <path
+         style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,977.125 L 238.28125,988.8125 L 249.625,988.8125 L 249.625,990.3125 L 253.09375,988.3125 L 249.625,986.3125 L 249.625,987.8125 L 239.28125,987.8125 L 239.28125,977.125 L 238.28125,977.125 z "
+         id="path3465"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+    <g
+       id="g3521"
+       style="fill:#000000"
+       transform="translate(-63.646447,-40)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,977.125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 239.28125,1007.8125 L 239.28125,977.125 L 238.28125,977.125 z "
+         id="path3523"
+         sodipodi:nodetypes="cccccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="192.29927"
+       y="972.19232"
+       id="text3525"><tspan
+         sodipodi:role="line"
+         id="tspan3527"
+         x="192.29927"
+         y="972.19232">Prescott-2M</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="281.97919"
+       y="972.19232"
+       id="text3529"><tspan
+         sodipodi:role="line"
+         id="tspan3531"
+         x="281.97919"
+         y="972.19232">Cedar Mill</tspan></text>
+    <g
+       id="g3533"
+       style="fill:#000000"
+       transform="translate(26.965385,-40)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3535"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="202.89888"
+       y="992.19238"
+       id="text3537"><tspan
+         sodipodi:role="line"
+         id="tspan3539"
+         x="202.89888"
+         y="992.19238">Smithfield</tspan></text>
+    <g
+       id="g3541"
+       style="fill:#000000"
+       transform="translate(26.965385,-20)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3543"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="281.97919"
+       y="992.19238"
+       id="text3545"><tspan
+         sodipodi:role="line"
+         id="tspan3547"
+         x="281.97919"
+         y="992.19238">Presler</tspan></text>
+    <rect
+       style="fill:#ffb181;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-opacity:1"
+       id="rect3677"
+       width="253.14424"
+       height="42.590622"
+       x="71.417786"
+       y="1002.3405"
+       rx="5"
+       ry="5" />
+    <g
+       id="g3549"
+       style="fill:#000000"
+       transform="translate(26.965385,6)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3551"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="281.97919"
+       y="1018.1924"
+       id="text3553"><tspan
+         sodipodi:role="line"
+         id="tspan3555"
+         x="281.97919"
+         y="1018.1924">Yonah</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="196.12628"
+       y="1018.1924"
+       id="text3557"><tspan
+         sodipodi:role="line"
+         id="tspan3559"
+         x="196.12628"
+         y="1018.1924">Dothan533</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="134.46027"
+       y="1018.1924"
+       id="text3561"><tspan
+         sodipodi:role="line"
+         id="tspan3563"
+         x="134.46027"
+         y="1018.1924">Dothan</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="76.081268"
+       y="1018.1924"
+       id="text3565"><tspan
+         sodipodi:role="line"
+         id="tspan3567"
+         x="76.081268"
+         y="1018.1924">Banias</tspan></text>
+    <g
+       id="g3569"
+       style="fill:#000000"
+       transform="translate(-58.383492,6)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3571"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <g
+       id="g3573"
+       style="fill:#000000"
+       transform="translate(-120.04955,6)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3575"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <rect
+       style="fill:#81ff81;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-opacity:1"
+       id="rect3679"
+       width="134"
+       height="59.5"
+       x="356.5"
+       y="985.43121"
+       rx="5"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="357.54016"
+       y="1018.1924"
+       id="text3581"><tspan
+         sodipodi:role="line"
+         id="tspan3583"
+         x="357.54016"
+         y="1018.1924">Conroe</tspan></text>
+    <g
+       id="g3585"
+       style="fill:#000000"
+       transform="translate(82.526276,6)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="357.54016"
+       y="1038.1924"
+       id="text3589"><tspan
+         sodipodi:role="line"
+         id="tspan3591"
+         x="357.54016"
+         y="1038.1924">Kentsfield</tspan></text>
+    <g
+       id="g3593"
+       style="fill:#000000"
+       transform="translate(180.48154,26)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3595"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="436.19244"
+       y="1038.1924"
+       id="text3597"><tspan
+         sodipodi:role="line"
+         id="tspan3599"
+         x="436.19244"
+         y="1038.1924">Yorkfield</tspan></text>
+    <g
+       id="g3601"
+       style="fill:#000000"
+       transform="translate(180.48154,6)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 222.28125,1007.8125 L 222.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 222.28125,1007.8125 z "
+         id="path3603"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="436.19244"
+       y="1018.1924"
+       id="text3605"><tspan
+         sodipodi:role="line"
+         id="tspan3607"
+         x="436.19244"
+         y="1018.1924">Wolfdale</tspan></text>
+    <rect
+       style="fill:#81c0ff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-opacity:1"
+       id="rect3681"
+       width="136.5"
+       height="39.5"
+       x="506"
+       y="1005.4312"
+       rx="5"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="506.37823"
+       y="1038.1923"
+       id="text3609"><tspan
+         sodipodi:role="line"
+         id="tspan3611"
+         x="506.37823"
+         y="1038.1923">Nehalem</tspan></text>
+    <g
+       id="g3613"
+       style="fill:#000000;fill-opacity:1"
+       transform="translate(251.86836,26)">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3615"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="578.69653"
+       y="1038.1923"
+       id="text3617"><tspan
+         sodipodi:role="line"
+         id="tspan3619"
+         x="578.69653"
+         y="1038.1923">Westmere</tspan></text>
+    <rect
+       style="fill:#cccccc;fill-opacity:1;stroke:#4d4d4d;stroke-width:1;stroke-opacity:1"
+       id="rect3683"
+       width="83"
+       height="39.5"
+       x="658"
+       y="1005.4312"
+       rx="5"
+       ry="5" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="658.88403"
+       y="1038.1923"
+       id="text3621"><tspan
+         sodipodi:role="line"
+         id="tspan3623"
+         x="658.88403"
+         y="1038.1923">Sandy Bridge</tspan></text>
+    <g
+       id="g3625"
+       style="fill:#0000ff"
+       transform="translate(323.4075,26)">
+      <path
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3627"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <g
+       id="g3629"
+       style="fill:#0000ff"
+       transform="translate(403.98752,26)">
+      <path
+         style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 238.28125,1007.8125 L 238.28125,1008.8125 L 249.625,1008.8125 L 249.625,1010.3125 L 253.09375,1008.3125 L 249.625,1006.3125 L 249.625,1007.8125 L 238.28125,1007.8125 z "
+         id="path3631"
+         sodipodi:nodetypes="cccccccc" />
+    </g>
+    <g
+       id="g3643" />
+    <g
+       id="g3654">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 325.53125,65.90625 L 324.65625,66.40625 L 338.71875,90.75 L 320.8125,90.75 L 320.8125,91.75 L 352.15625,91.75 L 352.15625,93.25 L 355.625,91.25 L 352.15625,89.25 L 352.15625,90.75 L 339.875,90.75 L 325.53125,65.90625 z "
+         transform="translate(0,923.07513)"
+         id="path3587"
+         sodipodi:nodetypes="cccccccccccc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="50.198486"
+       y="972.61737"
+       id="text3685"><tspan
+         sodipodi:role="line"
+         id="tspan3687"
+         x="50.198486"
+         y="972.61737">NetBurst</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="162.97427"
+       y="1036.9103"
+       id="text3689"><tspan
+         sodipodi:role="line"
+         id="tspan3691"
+         x="162.97427"
+         y="1036.9103">P6M/Banias</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="386.6709"
+       y="1000.9691"
+       id="text3693"><tspan
+         sodipodi:role="line"
+         id="tspan3695"
+         x="386.6709"
+         y="1000.9691">Core/Penryn</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="514.27344"
+       y="1019.2491"
+       id="text3697"><tspan
+         sodipodi:role="line"
+         id="tspan3699"
+         x="514.27344"
+         y="1019.2491">Nehalem/Westmere</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#666666;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="658.88403"
+       y="1020.1923"
+       id="text3701"><tspan
+         sodipodi:role="line"
+         id="tspan3703"
+         x="658.88403"
+         y="1020.1923">Sandy Bridge</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="742.13867"
+       y="932.25842"
+       id="text3709"><tspan
+         sodipodi:role="line"
+         id="tspan3711"
+         x="742.13867"
+         y="932.25842"
+         style="text-align:end;text-anchor:end">Released · <tspan
+   style="fill:#ff0000"
+   id="tspan3721">Canceled</tspan> · <tspan
+   style="fill:#0000ff"
+   id="tspan3723">Future</tspan> · <tspan
+   style="text-align:end;text-anchor:end;fill:#666666"
+   id="tspan3717">Microarchitecture name</tspan></tspan></text>
+  </g>
+</svg>

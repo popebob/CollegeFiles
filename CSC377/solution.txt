@@ -1,0 +1,23 @@
+Launch CentOS 5.5 DVD Installation
+Choose the Desktop - Gnome Installation with the following change:
+	Add Web Server, but remove the "1:mod_ssl-2.2.3-43.el5.centos-I386" SSL module
+
+After installation, the configuration manager launches.  Do the following:
+	Set firewall to Enabled and trust SSH, HTTPS, WWW (HTTP), and tcp ports 993 and 995
+	Set SELimux to Disabled
+Follow the Ulteo guide **BUT DO NOT REMOVE SELINUX-POLICY, DISABLING IT IS ENOUGH)
+	Pay special attention to 3.1.2
+Install some apps:
+	Servers -> Manage -> Install an application
+Publish the app:
+	Applications -> Publication Wizard:
+	pick some users, name the group, choose the apps you installed, name the app group
+Test:
+	Log in as a user, launch the apps
+Switch to Persisent Desktops:
+	Configuration -> Session Settings -> Default mode for session -> Desktop
+	Sessions are persistent -> yes
+Add as many of the "Forceable paramaters by users" for testing as you like.
+Save!
+Test:
+	Log in as a user, launch the desktop and some apps, try different stuff.

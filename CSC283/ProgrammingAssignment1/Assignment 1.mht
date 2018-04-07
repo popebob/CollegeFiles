@@ -1,0 +1,1504 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/6088D4D1/Assignment1.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 12">
+<link id=3DMain-File rel=3DMain-File href=3DAssignment1.htm>
+<link rel=3DFile-List href=3D"Assignment1_files/filelist.xml">
+</head>
+
+<body lang=3Den-US>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:6.9173in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.3131in;width:2.4993=
+in'>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:17.0pt'>Assignment 1</=
+p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.3604in;margin-left:0in;width:6.9173=
+in'>
+
+<ol style=3D'margin-left:.3125in;direction:ltr;unicode-bidi:embed;margin-to=
+p:
+ 0in;margin-bottom:0in;font-family:Arial;font-size:11.0pt'>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'><span
+ style=3D'font-family:Calibri;font-size:11.0pt;font-weight:bold'>INTRODUCTI=
+ON:</span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>The instructi=
+ons
+ for this assignment are long, but DON'T PANIC.<span style=3D'mso-spacerun:=
+yes'> 
+ </span>The primary reason for the length is to give you as much detail abo=
+ut
+ the project as possible so it will be clear to you what is expected and how
+ you will be graded.<span style=3D'mso-spacerun:yes'>  </span>Even with al=
+l this
+ detail, there are likely to be questions and clarifications, so please do =
+not
+ hesitate to post your questions/clarifications to the discussion boards or=
+ to
+ email the instructor.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>The first cou=
+ple
+ weeks of the course have been spent reviewing the fundamental concepts wit=
+hin
+ Visual Basic, with specific emphasis on variable types and objects.<span
+ style=3D'mso-spacerun:yes'>  </span>It is now time to put these concepts =
+to
+ practical use in your first development project.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Since this is=
+ your
+ first development project, and there are many ways of writing an applicati=
+on
+ (and indeed many types of applications possible to be written) in Visual
+ Basic, I would like you to write this application in the way you are most
+ comfortable with Visual Basic (with certain restrictions and within reason=
+ of
+ course.)<span style=3D'mso-spacerun:yes'>  </span>That is, you can write a
+ Windows Forms application, a Command Line application, or a Web applicatio=
+n --
+ whichever you are most comfortable with.<span style=3D'mso-spacerun:yes'> 
+ </span>Additional requirements are specified in the project information be=
+low,
+ but you are otherwise free to write the application as you are most
+ comfortable doing so.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>It sometimes =
+helps
+ to give a problem some context, so you can focus more on &quot;how should =
+I do
+ this&quot; as opposed to getting stuck on &quot;why am I being asked to do
+ this.&quot;<span style=3D'mso-spacerun:yes'>  </span>So, let's begin with=
+ a bit
+ of context in a short background information section.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>BACKGROUND:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Your company =
+is
+ working on a project requiring data compression, but they have found that
+ off-the-shelf compression methods (such as ZIP file compression) provide
+ well-compressed data, but are too slow for what they need.<span
+ style=3D'mso-spacerun:yes'>  </span>Therefore, your company is researchin=
+g ways
+ to compress data very quickly, with a trade-off in total compression.<span
+ style=3D'mso-spacerun:yes'>  </span>To help them decide how best to compr=
+ess the
+ data, they have asked you to develop a small application to assist them in
+ analyzing the types of files they are planning to compress in order to lea=
+rn
+ the general composition and distribution of characters within the file.<sp=
+an
+ style=3D'mso-spacerun:yes'>  </span>With this data, they plan to use diff=
+erent
+ compression algorithms based on the type of file being compressed.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>FUNCTIONAL
+ SPECIFICATION:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Your program =
+should
+ allow the user to specify or select a file to be analyzed.<span
+ style=3D'mso-spacerun:yes'>  </span>The program will then read and proces=
+s the
+ file to calculate statistical information about the file.<span
+ style=3D'mso-spacerun:yes'>  </span>The program will then output the foll=
+owing
+ information:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The name of=
+ the
+     file that was processed (include full path and filename if applicable.=
+)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The total n=
+umber
+     of characters (bytes) in the file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The ASCII c=
+ode of
+     the character that appeared most frequently in the file, how many time=
+s it
+     appeared, and what percentage of the file was made up of this characte=
+r.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The ASCII c=
+ode of
+     the character that appeared the most times in a row (was repeated) in =
+the
+     file and the number of times it appeared in a row.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>For each po=
+ssible
+     ASCII code (0 through 255), the ASCII code, the total number of times =
+the
+     ASCII character appeared in the file, the percentage of the file that =
+was
+     made up of this character, and the maximum number of times in a row the
+     ASCII character appeared<span style=3D'mso-spacerun:yes'>  </span>in =
+the
+     file.</span></li>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>TECHNICAL
+ SPECIFICATION:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Because the c=
+ompany
+ plans to reuse your analysis code in future projects (and to demonstrate y=
+our
+ working knowledge of objects in Visual Basic), you are required to build at
+ least two Classes with the specified structure/functionality described bel=
+ow.<span
+ style=3D'mso-spacerun:yes'>  </span>You may include these classes directly
+ within your project as separate files, or you may include these classes wi=
+thin
+ a class library project, with your application project referencing the cla=
+ss
+ library project, and both projects being within the same solution (the for=
+mer
+ method is recommended for Express Edition users.)</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>The first cla=
+ss is
+ to be named &quot;DataAnalysis&quot;.<span style=3D'mso-spacerun:yes'> 
+ </span>The purpose of this class is to load data from a specified file, to
+ process the file and generate a set of &quot;CharAnalysis&quot; objects
+ (described below), and to provide statistics using the data stored within
+ those &quot;CharAnalysis&quot; objects.<span style=3D'mso-spacerun:yes'> 
+ </span>The statistics this class should provide are as follows:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The total n=
+umber
+     of characters (bytes) in the file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The decimal
+     (0-255) ASCII code of the character that appears most frequently in the
+     file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The decimal
+     (0-255) ASCII code of the character that had appeared the most in a ro=
+w in
+     the file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>For each of=
+ the
+     256 possible characters, the decimal (0-255) ASCII code of that charac=
+ter.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>For each of=
+ the
+     256 possible characters, how many of that character appeared in the fi=
+le.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>For each of=
+ the
+     256 possible characters, the maximum number of times that character
+     appeared in a row in the file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>For each of=
+ the
+     256 possible characters, the percentage of the file made up of this
+     character.</span></li>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>The second cl=
+ass is
+ to be named &quot;CharAnalysis&quot;.<span style=3D'mso-spacerun:yes'> 
+ </span>The purpose of this class is to store the identification and statis=
+tics
+ for a single character.<span style=3D'mso-spacerun:yes'>  </span>These
+ statistics include the decimal ASCII code representing the character (an
+ integer between 0 and 255), the number of times the character appears with=
+in
+ the file, and the maximum number of times the character appears in a row (=
+is
+ repeated) within the file.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>In order to p=
+rovide
+ good encapsulation of functionality, the code within the user interface
+ (Windows Form, Web Form, or equivalent) should not perform any of the actu=
+al
+ calculations, but rather only call upon functionality within the DataAnaly=
+sis
+ class (and NOT the CharAnalysis class.)<span style=3D'mso-spacerun:yes'> 
+ </span>Also, the code within the DataAnalysis class should only call upon
+ functionality within its own class and in the CharAnalaysis class objects =
+it
+ creates.<span style=3D'mso-spacerun:yes'>  </span>The CharAnalysis class =
+object
+ should only call upon functionality within its own class.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>APPLICATION
+ REQUIREMENTS:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The applica=
+tion
+     must be written in Visual Basic .NET version 2003 or newer (2005 or 20=
+08
+     are preferred.)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The applica=
+tion
+     must be a Windows Forms Application, a Command Line Application, or an
+     ASP.NET Web Application.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The applica=
+tion
+     must include code comments sufficient to describe the general sections=
+ of
+     the application and to explain any complex or unintuitive code that may
+     confuse another developer looking at the code.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The applica=
+tion
+     must be able to process any type of file (which includes text files, d=
+ata
+     files, application files, zip files, graphics files, audio files, video
+     files, etc.)</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>The applica=
+tion
+     must allow the user to select the file to be processed.</span></li>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>WHAT
+ YOU ARE REQUIRED TO SUBMIT:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <li value=3D1 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Your entire project or
+     solution folder, zipped into a single file, containing all source code=
+ and
+     files required to compile and run the application.</span></li>
+ <li value=3D2 style=3D'margin-top:0;margin-bottom:0;vertical-align:middle'=
+><span
+     style=3D'font-family:Calibri;font-size:11.0pt'>Basic instructions expl=
+aining
+     how to use your application.</span></li>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>GRADING
+ CRITERIA:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>To get the be=
+st
+ possible grade on this project, make sure it meets all the criteria above,=
+ and
+ that you would give it full marks in each of the instructors' grading crit=
+era
+ listed here.<span style=3D'mso-spacerun:yes'>  </span>The number of points
+ possible for each of the criteria appears in [Square Brackets] at the
+ beginning of each item.<span style=3D'mso-spacerun:yes'>  </span>There ar=
+e 100
+ points total possible.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[20] The
+     application generates the correct statistical results for a specified
+     file.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[10] The us=
+er
+     interface of the application provides all functionality specified.</sp=
+an></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[20] The
+     DataAnalysis class is written to provide all functionality specified.<=
+/span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[20] The
+     CharAnalysis class is written to provide all functionality specified.<=
+/span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5] The
+     CharAnalysis class is properly used by the DataAnalysis class.</span><=
+/li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5]The
+     DataAnalysis class is properly used by the application.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5] The ove=
+rall
+     project/solution makes good use of the concept of
+     &quot;encapsulation&quot;.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5] The user
+     interface is well designed and easy to use.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5] The sou=
+rce
+     code is well commented/documented.</span></li>
+ <li style=3D'margin-top:0;margin-bottom:0;vertical-align:middle;list-style=
+-type:
+     disc'><span style=3D'font-family:Calibri;font-size:11.0pt'>[5] The
+     instructions explaining how to use the application were complete and e=
+asy
+     to understand/follow.</span></li>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-style:italic;font-family:Cali=
+bri;
+ font-size:11.0pt;color:green'>Extra Credit Opportunity - Provide an interf=
+ace
+ to show a bar graph showing the processed file data with ASCII code on one
+ axis and the number of times the ASCII code appears on the other axis.<span
+ style=3D'mso-spacerun:yes'>  </span>Note this is NOT a required part of t=
+he
+ program.<span style=3D'mso-spacerun:yes'>  </span>Up to [10] points addit=
+ional
+ may be earned by doing this extra credit portion of the project.</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+ style=3D'mso-spacerun:yes'>  </span></p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-weight:bold;font-family:Calibri;font-size:11.0=
+pt'>EXAMPLE
+ INPUT/OUTPUT:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Keep in mind =
+that
+ this example below is formatted for plain text output.<span
+ style=3D'mso-spacerun:yes'>  </span>Your application can make use of bett=
+er
+ interface controls if you prefer such as a scrolling data grid, better
+ layout/fonts, etc.<span style=3D'mso-spacerun:yes'>  </span>Also, note th=
+at this
+ example uses a text file, but your application should be able to analyze A=
+NY
+ type of file (not just text files.)</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Let's say the
+ example file to be processed is a text file called &quot;C:\Hello.txt&quot=
+;,
+ and it contains only the characters &quot;HELLO WORLD!&quot; followed by a
+ carriage return and line feed (ASCII characters 13 and 10 respectively.)<s=
+pan
+ style=3D'mso-spacerun:yes'>  </span>Upon processing the file, the applica=
+tion
+ might display the following output:</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>C:\Hello.txt<=
+/p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>14 characters=
+</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Most Frequent=
+:<span
+ style=3D'mso-spacerun:yes'>  </span>ASCII CODE 76, appearing 3 times (21.=
+43% of
+ the file.)</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>Most Repeated=
+:<span
+ style=3D'mso-spacerun:yes'>  </span>ASCII CODE 76, appearing 2 times in a=
+ row.</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>ASC<span
+ style=3D'mso-spacerun:yes'>      </span>Count<span style=3D'mso-space=
+run:yes'>   
+ </span>Percent<span style=3D'mso-spacerun:yes'>  </span>MaxRepeat</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>---<span
+ style=3D'mso-spacerun:yes'>  </span>---------<span style=3D'mso-spacerun:=
+yes'> 
+ </span>---------<span style=3D'mso-spacerun:yes'>  </span>---------</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>000<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>001<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>002<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>003<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>004<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>005<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>006<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>007<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>008<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>009<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>010<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>011<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>012<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>013<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>014<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>015<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>016<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>017<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>018<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>019<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>020<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>021<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>022<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>023<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>024<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>025<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>026<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>027<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>028<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>029<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>030<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>031<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>032<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>033<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>034<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>035<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>036<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>037<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>038<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>039<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>040<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>041<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>042<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>043<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>044<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>045<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>046<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>047<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>048<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>049<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>050<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>051<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>052<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>053<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>054<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>055<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>056<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>057<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>058<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>059<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>060<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>061<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>062<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>063<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>064<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>065<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>066<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>067<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>068<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>069<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>070<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>071<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>072<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>073<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>074<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>075<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>076<span
+ style=3D'mso-spacerun:yes'>          </span>3<span style=3D'mso-s=
+pacerun:yes'>    
+ </span>21.43%<span style=3D'mso-spacerun:yes'>          </span>2<=
+/p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>077<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>078<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>079<span
+ style=3D'mso-spacerun:yes'>          </span>2<span style=3D'mso-s=
+pacerun:yes'>    
+ </span>14.29%<span style=3D'mso-spacerun:yes'>          </span>1<=
+/p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>080<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>081<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>082<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>083<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>084<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>085<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>086<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>087<span
+ style=3D'mso-spacerun:yes'>          </span>1<span
+ style=3D'mso-spacerun:yes'>      </span>7.14%<span
+ style=3D'mso-spacerun:yes'>          </span>1</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>088<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>089<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>090<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>091<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>092<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>093<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>094<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>095<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>096<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>097<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>098<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>099<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>100<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>101<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>102<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>103<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>104<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>105<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>106<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>107<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>108<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>109<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>110<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>111<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>112<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>113<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>114<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>115<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>116<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>117<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>118<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>119<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>120<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>121<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>122<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>123<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>124<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>125<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>126<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>127<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>128<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>129<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>130<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>131<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>132<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>133<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>134<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>135<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>136<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>137<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>138<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>139<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>140<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>141<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>142<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>143<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>144<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>145<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>146<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>147<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>148<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>149<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>150<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>151<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>152<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>153<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>154<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>155<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>156<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>157<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>158<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>159<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>160<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>161<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>162<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>163<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>164<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>165<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>166<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>167<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>168<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>169<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>170<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>171<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>172<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>173<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>174<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>175<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>176<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>177<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>178<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>179<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>180<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>181<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>182<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>183<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>184<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>185<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>186<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>187<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>188<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>189<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>190<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>191<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>192<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>193<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>194<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>195<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>196<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>197<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>198<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>199<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>200<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>201<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>202<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>203<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>204<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>205<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>206<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>207<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>208<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>209<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>210<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>211<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>212<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>213<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>214<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>215<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>216<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>217<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>218<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>219<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>220<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>221<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>222<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>223<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>224<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>225<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>226<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>227<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>228<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>229<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>230<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>231<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>232<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>233<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>234<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>235<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>236<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>237<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>238<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>239<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>240<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>241<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>242<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>243<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>244<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>245<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>246<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>247<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>248<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>249<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>250<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>251<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>252<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>253<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>254<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:"Courier New";font-size:11.0pt'>255<span
+ style=3D'mso-spacerun:yes'>          </span>0<span
+ style=3D'mso-spacerun:yes'>      </span>0.00%<span
+ style=3D'mso-spacerun:yes'>          </span>0</p>
+ <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>Created with Microsoft Office OneNote
+2007<br>
+One place for all your notes and information</p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,503 @@
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 1
+prog5.ASM
+
+
+
+      1
+      2				     ;Nicholas Bartkowiak
+      3				     ;csc277 Program #5
+      4
+      5	0000			     .model small
+      6	0000			     .stack 100h
+      7	0000			     .data
+      8	0000  0000			     quar dw 0h
+      9	0002  0000			     dime dw 0h
+     10	0004  0000			     nick dw 0h
+     11	0006  0000			     penn dw 0h
+     12	0008  0000			     numc dw 0h
+     13	000A  0000			     ctot dw 0h
+     14
+     15	000C  54 68 65 20 69 6E	70+	     msgoca db 'The input change ammounts to $'
+     16	      75 74 20 63 68 61	6E+
+     17	      67 65 20 61 6D 6D	6F+
+     18	      75 6E 74 73 20 74	6F+
+     19	      20 24
+     20	002A  20 63 65 6E 74 73	20+	     msgocb db ' cents using $'
+     21	      75 73 69 6E 67 20	24
+     22	0038  20 63 6F 69 6E 73	2E+	     msgocc db ' coins.$'
+     23	      24
+     24	0040  54 68 65 20 73 61	6D+	     msgocd db 'The same change	could be made with:$'
+     25	      65 20 63 68 61 6E	67+
+     26	      65 20 63 6F 75 6C	64+
+     27	      20 62 65 20 6D 61	64+
+     28	      65 20 77 69 74 68	3A+
+     29	      24
+     30
+     31	0064  51 75 61 72 74 65	72+	     msgoq db 'Quarters	= $'
+     32	      73 20 3D 20 24
+     33	0070  44 69 6D 65 73 20	3D+	     msgod db 'Dimes = $'
+     34	      20 24
+     35	0079  4E 69 63 6B 65 6C	73+	     msgon db 'Nickels = $'
+     36	      20 3D 20 24
+     37	0084  50 65 6E 6E 69 65	73+	     msgop db 'Pennies = $'
+     38	      20 3D 20 24
+     39
+     40	008F  54 6F 74 61 6C 20	43+	     msgot db 'Total Coins = $'
+     41	      6F 69 6E 73 20 3D	20+
+     42	      24
+     43	009E			     .code
+     44	0000			     main proc
+     45	0000  B8 0000s			     mov ax,@data
+     46	0003  8E D8			     mov ds,ax
+     47
+     48	0005  E8 01C3			     call INDEC		     ;read quarters
+     49	0008  BB 0000r			     lea bx,quar
+     50	000B  89 07			     mov [bx],ax
+     51
+     52	000D  B4 02			     mov ah,2		     ;return
+     53	000F  B2 0D			     mov dl,0dh
+     54	0011  CD 21			     int 21h
+     55	0013  B2 0A			     mov dl,0ah
+     56	0015  CD 21			     int 21h
+     57
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 2
+prog5.ASM
+
+
+
+     58	0017  E8 01B1			     call INDEC		     ;read dimes
+     59	001A  BB 0002r			     lea bx,dime
+     60	001D  89 07			     mov [bx],ax
+     61
+     62	001F  B4 02			     mov ah,2		     ;return
+     63	0021  B2 0D			     mov dl,0dh
+     64	0023  CD 21			     int 21h
+     65	0025  B2 0A			     mov dl,0ah
+     66	0027  CD 21			     int 21h
+     67
+     68	0029  E8 019F			     call INDEC		     ;read nickels
+     69	002C  BB 0004r			     lea bx,nick
+     70	002F  89 07			     mov [bx],ax
+     71
+     72	0031  B4 02			     mov ah,2		     ;return
+     73	0033  B2 0D			     mov dl,0dh
+     74	0035  CD 21			     int 21h
+     75	0037  B2 0A			     mov dl,0ah
+     76	0039  CD 21			     int 21h
+     77
+     78	003B  E8 018D			     call INDEC		     ;read pennies
+     79	003E  BB 0006r			     lea bx,penn
+     80	0041  89 07			     mov [bx],ax
+     81
+     82	0043  B4 02			     mov ah,2		     ;return
+     83	0045  B2 0D			     mov dl,0dh
+     84	0047  CD 21			     int 21h
+     85	0049  B2 0A			     mov dl,0ah
+     86	004B  CD 21			     int 21h
+     87
+     88	004D  BA 000Cr			     lea dx,msgoca
+     89	0050  B4 09			     mov ah,9
+     90	0052  CD 21			     int 21h
+     91
+     92	0054  BB 0000r			     lea bx,quar	     ;total change
+     93	0057  8B 07			     mov ax,[bx]
+     94	0059  BB 000Ar			     lea bx,ctot
+     95	005C  B9 0019			     mov cx,19h
+     96	005F  F7 E1			     mul cx
+     97	0061  01 07			     add [bx],ax
+     98
+     99	0063  BB 0002r			     lea bx,dime
+    100	0066  8B 07			     mov ax,[bx]
+    101	0068  BB 000Ar			     lea bx,ctot
+    102	006B  B9 0009			     mov cx,9h
+    103	006E  41			     inc cx
+    104	006F  F7 E1			     mul cx
+    105	0071  01 07			     add [bx],ax
+    106
+    107	0073  BB 0004r			     lea bx,nick
+    108	0076  8B 07			     mov ax,[bx]
+    109	0078  BB 000Ar			     lea bx,ctot
+    110	007B  B9 0005			     mov cx,5h
+    111	007E  F7 E1			     mul cx
+    112	0080  01 07			     add [bx],ax
+    113
+    114	0082  BB 0006r			     lea bx,penn
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 3
+prog5.ASM
+
+
+
+    115	0085  8B 07			     mov ax,[bx]
+    116	0087  BB 000Ar			     lea bx,ctot
+    117	008A  B9 0001			     mov cx,1h
+    118	008D  F7 E1			     mul cx
+    119	008F  01 07			     add [bx],ax
+    120
+    121	0091  BB 000Ar			     lea bx,ctot
+    122	0094  8B 07			     mov ax,[bx]
+    123	0096  E8 0185			     call OUTDEC
+    124
+    125	0099  BA 002Ar			     lea dx,msgocb
+    126	009C  B4 09			     mov ah,9
+    127	009E  CD 21			     int 21h
+    128
+    129	00A0  BB 0000r			     lea bx,quar	     ;total input coins
+    130	00A3  8B 07			     mov ax,[bx]
+    131	00A5  BB 0008r			     lea bx,numc
+    132	00A8  01 07			     add [bx],ax
+    133
+    134	00AA  BB 0002r			     lea bx,dime
+    135	00AD  8B 07			     mov ax,[bx]
+    136	00AF  BB 0008r			     lea bx,numc
+    137	00B2  01 07			     add [bx],ax
+    138
+    139	00B4  BB 0004r			     lea bx,nick
+    140	00B7  8B 07			     mov ax,[bx]
+    141	00B9  BB 0008r			     lea bx,numc
+    142	00BC  01 07			     add [bx],ax
+    143
+    144	00BE  BB 0006r			     lea bx,penn
+    145	00C1  8B 07			     mov ax,[bx]
+    146	00C3  BB 0008r			     lea bx,numc
+    147	00C6  01 07			     add [bx],ax
+    148
+    149	00C8  BB 0008r			     lea bx,numc
+    150	00CB  8B 07			     mov ax,[bx]
+    151	00CD  E8 014E			     call OUTDEC
+    152
+    153	00D0  BA 0038r			     lea dx,msgocc
+    154	00D3  B4 09			     mov ah,9
+    155	00D5  CD 21			     int 21h
+    156
+    157	00D7  B4 02			     mov ah,2		     ;return
+    158	00D9  B2 0D			     mov dl,0dh
+    159	00DB  CD 21			     int 21h
+    160	00DD  B2 0A			     mov dl,0ah
+    161	00DF  CD 21			     int 21h
+    162
+    163	00E1  BA 0040r			     lea dx,msgocd
+    164	00E4  B4 09			     mov ah,9
+    165	00E6  CD 21			     int 21h
+    166
+    167	00E8  B4 02			     mov ah,2		     ;return
+    168	00EA  B2 0D			     mov dl,0dh
+    169	00EC  CD 21			     int 21h
+    170	00EE  B2 0A			     mov dl,0ah
+    171	00F0  CD 21			     int 21h
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 4
+prog5.ASM
+
+
+
+    172
+    173	00F2  BB 000Ar			     lea bx,ctot     ;find least number	of coins
+    174	00F5  8B 07			     mov ax,[bx]
+    175	00F7  B9 0019			     mov cx,19h	     ;quarters
+    176	00FA  BA 0000			     mov dx,0
+    177	00FD  F7 F1			     div cx
+    178	00FF  BB 0000r			     lea bx,quar
+    179	0102  89 07			     mov [bx],ax
+    180	0104  8B C2			     mov ax,dx
+    181
+    182	0106  B9 0009			     mov cx,9h	     ;dimes
+    183	0109  41			     inc cx
+    184	010A  BA 0000			     mov dx,0
+    185	010D  F7 F1			     div cx
+    186	010F  BB 0002r			     lea bx,dime
+    187	0112  89 07			     mov [bx],ax
+    188	0114  8B C2			     mov ax,dx
+    189
+    190	0116  B9 0005			     mov cx,5h	     ;nickles
+    191	0119  BA 0000			     mov dx,0
+    192	011C  F7 F1			     div cx
+    193	011E  BB 0004r			     lea bx,nick
+    194	0121  89 07			     mov [bx],ax
+    195	0123  8B C2			     mov ax,dx
+    196
+    197	0125  BB 0006r			     lea bx,penn ;pennies
+    198	0128  89 07			     mov [bx],ax
+    199	012A  8B C2			     mov ax,dx
+    200
+    201	012C  BA 0064r			     lea dx,msgoq
+    202	012F  B4 09			     mov ah,9
+    203	0131  CD 21			     int 21h
+    204
+    205	0133  BB 0000r			     lea bx,quar	     ;print quarters
+    206	0136  8B 07			     mov ax,[bx]
+    207	0138  E8 00E3			     call OUTDEC
+    208
+    209	013B  B4 02			     mov ah,2		     ;return
+    210	013D  B2 0D			     mov dl,0dh
+    211	013F  CD 21			     int 21h
+    212	0141  B2 0A			     mov dl,0ah
+    213	0143  CD 21			     int 21h
+    214
+    215	0145  BA 0070r			     lea dx,msgod
+    216	0148  B4 09			     mov ah,9
+    217	014A  CD 21			     int 21h
+    218
+    219	014C  BB 0002r			     lea bx,dime	     ;print dimes
+    220	014F  8B 07			     mov ax,[bx]
+    221	0151  E8 00CA			     call OUTDEC
+    222
+    223	0154  B4 02			     mov ah,2		     ;return
+    224	0156  B2 0D			     mov dl,0dh
+    225	0158  CD 21			     int 21h
+    226	015A  B2 0A			     mov dl,0ah
+    227	015C  CD 21			     int 21h
+    228
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 5
+prog5.ASM
+
+
+
+    229	015E  BA 0079r			     lea dx,msgon
+    230	0161  B4 09			     mov ah,9
+    231	0163  CD 21			     int 21h
+    232
+    233	0165  BB 0004r			     lea bx,nick	     ;print nickels
+    234	0168  8B 07			     mov ax,[bx]
+    235	016A  E8 00B1			     call OUTDEC
+    236
+    237	016D  B4 02			     mov ah,2		     ;return
+    238	016F  B2 0D			     mov dl,0dh
+    239	0171  CD 21			     int 21h
+    240	0173  B2 0A			     mov dl,0ah
+    241	0175  CD 21			     int 21h
+    242
+    243	0177  BA 0084r			     lea dx,msgop
+    244	017A  B4 09			     mov ah,9
+    245	017C  CD 21			     int 21h
+    246
+    247	017E  BB 0006r			     lea bx,penn	     ;print pennies
+    248	0181  8B 07			     mov ax,[bx]
+    249	0183  E8 0098			     call OUTDEC
+    250
+    251	0186  B4 02			     mov ah,2		     ;return
+    252	0188  B2 0D			     mov dl,0dh
+    253	018A  CD 21			     int 21h
+    254	018C  B2 0A			     mov dl,0ah
+    255	018E  CD 21			     int 21h
+    256
+    257	0190  BA 008Fr			     lea dx,msgot
+    258	0193  B4 09			     mov ah,9
+    259	0195  CD 21			     int 21h
+    260
+    261	0197  BB 0000r			     lea bx,quar	     ;total output coins
+    262	019A  8B 07			     mov ax,[bx]
+    263	019C  BB 0008r			     lea bx,numc
+    264	019F  01 07			     add [bx],ax
+    265
+    266	01A1  BB 0002r			     lea bx,dime
+    267	01A4  8B 07			     mov ax,[bx]
+    268	01A6  BB 0008r			     lea bx,numc
+    269	01A9  01 07			     add [bx],ax
+    270
+    271	01AB  BB 0004r			     lea bx,nick
+    272	01AE  8B 07			     mov ax,[bx]
+    273	01B0  BB 0008r			     lea bx,numc
+    274	01B3  01 07			     add [bx],ax
+    275
+    276	01B5  BB 0006r			     lea bx,penn
+    277	01B8  8B 07			     mov ax,[bx]
+    278	01BA  BB 0008r			     lea bx,numc
+    279	01BD  01 07			     add [bx],ax
+    280
+    281	01BF  BB 0008r			     lea bx,numc
+    282	01C2  8B 07			     mov ax,[bx]
+    283	01C4  E8 0057			     call OUTDEC
+    284
+    285	01C7  B4 4C			     mov ah,4ch
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 6
+prog5.ASM
+
+
+
+    286	01C9  CD 21			     int 21h
+    287
+    288	01CB			     main endp
+    289
+    290	01CB			     INDEC   PROC
+    291					  ;reads a number in range -32768 to 32767
+    292					  ;input: none
+    293					  ;output: AX =	binary equivalent of number
+    294	01CB  53				  PUSH	  BX		  ;save	registers used
+    295	01CC  51				  PUSH	  CX
+    296	01CD  52				  PUSH	  DX
+    297					  ;print prompt
+    298	01CE				  @BEGIN:
+    299	01CE  B4 02				  MOV	  AH,2
+    300	01D0  B2 3F				  MOV	  DL,'?'
+    301						  ;INT	   21H		   ;print '?'
+    302					  ;total = 0
+    303	01D2  33 DB				  XOR	  BX,BX		  ;BX holds total
+    304					  ;negative = false
+    305	01D4  33 C9				  XOR	  CX,CX		  ;CX holds sign
+    306					  ;read	a character
+    307	01D6  B4 01				  MOV	  AH,1
+    308	01D8  CD 21				  INT	  21H		  ;character in	AL
+    309					  ;case	character of
+    310	01DA  3C 2D				  CMP	  AL,'-'	  ;minus sign?
+    311	01DC  74 07				  JE	  @MINUS	  ;yes,	set sign
+    312	01DE  3C 2B				  CMP	  AL,'+'	  ;plus	sign?
+    313	01E0  74 06				  JE	  @PLUS		  ;yes,	get another char
+    314	01E2  EB 06 90				  JMP	  @REPEAT2	  ;start processing chars
+    315	01E5				  @MINUS:
+    316	01E5  B9 0001				  MOV	  CX,1		  ;negative = true
+    317	01E8				  @PLUS:
+    318	01E8  CD 21				  INT	  21H		  ;read	a char
+    319					  ;end_case
+    320	01EA				  @REPEAT2:
+    321					  ;if character	is between '0' and '9'
+    322	01EA  3C 30				  CMP	  AL,'0'	  ;char	>= '0'?
+    323	01EC  7C 24				  JNGE	  @NOT_DIGIT	  ;illegal char
+    324	01EE  3C 39				  CMP	  AL,'9'	  ;char	<= '9'?
+    325	01F0  7F 20				  JNLE	  @NOT_DIGIT	  ;no, illegal char
+    326					  ;then	convert	character to a digit
+    327	01F2  25 000F				  AND	  AX,000FH	  ;convert to digit
+    328	01F5  50				  PUSH	  AX		  ;save	on stack
+    329					  ;total = total*10 + digit
+    330	01F6  B8 000A				  MOV	  AX,10		  ;get 10
+    331	01F9  F7 E3				  MUL	  BX		  ;AX =	total*10
+    332	01FB  5B				  POP	  BX		  ;retrieve digit
+    333	01FC  03 D8				  ADD	  BX,AX		  ;total = total*10 + digit
+    334					  ;read	a character
+    335	01FE  B4 01				  MOV	  AH,1
+    336	0200  CD 21				  INT	  21H
+    337	0202  3C 0D				  CMP	  AL,0DH	  ;CR?
+    338	0204  75 E4				  JNE	  @REPEAT2	  ;no, keep going
+    339					  ;until CR
+    340	0206  8B C3				  MOV	  AX,BX		  ;store number	in AX
+    341					  ;if negative
+    342	0208  0B C9				  OR	  CX,CX		  ;negative number?
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 7
+prog5.ASM
+
+
+
+    343	020A  74 02				  JE	  @EXIT		  ;no, exit
+    344					  ;then
+    345	020C  F7 D8				  NEG	  AX		  ;yes,	negate
+    346					  ;end_if
+    347	020E				  @EXIT:
+    348	020E  5A				  POP	  DX		  ;restore registers
+    349	020F  59				  POP	  CX
+    350	0210  5B				  POP	  BX
+    351	0211  C3				  RET			  ;and return
+    352					  ;here	if illegal character entered
+    353	0212				  @NOT_DIGIT:
+    354	0212  B4 02				  MOV	  AH,2		  ;go to a new line
+    355	0214  B2 0D				  MOV	  DL,0DH
+    356	0216  CD 21				  INT	  21H
+    357	0218  B2 0A				  MOV	  DL,0AH
+    358	021A  CD 21				  INT	  21H
+    359	021C  EB B0				  JMP	  @BEGIN	  ;go to beginning
+    360	021E				  INDEC	  ENDP
+    361
+    362	021E			     OUTDEC  PROC
+    363					 ;prints AX as a signed	decimal	integer
+    364					 ;input: AX
+    365					 ;output: none
+    366	021E  50				 PUSH	 AX		 ;save registers
+    367	021F  53				 PUSH	 BX
+    368	0220  51				 PUSH	 CX
+    369	0221  52				 PUSH	 DX
+    370					 ;if AX	< 0
+    371	0222  0B C0				 OR	 AX,AX		 ;AX < 0?
+    372	0224  7D 0A				 JGE	 @END_IF1	 ;no, >	0
+    373					 ;then
+    374	0226  50				 PUSH	 AX		 ;save number
+    375	0227  B2 2D				 MOV	 DL,'-'		 ;get '-'
+    376	0229  B4 02				 MOV	 AH,2		 ;print	char fcn
+    377	022B  CD 21				 INT	 21H		 ;print	'-'
+    378	022D  58				 POP	 AX		 ;get AX back
+    379	022E  F7 D8				 NEG	 AX		 ;AX = -AX
+    380	0230				 @END_IF1:
+    381					 ;get decimal digits
+    382	0230  33 C9				 XOR	 CX,CX		 ;CX counts digits
+    383	0232  BB 000A				 MOV	 BX,10D		 ;BX has divisor
+    384	0235				 @REPEAT1:
+    385	0235  33 D2				 XOR	 DX,DX		 ;prepare high part of dividend
+    386	0237  F7 F3				 DIV	 BX		 ;AX = quotient, DX = remainder
+    387	0239  52				 PUSH	 DX		 ;save remainder on stack
+    388	023A  41				 INC	 CX		 ;count	= count	+ 1
+    389					 ;until
+    390	023B  0B C0				 OR	 AX,AX		 ;quotient = 0?
+    391	023D  75 F6				 JNE	 @REPEAT1	 ;no, keep going
+    392					 ;convert digits to characters and print
+    393	023F  B4 02				 MOV	 AH,2		 ;print	char fcn
+    394					 ;for count times do
+    395	0241				 @PRINT_LOOP:
+    396	0241  5A				 POP	 DX		 ;digit	in DL
+    397	0242  80 CA 30				 OR	 DL,30H		 ;convert to character
+    398	0245  CD 21				 INT	 21H		 ;print	digit
+    399	0247  E2 F8				 LOOP	 @PRINT_LOOP	 ;loop until done
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 8
+prog5.ASM
+
+
+
+    400					 ;end_if
+    401	0249  5A				 POP	 DX		 ;restore registers
+    402	024A  59				 POP	 CX
+    403	024B  5B				 POP	 BX
+    404	024C  58				 POP	 AX
+    405	024D  C3				 RET
+    406	024E				 OUTDEC	 ENDP
+    407				     end main
+Turbo Assembler	 Version 2.01	     04/24/08 20:54:32	    Page 9
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/24/08"
+??FILENAME			  Text	 "prog5	  "
+??TIME				  Text	 "20:54:32"
+??VERSION			  Number 0201
+@BEGIN				  Near	 _TEXT:01CE
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@END_IF1			  Near	 _TEXT:0230
+@EXIT				  Near	 _TEXT:020E
+@FILENAME			  Text	 PROG5
+@MINUS				  Near	 _TEXT:01E5
+@MODEL				  Text	 2
+@NOT_DIGIT			  Near	 _TEXT:0212
+@PLUS				  Near	 _TEXT:01E8
+@PRINT_LOOP			  Near	 _TEXT:0241
+@REPEAT1			  Near	 _TEXT:0235
+@REPEAT2			  Near	 _TEXT:01EA
+@WORDSIZE			  Text	 2
+CTOT				  Word	 DGROUP:000A
+DIME				  Word	 DGROUP:0002
+INDEC				  Near	 _TEXT:01CB
+MAIN				  Near	 _TEXT:0000
+MSGOCA				  Byte	 DGROUP:000C
+MSGOCB				  Byte	 DGROUP:002A
+MSGOCC				  Byte	 DGROUP:0038
+MSGOCD				  Byte	 DGROUP:0040
+MSGOD				  Byte	 DGROUP:0070
+MSGON				  Byte	 DGROUP:0079
+MSGOP				  Byte	 DGROUP:0084
+MSGOQ				  Byte	 DGROUP:0064
+MSGOT				  Byte	 DGROUP:008F
+NICK				  Word	 DGROUP:0004
+NUMC				  Word	 DGROUP:0008
+OUTDEC				  Near	 _TEXT:021E
+PENN				  Word	 DGROUP:0006
+QUAR				  Word	 DGROUP:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  009E Word	  Public  DATA
+_TEXT				  16  024E Word	  Public  CODE
+

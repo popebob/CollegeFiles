@@ -1,0 +1,5 @@
+[15:59] andyman11686: hey man, i wish i could do better to explain this, but this should give you the general idea
+[15:59] andyman11686: whenever you see mov ah, #, if it is one then thats preparing it to take an input, two if its ready to output a number, and 9 i guess is to output a string
+[16:00] andyman11686: so in the code to display the second number and the = sign, 2 needs to be in register ah for all of that
+[16:01] andyman11686: then you move num2 into the dl register, and int 21h is an interrupt, and what it does is it prints to the screen whatever is in register dl (num2)
+[16:04] andyman11686: then move = into the register and print again

@@ -1,0 +1,22 @@
+Problems from Ch. 5, Shaffer (pp. 186-189):
+
+5.9 (4 points), 5.10, 5.11, 5.12, 5.15, 5.17, 5.18
+
+Additionally,
+
+#8) Draw the BST resulting from inserting the following integers in the
+    following order:
+
+    20 5 2 10 34 45 25 16 47 25
+
+#9) Using the image linked in with the assignment, show the BST that
+    results from removing the following values:  45, 21
+
+
+Problems from Ch. 6, Shaffer (pp. 211-214):
+
+6.4, 6.5, 6.7 (4 points)
+
+For the parent-pointer problems, showing the array is not necessary.  I am
+more interested in looking at the tree that results from processing the
+UNION/FIND operations.

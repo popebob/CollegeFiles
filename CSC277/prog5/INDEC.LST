@@ -1,0 +1,125 @@
+Turbo Assembler	 Version 2.01	     04/24/08 21:00:17	    Page 1
+indec.ASM
+
+
+
+      1				     ;FILE NAMED:    indec.asm
+      2
+      3	0000			     .MODEL SMALL
+      4	0000			     .STACK 100h
+      5	0000			     .CODE
+      6
+      7	0000				  INDEC	  PROC
+      8					  ;reads a number in range -32768 to 32767
+      9					  ;input: none
+     10					  ;output: AX =	binary equivalent of number
+     11					     PUBLIC INDEC
+     12	0000  53				  PUSH	  BX		  ;save	registers used
+     13	0001  51				  PUSH	  CX
+     14	0002  52				  PUSH	  DX
+     15					  ;print prompt
+     16	0003				  @BEGIN:
+     17						  ;MOV	   AH,2
+     18						  ;MOV	   DL,'?'
+     19						  ;INT	   21H		   ;print '?'
+     20					  ;total = 0
+     21	0003  33 DB				  XOR	  BX,BX		  ;BX holds total
+     22					  ;negative = false
+     23	0005  33 C9				  XOR	  CX,CX		  ;CX holds sign
+     24					  ;read	a character
+     25	0007  B4 01				  MOV	  AH,1
+     26	0009  CD 21				  INT	  21H		  ;character in	AL
+     27					  ;case	character of
+     28	000B  3C 2D				  CMP	  AL,'-'	  ;minus sign?
+     29	000D  74 07				  JE	  @MINUS	  ;yes,	set sign
+     30	000F  3C 2B				  CMP	  AL,'+'	  ;plus	sign?
+     31	0011  74 06				  JE	  @PLUS		  ;yes,	get another char
+     32	0013  EB 06 90				  JMP	  @REPEAT2	  ;start processing chars
+     33	0016				  @MINUS:
+     34	0016  B9 0001				  MOV	  CX,1		  ;negative = true
+     35	0019				  @PLUS:
+     36	0019  CD 21				  INT	  21H		  ;read	a char
+     37					  ;end_case
+     38	001B				  @REPEAT2:
+     39					  ;if character	is between '0' and '9'
+     40	001B  3C 30				  CMP	  AL,'0'	  ;char	>= '0'?
+     41	001D  7C 24				  JNGE	  @NOT_DIGIT	  ;illegal char
+     42	001F  3C 39				  CMP	  AL,'9'	  ;char	<= '9'?
+     43	0021  7F 20				  JNLE	  @NOT_DIGIT	  ;no, illegal char
+     44					  ;then	convert	character to a digit
+     45	0023  25 000F				  AND	  AX,000FH	  ;convert to digit
+     46	0026  50				  PUSH	  AX		  ;save	on stack
+     47					  ;total = total*10 + digit
+     48	0027  B8 000A				  MOV	  AX,10		  ;get 10
+     49	002A  F7 E3				  MUL	  BX		  ;AX =	total*10
+     50	002C  5B				  POP	  BX		  ;retrieve digit
+     51	002D  03 D8				  ADD	  BX,AX		  ;total = total*10 + digit
+     52					  ;read	a character
+     53	002F  B4 01				  MOV	  AH,1
+     54	0031  CD 21				  INT	  21H
+     55	0033  3C 0D				  CMP	  AL,0DH	  ;CR?
+     56	0035  75 E4				  JNE	  @REPEAT2	  ;no, keep going
+     57					  ;until CR
+Turbo Assembler	 Version 2.01	     04/24/08 21:00:17	    Page 2
+indec.ASM
+
+
+
+     58	0037  8B C3				  MOV	  AX,BX		  ;store number	in AX
+     59					  ;if negative
+     60	0039  0B C9				  OR	  CX,CX		  ;negative number?
+     61	003B  74 02				  JE	  @EXIT		  ;no, exit
+     62					  ;then
+     63	003D  F7 D8				  NEG	  AX		  ;yes,	negate
+     64					  ;end_if
+     65	003F				  @EXIT:
+     66	003F  5A				  POP	  DX		  ;restore registers
+     67	0040  59				  POP	  CX
+     68	0041  5B				  POP	  BX
+     69	0042  C3				  RET			  ;and return
+     70					  ;here	if illegal character entered
+     71	0043				  @NOT_DIGIT:
+     72	0043  B4 02				  MOV	  AH,2		  ;go to a new line
+     73	0045  B2 0D				  MOV	  DL,0DH
+     74	0047  CD 21				  INT	  21H
+     75	0049  B2 0A				  MOV	  DL,0AH
+     76	004B  CD 21				  INT	  21H
+     77	004D  EB B4				  JMP	  @BEGIN	  ;go to beginning
+     78	004F				  INDEC	  ENDP
+     79					  end	  INDEC
+Turbo Assembler	 Version 2.01	     04/24/08 21:00:17	    Page 3
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/24/08"
+??FILENAME			  Text	 "indec	  "
+??TIME				  Text	 "21:00:17"
+??VERSION			  Number 0201
+@BEGIN				  Near	 _TEXT:0003
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@EXIT				  Near	 _TEXT:003F
+@FILENAME			  Text	 INDEC
+@MINUS				  Near	 _TEXT:0016
+@MODEL				  Text	 2
+@NOT_DIGIT			  Near	 _TEXT:0043
+@PLUS				  Near	 _TEXT:0019
+@REPEAT2			  Near	 _TEXT:001B
+@WORDSIZE			  Text	 2
+INDEC				  Near	 _TEXT:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0000 Word	  Public  DATA
+_TEXT				  16  004F Word	  Public  CODE
+

@@ -1,0 +1,10 @@
+P0036566  17 inch Color Monitor         ColorMeg, Inc.      12         $169.00              2/20/2007 0:00:00  
+P0036577  19 inch Color Monitor         ColorMeg, Inc.      10         $319.00              2/20/2007 0:00:00  
+P1114590  R3000 Color Laser Printer     Connex              5          $699.00              1/22/2007 0:00:00  
+P1412138  10 Foot Printer Cable         Ethlite             100        $12.00                                  
+P1445671  8-Outlet Surge Protector      Intersafe           33         $14.99                                  
+P1556678  CVP Ink Jet Color Printer     Connex              8          $99.00               1/22/2007 0:00:00  
+P3455443  Color Ink Jet Cartridge       Connex              24         $38.00               1/22/2007 0:00:00  
+P4200344  36-Bit Color Scanner          UV Components       16         $199.99              1/29/2007 0:00:00  
+P6677900  Black Ink Jet Cartridge       Connex              44         $25.69                                  
+P9995676  Battery Back-up System        Cybercx             12         $89.00               2/1/2007 0:00:00   

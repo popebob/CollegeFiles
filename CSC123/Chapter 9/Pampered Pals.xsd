@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Schema Name: Pampered Pals.xsd -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            
+    <!-- Define the elements (fields) in the form -->
+
+    <xsd:element name="PamperedPals" type="PamperedPals"/>
+    <xsd:complexType name="PamperedPals" mixed="true">
+ 	<xsd:all>
+  	        <xsd:element name="TodaysDate" type="xsd:string"/>
+                <xsd:element name="FirstName" type="xsd:string"/>
+  		<xsd:element name="LastName" type="xsd:string"/>
+		<xsd:element name="EmailAddress" type="xsd:string"/>
+                <xsd:element name="Item" type="xsd:string"/>
+                <xsd:element name="PetName" type="xsd:string"/>
+                <xsd:element name="TypeOfPet" type="xsd:string"/>
+                <xsd:element name="AdditionalInformation" type="xsd:string"/>  	
+        </xsd:all>
+    </xsd:complexType>
+    
+</xsd:schema>

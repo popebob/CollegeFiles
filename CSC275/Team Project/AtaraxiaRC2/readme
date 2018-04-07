@@ -1,0 +1,249 @@
+//quicknote.txt
+//
+//Best Viewed with monospaced fonts
+
+
+    /*------------------------------------------------------------------
+     *                  ____  ____    __    __  __                      *
+     *                 (_  _)( ___)  /__\  (  \/  )                     *
+     *                   )(   )__)  /(__)\  )    (                      *
+     *                  (__) (____)(__)(__)(_/\/\_)                     *
+     *         __   ____   __    ____    __    _  _  ____    __         *
+     *        /__\ (_  _) /__\  (  _ \  /__\  ( \/ )(_  _)  /__\        *
+     *       /(__)\  )(  /(__)\  )   / /(__)\  )  (  _)(_  /(__)\       *
+     *      (__)(__)(__)(__)(__)(_)\_)(__)(__)(_/\_)(____)(__)(__)      *
+     *                                                                  *
+     *    Team Information                                              *
+     *                                                                  *
+     *     |      Name        |          Responsibilities       |       *
+     *     |------------------|---------------------------------|       *
+     *     |  Robert Knuuti   |         (main, IndexList)       |       *
+     *     |  Scott Wolforth  |            (SearchList)         |       *
+     *     |  Cody Adams      |              (PageQ)            |       *
+     *                                                                  *
+     *------------------------------------------------------------------*/
+
+
+/*Dependency chart
+ *
+ *    main.cc
+ *    |-indexlist.cc
+ *    >|-index.h
+ *    >|-pageq.cc
+ *    >>|-pageq.h
+ *    |-SearchList.cpp
+*/
+
+/*Bugs
+ *
+ *        20070419  Robert Knuuti
+ *              \-
+ *               -|
+ *          5   |- searchlist.cc
+ *              |--  Error handling for non-existant skiplist files has not been considered.  Please
+ *              |--   add the proper code for error handling.
+ *
+ *        20070419  Robert Knuuti
+ *              \-RESOLVED
+ *               -| Added a conditional statment to not launch the insertNode fuction in the main
+ *          4  >|- main.cc
+ *              |-- In the printout, there exists an entry which is null, or characterless.
+ *
+ *        20070414  Robert Knuuti
+ *              \-RESOLVED
+ *               -| changed reference from `cout<<node->pages.printQ()` to `node->pages.printQ()`
+ *          3  >|- indexlist.cc
+ *              |-- current call to linked pageq fuction causes a massive error message stating there isn't
+ *              |--  a proper operator<< fuction for it's calling
+ *
+ *        20070414  Robert Knuuti
+ *              \-RESOLVED
+ *               -| in the coditional when going through the nodes, the inequality required an '=' sign.
+ *          2  >|- indexlist.cc
+ *              |-- indexing of list does not detect duplicate words in the list.  Every element gets its 
+ *              |-- own link.  This is not good!
+ *
+ *        20070413  Robert Knuuti
+ *              \-RESOLVED
+ *               -| Completely rewrote fuction code from vectors to a linked list class
+ *          1  >|- indexlist.cc
+ *              |-- structure index, used when defining vector, causes a compiler error, also, reference to members
+ *              |--  in the function has been impelmented incorrectly.
+ *
+ *
+ *
+ * SYNTAX: YEARMONTHDATE  NAME
+ *          \-Resolved [ }
+ *           -| Resolution
+ *           -|+ if more lines needed
+ *
+ *         >|- item of concern
+ *          |-- reason(s) why
+*/
+
+
+/*Project Updates
+ *
+ *             ALL    \-20070420   Robert Knuuti
+ *                    \--| RC2
+ *                    \--|  Program Release Canadate 2 is pushed.  All functions seem to be working as they should,
+ *                    \--|   but please note that this does not mean that everything is bug-free.  Do try the most odd
+ *                    \--|   and extreme cases you can think of that could cause the program to crash.
+ *                    /
+ *
+ *         main.cc    \-20070420   Robert Knuuti
+ *                    \--| bugfix 4
+ *                    \--|  When the string was being cleaned, it removes all numbers.  It was those numerical
+ *                    \--|   entries that created the null string, as the cw() fuction takes out everything not
+ *                    \--|   alphabetical.  To conunter this, I added a conditional to the main `string != "" `
+ *                    \--|   this corrected the printout problem.
+ *                    /
+ *
+ *             ALL    \-20070418   Robert Knuuti
+ *                    \--| RC1
+ *                    \--|  Release Canadate 1 is setup.  PageQ funciton currently does not print or take in values.
+ *                    /
+ *
+ *    indexlist.cc    \-20070417   Robert Knuuti
+ *                    \--| Bug fix 2, 3
+ *                    \--|  Talked with professor Hicks and had bugs 2 and 3 fixed.  Damn inequalities!
+ *                    /
+ *
+ *    indexlist.cc    \-20070414   Robert Knuuti
+ *                    \--| Rewriting, Bug fix 1
+ *                    \--|  indexlist rewritten to linked list format.  Fixed bug 1.
+ *                    /
+ *
+ *    indexlist.cc    \-20070413   Robert Knuuti
+ *                    \--| indexlist funcitons alpha release.
+ *                    \--|+ take note the bug list.  None of the funcitions work due to errors and bugs
+ *                    /
+ *
+ *         main.cc    \-20070413   Robert Knuuti
+ *                    \--| Main system update
+ *                    \--|+ Boy oh boy...  The main now actually uses ADT funcitons properly,
+ *                    \--|+  and definition of calls have been pointed out.  The holding pointer
+ *                    \--|+  variable only led to problems, thus was removed from system. Theoretically,
+ *                    \--|+  the main system should be bug free at this point, and dependent on just
+ *                    \--|+  function calls.
+ *                    /
+ *
+ *
+ *         main.cc    \-20070411   Robert Knuuti
+ *                    \--| version two of alpha main program released
+ *                    \--|+ Original setup system had glitches on special characters, and was unoptimized.
+ *                    /
+ *
+ *       notes.txt    \-20070411   Robert Knuuti
+ *                    \--| Alpha note system initialized
+ *                    /
+ *
+ *         main.cc    \-20070410   Robert Knuuti
+ *                    \--| Alpha main system initialized
+ *                    /
+ *
+ * SYNTAX: FILENAME   \-yearmonthdate  Revisor name
+ *                    \--| Title/Header to revision
+ *                    \--|+ and why
+ *                    \--|+  additional lines for explanation
+ *                    \
+ *
+ *         FILENAME   /-yearmonthdate  revisor name
+ *
+*/
+
+
+
+/*Function notes and comments
+ *
+ *
+ *
+ *    indexlist::displayList
+ *               ()
+ *                  Creates a new pointer variable and follows through
+ *                  + the linked list in entirety, calling the function printQ to
+ *                  + print out all pages that a theword appears on.
+ *
+ *                  INCDEP: string, fstream, (iomainp), indexlist.h
+ *                  FUNDEP: insertNode(string, int), pageq::printQ()
+ *                  PRE:  linked list holds at least one entry
+ *                  POST: Onscreen printout of everything held in the linked list
+ *
+ *    indexlist::index_node::index_node
+ *               (string, int, index_node)
+ *                  Constructer which takes in a word, a number and a linked list pointer
+ *                  + that allows the list to increase size by one unit, assigning the
+ *                  + varibles taken in to the varibles set in the current link.  This
+ *                  + is the actual function to make an additional link in the list.
+ *
+ *                  INCDEP: string, indexlist.h, pageq.cc
+ *                  FUNDEP: pageq::add
+ *                  PRE:  legal premitive datatypes taken in
+ *                  POST: linked list increases size by one, and assigned designated values to
+ *                        + the varibles.
+ *
+ *    indexlist::insertNode
+ *               (string, int)
+ *                  insertNode first checks to see if linked list is empty.  If so,
+ *                  + make a new link, and assign it to the head pointer.  If it is not,
+ *                  + then assign the pointer PREVIOUS to the first link in the list, and
+ *                  + progress through the list until the object theword of the currently linked
+ *                  + item is less than the string value word1.  When that is true, test for
+ *                  + the case where the entry one step behind the current pointer position
+ *                  + (previous) if it already exists in the list.  If so, then call that link's
+ *                  + Qinsert (add) function to append the current page number to the pageq's 
+ *                  + linked list.  If the theword does not equal the state of PREVIOUS, then
+ *                  + insert a new link in the list in order.
+ *
+ *                  INCDEP: string, indexlist.h
+ *                  FUNDEP: pageq::add(int)
+ *                  PRE:  inputed values are of proper syntax.
+ *                  POST: insertQ function is called if the string currently exists,
+ *                        + if not, the string item is inserted into list in alphabetical
+ *                        + order, creating a new link.
+ *
+ *
+ *    main::cw
+ *               (const string)
+ *                  Function analizes inputed string value on a per character basis, and cleans
+ *                  + the string of all special characters, exempt the hyphen and single quote/apostrophe.
+ *                  + Take note that this cleaning only works if the punctuation occurs only at the end of
+ *                  + a word.  Otherwise, the special character is removed and the string grows smaller.
+ *                  + Ex.  STL:Concept becomes STLConcept
+ *
+ *                  INCDEP: string, cctype
+ *                  FUNDEP: none
+ *                  PRE:  Valid string value is passed
+ *                  POST: Return string that lacks punctuation.
+ *
+ *    main::lc
+ *               (const string)
+ *                  Function analizes inputed string value on a per character basis, and changes
+ *                  + each character to lower case using the tolower() from cctype header file.
+ *
+ *                  INCDEP: string, cctype
+ *                  FUNDEP: none
+ *                  PRE:  Valid string value is passed
+ *                  POST: Inputed string value is returned in lower case
+ *
+ *
+ *
+ *
+ *
+ * SYNTAX: class/function's location::function:
+ *               (call variables)
+ *                 Short explanation as to what the function does
+ *
+ *                 INCDEP: Include dependencies
+ *                 FUNDEP: Function dependencies
+ *                 PRE:  conditions
+ *                 POST: conditions
+ *
+ *               (if function is overloaded, just made another entry)
+ *                 Short explanation as to what the overloaded function does
+ *                 INCDEP: Include dependencies
+ *                 FUNDEP: Function dependencies
+ *                 PRE:  conditions
+ *                 POST: conditions
+ *
+*/

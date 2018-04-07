@@ -1,0 +1,30 @@
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\bin\Debug\VbAutoCenter.exe
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\bin\Debug\VbAutoCenter.pdb
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\bin\Debug\VbAutoCenter.xml
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.Resources.resources
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.VbAutoCenter.resources
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.vbproj.GenerateResource.Cache
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.exe
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.xml
+C:\Users\ANkume\AppData\Local\Temporary Projects\VbAutoCenter\obj\Debug\VbAutoCenter.pdb
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.exe
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.xml
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.pdb
+E:\CSC 311\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.exe
+E:\CSC 311\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.pdb
+E:\CSC 311\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.xml
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\ResolveAssemblyReference.cache
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.Resources.resources
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.VbAutoCenter.resources
+E:\CSC 311\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.vbproj.GenerateResource.Cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.exe
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.pdb
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\bin\Debug\VbAutoCenter.xml
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.Resources.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.VbAutoCenter.resources
+C:\Users\Popebob\Documents\College Files\CSC311\Homework 5\Adanma\VbAutoCenter\VbAutoCenter\obj\Debug\VbAutoCenter.vbproj.GenerateResource.Cache

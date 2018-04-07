@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WindowsApplication1">
+</Property><Property Name="Solution File" Value="H:\CSC365\Assignments\Assignment1\WindowsApplication1\WindowsApplication1.sln">
+</Property><Property Name="User Options File" Value="H:\CSC365\Assignments\Assignment1\WindowsApplication1\WindowsApplication1.suo">
+</Property><Property Name="Date" Value="Wednesday, September 10, 2008">
+</Property><Property Name="Time" Value="22:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WindowsApplication1.sln" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsApplication1.suo" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1.suo">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\WindowsApplication1.vbproj" Description="Project file successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\WindowsApplication1.vbproj">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\WindowsApplication1.vbproj.user" Description="Project user file successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\WindowsApplication1.vbproj.user">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Eight.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Eight.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Eight.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Eight.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Selection.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Selection.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Selection.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Selection.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\AssemblyInfo.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Application.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Resources.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Settings.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Ten.Designer.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Ten.Designer.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Ten.vb" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Ten.vb">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Application.myapp" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Settings.settings" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Eight.resx" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Eight.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\My Project\Resources.resx" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Selection.resx" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Selection.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\Ten.resx" Description="File successfully backed up as H:\CSC365\Assignments\Assignment1\WindowsApplication1\Backup\WindowsApplication1\Ten.resx">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\WindowsApplication1.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WindowsApplication1" Source="WindowsApplication1\WindowsApplication1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WindowsApplication1.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WindowsApplication1.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WindowsApplication1" Source="WindowsApplication1\WindowsApplication1.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

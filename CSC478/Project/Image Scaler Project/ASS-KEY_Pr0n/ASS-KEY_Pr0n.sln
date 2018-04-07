@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASS-KEY_Pr0n", "ASS-KEY_Pr0n.vcproj", "{11916A45-4465-4CC4-A2A7-C72C2AAA83E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11916A45-4465-4CC4-A2A7-C72C2AAA83E6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11916A45-4465-4CC4-A2A7-C72C2AAA83E6}.Debug|Win32.Build.0 = Debug|Win32
+		{11916A45-4465-4CC4-A2A7-C72C2AAA83E6}.Release|Win32.ActiveCfg = Release|Win32
+		{11916A45-4465-4CC4-A2A7-C72C2AAA83E6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+Boyd,Michael        11985 30 29 29 99 87
+Roberts,Sally       13777 30 28 22 89 90
+Green,Gene          50377 30 30 30 78 77
+Piper,Peter         12345 28 26 24 68 71
+Neuman,Alfred       00121 15 13 12 55 62
+Roast,Chuck         87478 29 28 30 95 90
+Hooper,Grace        78978 30 30 30 99 100
+Coder,Carol         24514 26 24 22 98 84
+Boole,George        32165 29 28 25 88 94

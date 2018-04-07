@@ -1,0 +1,66 @@
+Turbo Assembler	 Version 4.0	    01/09/08 17:07:15	    Page 1
+sample3.ASM
+
+
+
+      1	0000			     .MODEL SMALL
+      2	0000			     .STACK 100H
+      3	0000			     .CODE
+      4	0000			     MAIN PROC
+      5	0000  B8 0000s			     MOV AX,@DATA
+      6	0003  8B D0			     MOV DX,AX
+      7				     ;display prompt
+      8	0005  B4 02			     MOV AH,2	     ;display character	function
+      9	0007  B2 3F			     MOV DL,'?'	     ;character	is '?'
+     10	0009  CD 21			     INT 21H	     ;display it
+     11				     ;input a character
+     12	000B  B4 01			     MOV AH,1	     ;read character from function
+     13	000D  CD 21			     INT 21H	     ;character	in AL
+     14	000F  8A D8			     MOV BL,AL	     ;save it in BL
+     15				     ;go to a new line
+     16	0011  B4 02			     MOV AH,2	     ;display character	function
+     17	0013  B2 0D			     MOV DL,0DH	     ;carraige return
+     18	0015  CD 21			     INT 21H	     ;execute carriage return
+     19	0017  B2 0A			     MOV DL,0AH	     ;line feed
+     20	0019  CD 21			     INT 21H	     ;execute line feed
+     21				     ;display character
+     22	001B  8A D3			     MOV DL,BL	     ;retrieve character
+     23	001D  CD 21			     INT 21H	     ;and display it
+     24				     ;return to	DOS
+     25	001F  B4 4C			     MOV AH,4CH	     ;DOS exit function
+     26	0021  CD 21			     INT 21H	     ;exit to DOS
+     27	0023			     MAIN ENDP
+     28					     END     MAIN
+Turbo Assembler	 Version 4.0	    01/09/08 17:07:15	    Page 2
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "01/09/08"
+??FILENAME			  Text	 "sample3 "
+??TIME				  Text	 "17:07:15"
+??VERSION			  Number 0400
+@32BIT				  Text	 0
+@CODE				  Text	 _TEXT
+@CODESIZE			  Text	 0
+@CPU				  Text	 0101H
+@CURSEG				  Text	 _TEXT
+@DATA				  Text	 DGROUP
+@DATASIZE			  Text	 0
+@FILENAME			  Text	 SAMPLE3
+@INTERFACE			  Text	 00H
+@MODEL				  Text	 2
+@STACK				  Text	 DGROUP
+@WORDSIZE			  Text	 2
+MAIN				  Near	 _TEXT:0000
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+DGROUP				  Group
+  STACK				  16  0100 Para	  Stack	  STACK
+  _DATA				  16  0000 Word	  Public  DATA
+_TEXT				  16  0023 Word	  Public  CODE
+
